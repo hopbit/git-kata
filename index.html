@@ -2,38 +2,89 @@
 <html>
 <head>
     <meta charset='utf-8'>
-    <meta http-equiv="X-UA-Compatible" content="chrome=1">
-
-    <link rel="stylesheet" type="text/css" href="stylesheets/stylesheet.css" media="screen"/>
-    <link rel="stylesheet" type="text/css" href="stylesheets/pygment_trac.css" media="screen"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="bootswatch/bootstrap.css" media="screen">
+    <link rel="stylesheet" href="bootswatch/font-awesome.min.css">
+    <link rel="stylesheet" href="bootswatch/bootswatch.min.css">
+    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+      <script src="css/html5shiv.js"></script>
+      <script src="css/respond.min.js"></script>
+    <![endif]-->
+<!-- 
     <link rel="stylesheet" type="text/css" href="stylesheets/print.css" media="print"/>
+ -->
 
-    <title>git kata</title>
+    <title>Git Kata 2</title>
 </head>
 
 <body>
 
-<header>
-    <div class="container">
-        <h1>git kata</h1>
-
-        <h2>git workshops in kata format</h2>
-
-        <section id="downloads">
-            <a href="index.html" class="btn">init</a>
-            <a href="FAQ.html" class="btn">faq</a>
-            <a href="index.html#registration" class="btn">registration</a>
-            <a href="agenda.html" class="btn">agenda</a>
-            <a href="flyer.html" class="btn">poster</a>
-            <a href="reference.html" class="btn">reference</a>
-        </section>
-    </div>
-</header>
-
+	<div class="navbar navbar-default navbar-fixed-top">
+	  <div class="container">
+	    <div class="navbar-header">
+	      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-responsive-collapse">
+	        <span class="icon-bar"></span>
+	        <span class="icon-bar"></span>
+	        <span class="icon-bar"></span>
+	      </button>
+	      <a class="navbar-brand" href="./index.html">Git Kata 2</a>
+	    </div>
+	    <div class="navbar-collapse collapse navbar-responsive-collapse">
+	      <ul class="nav navbar-nav">
+	        <li class="dropdown">
+			  <a href="index.html" class="dropdown-toggle" data-toggle="dropdown">start <b class="caret"></b></a>
+			  <ul class="dropdown-menu">
+			    <li><a href="#mission">Mission</a></li>
+			    <li><a href="#location">Time and place</a></li>
+			    <li><a href="#agenda">Agenda</a></li>
+			    <li><a href="#sponsors">Sponsors</a></li>
+			    <li><a href="#partners">Partners</a></li>
+			    <li><a href="#mentors">Partners</a></li>
+			    <li><a href="#organizers">Organizers</a></li>
+			  </ul>
+			</li>
+	        <li><a href="faq.html">faq</a></li>
+	        <li><a href="registration.html">registration</a>
+	        <li><a href="agenda.html">agenda</a></li>
+	        <li><a href="flyer.html">poster</a></li>
+	        <li><a href="reference">reference</a></li>
+	      </ul>
+	       
+	    </div><!-- /.nav-collapse -->
+	  </div><!-- /.container -->
+	</div><!-- /.navbar -->
+	
+	<div class="container">
+	<div class="page-header" id="banner">
+        <div class="row">
+          <div class="col-lg-6">
+            <h1>Git Kata 2</h1>
+            <p class="lead">Git workshops in kata format</p>
+          </div>
+          <div class="col-lg-6">
+            <div class="bsa well">
+            	$ cd ~/workshops<br/>
+            	$ mkdir gitkata2<br/>
+            	$ cd gitkata2<br/>
+            	$ mkdir interactive-rebase<br/>
+            	$ cd interactive-rebase<br/>
+            	$ git init<br/>
+            	Initialized empty Git repository in ~/user/workshops/gitkata2/interactive-rebase/.git/<br/>
+            
+            </div>
+          </div>
+        </div>
+      </div>
+	</div>
+	 
 <div class="container">
     <section id="main_content">
 
-        <h1 style="">Mission</h1>
+		<hr/>
+	
+		<!-- ### MISSSION ### --------------------------------------------------------------------------------------- -->
+        <h1 id="mission">Mission</h1>
         <pre><code>$ git init</code></pre>
 
         <p>
@@ -46,14 +97,29 @@
             Welcome!
         </p>
 
-        <h1 class="section_header">Time and place</h1>
+		<hr/>
+		
+		<!-- ### LOCATION ### --------------------------------------------------------------------------------------- -->
+        
+        <h1 id="location" class="section_header">Time and place</h1>
         <pre><code>$ git cherry-pick LOCATION</code></pre>
         <p>
+			Location is not set yet.        	
+        	<!-- 
             Git kata takes place on <span style="font-weight: bolder; color: #b5e853">Saturday, March, 23rd</span>.
             You may sleep well as we'll be starting about 11am.
             <br/><br/>
+         </p>
+        <p>
+            <a href="http://www.hardgamma.com/gammafactory/">GammaFactory</a>
+        </p>
+        <p> Hoża 51, Warsaw</p>
+            
+        	 -->
+	<hr/>
+		<!-- ### AGENDA ### --------------------------------------------------------------------------------------- -->
 
-        <h3>Agenda</h3>
+        <h3 id="agenda" class="section_header">Agenda</h3>
         <ul>
             <li>11.00 Opening</li>
             <li>11.30 Workshops</li>
@@ -61,33 +127,19 @@
             <li>14.50 More Workshops</li>
             <li>19.00 Beer</li>
         </ul>
+<!-- 
         See the <a href="agenda.html">precise agenda</a>.
+ -->
         <br/><br/>
+<hr/>
 
-        <h3>Localization</h3>
 
-        <p>
-            <a href="http://www.hardgamma.com/gammafactory/">GammaFactory</a>
-        </p>
-        <p> Hoża 51, Warsaw</p>
+		<!-- ### SPONSORS ### --------------------------------------------------------------------------------------- -->
 
-        <h1><a name="registration">Registration</a></h1>
-        <pre><code>$ git pull-request </code></pre>
-        <p style="text-align: center;">
-            <h2 style="color: red;">We're sold out!</h2><br/><br/>
-            <!--To join us on March, 23rd, go to the
-            <a target="_blank" href="https://bitbucket.org/wojtassj/git-kata-registration">registration repository</a>.
-            Fork us, make ANY change in the source code (we count on your creativity)
-            and submit a pull request.
-            <br/><br/>
-            Yeah, that's right - accepted pull request means accepted attendee! We couldn't thought
-            that any geeker, could we? :-)-->
-            <br/>
-
-        </p>
-
-        <h1 id="sponsors">Sponsors</h1>
+        <h1 id="sponsors" class="section_header">Sponsors</h1>
         <pre><code>$ git help</code></pre>
+        <p>Wanna be a sponsor of this event? Contact <a href="#organizers">organizers</a>
+        <!-- 
         The event in completely free thanks to these companies:
         <p class="sponsor">
             <img src="images/sponsors/macoscope.png" /><br/>
@@ -95,29 +147,43 @@
             <img src="images/sponsors/codility.png" /><br/>
             <img src="images/sponsors/touk.png" /><br/>
         </p>
+         -->
         <br/>
         <br/>
 
+        <!-- 
         After the event we will go and have a beer.<br/><br/>
         During the training you will be able to win some
         beer coupons thanks to
         <p style="text-align: center;">
             <img src="images/sponsors/megiteam.png" style="height: 40px;"/>
         </p>
+         -->
 
-        <h1>Partners</h1>
+		<hr/>
+
+		<!-- ### PARTNERS ### ------------------------------------------------------------------------------- -->
+		
+        <h1  id="partners" class="section_header">Partners</h1>
         <pre><code>$ git add -p</code></pre>
+<!-- 
         <p style="text-align: center;">
             <a target="_blank" href="http://warszawa.jug.pl/"><img src="images/wjug_background.png" alt="Warszawa Java User Group"/></a>
         </p>
-
         <p style="text-align: center;">
             <a target="_blank" href="https://plus.google.com/105909141177271768718/posts"><img src="images/gdg.png" alt="GDG Warsaw" width="400"/></a>
         </p>
+ -->
 
+<hr/>
 
-        <h1 id="title_mentors">Mentors</h1>
+		<!-- ### MENTORS ### ------------------------------------------------------------------------------- -->
+
+        <h1  id="mentors" class="section_header">Mentors</h1>
         <pre><code>$ git config --global user.name </code></pre>
+        
+        <p>If You think that You can be a mentor, just contact <a href="#organizers">with one of us</a>
+        <!-- 
         <h3>Mateusz Harasymczuk</h3>
         <p>
             <img src="images/mentors/matt.jpg" class="mentor_photo" />
@@ -161,19 +227,19 @@
 	<p>
 	    <img src="images/mentors/lukasz.jpg" class="mentor_photo" />
 	    <a href="http://siwinski.info">I</a> live in Warsaw, day by 
-	    day planting & weeding code in 
+	    day planting and weeding code in 
 	    <a href="http://pekao.com.pl">Pekao S.A.</a>, usually with Java 
-	    on JEE platform. I consider Eclipse, Vim & Shell as my favourite 
-	    tools. I'm addicted to very short aliases & keyboard 
+	    on JEE platform. I consider Eclipse, Vim and Shell as my favourite 
+	    tools. I'm addicted to very short aliases &amp; keyboard 
 	    shortcuts.<br/><br/>
 	    
-	    In spare time I like to learn new tools & programming languages. 
+	    In spare time I like to learn new tools and programming languages. 
 	    Lately Git is the toy of choice and it's more and more 
 	    inteteresting the more I learn about it.<br/><br/>
 	    
         Apart of above I write
 	    <a href="http://blog.siwinski.info">blog</a> about things that 
-	    are useful & relevant for me, learn to play the guitar 
+	    are useful and relevant for me, learn to play the guitar 
 	    and continously expand my music collection. I had lead a couple 
 	    nice parties as <a href="http://rdj.pl">DJ</a>.
 	</p>
@@ -254,27 +320,33 @@
             <pre><code>$ git rerere</code></pre>
 
         </p>
+         --> 
+         </p>
 
-        <h1>Organizers</h1>
+		<hr/>
+
+		<!-- ### ORGANIZERS ### -------------------------------------------------------------------------------- -->
+        
+        <h1 id="organizers" class="section_header">Organizers</h1>
         <pre><code>$ git blame </code></pre>
         <p style="text-align: center;">
-            Wojtek Erbetowski, Maciej Sawicki, Łukasz Siwiński, Kamil Trzciński
+            <ul>
+            <li>Wojtek Erbetowski</li>
+            <li>Maciej Sawicki, </li>
+            <li>Łukasz Siwiński, </li>
+            <li>Adam Chudzik, </li>
+            <li>Wojciech Korzeniewski</li>
+            </ul>
         </p>
 
+		<hr/>
+		
     </section>
 </div>
 
-<script type="text/javascript">
-    var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
-    document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
-</script>
-<script type="text/javascript">
-    try {
-        var pageTracker = _gat._getTracker("UA-38856054-1");
-        pageTracker._trackPageview();
-    } catch (err) {
-    }
-</script>
+	<script src="bootswatch/jquery.min.js"></script>
+	<script src="bootswatch/bootstrap.min.js"></script>
+	<script src="bootswatch/bootswatch.js"></script>
 
 </body>
 </html>
