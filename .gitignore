@@ -13,3 +13,4 @@ git-kata.iml
 .idea/workspace.xml
 .project
 .settings/
+.idea/gradle.xml
