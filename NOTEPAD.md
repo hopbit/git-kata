@@ -20,3 +20,11 @@ Uwagi dotyczace sponsorow:
  
 Impreza po warsztatach 
 * paintball || laser gun
+
+**TODO na kolejne spotkanie**
+
+- strona gotowa
+- miejsce
+- cos jeszcze???
+
+----
