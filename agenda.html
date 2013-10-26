@@ -62,116 +62,129 @@
 
 <h1>Agenda</h1>
 
-    <table>
-        <thead>
-            <th style="text-align: center">
-                Start time
-            </th>
-            <th style="text-align: center">Kata</th>
-        </thead>
-        <tbody id="agenda">
-        <tr>
-            <td>11:00</td>
-            <td>
-<pre><code>Opening</code></pre>
-            </td>
-        </tr>
-        <tr>
-            <td>11:30</td>
-            <td>
-<pre><code><a href="#kata_rebase">Git rebase</a> (Wojtek Erbetowski)
-<a href="#kata_submodule">Submodules</a> (Paweł Cesar Sanjuan Szklarz)
-<a href="#kata_conf">Configs/aliases</a> (Jakub Nabrdalik)
-<a href="#kata_pullpush">Pull &amp; push options</a> (Mateusz Grzechociński)
-<a href="#kata_branches">Branches and tags</a> (Mateusz Harasymczuk)
-<a href="#kata_filter">Git filter-branch</a> (Grzegorz Kubiak)
-</code></pre>
-            </td>
-        </tr>
-        <tr>
-            <td>12:20</td>
-            <td>
-<pre><code><a href="#kata_manipulation">Manipulating commits</a> (Jakub Nabrdalik)
-<a href="#kata_flow">Git flow</a> (Michał Bareja)
-<a href="#kata_refspec">Refspec</a> (Mateusz Grzechociński)
-<a href="#kata_merging">Merging and rebasing</a> (Mateusz Harasymczuk)
-<a href="#kata_usb">USB workflow</a> (Łukasz Siwiński)
-<a href="#kata_stash">Rescue stash</a> (Kamil Trzciński)
-<a href="#kata_undo">Undoing changes</a> (Marcin Zajączkowski)
-</code></pre>
-            </td>
-        </tr>
-        <tr>
-            <td>13:10</td>
-            <td>
-<pre><code><a href="#kata_submodule">Submodules</a> (Paweł Cesar Sanjuan Szklarz)
-<a href="#kata_pullpush">Pull &amp; push options</a> (Michał Bareja)
-<a href="#kata_rerere">Git rerere</a> (Mateusz Grzechociński)
-<a href="#kata_internals">Git internals</a> (Mateusz Harasymczuk)
-<a href="#kata_bisect">Git bisect</a> (Grzegorz Kubiak)
-<a href="#kata_svn">Git-svn</a> (Kamil Trzciński)
-<a href="#kata_stash">Rescue stash</a> (Marcin Zajączkowski)
-</code></pre>
-            </td>
-        </tr>
-        <tr>
-            <td>13:50</td>
-            <td>
-                <pre><code>Lunch</code></pre>
-            </td>
-        </tr>
-        <tr>
-            <td>14:50</td>
-            <td>
-<pre><code><a href="#kata_interactive_rebase">Interactive rebase</a> (Jakub Nabrdalik)
-<a href="#kata_undo">Undoing changes</a> (Michał Bareja)
-<a href="#kata_fish">Fish shell</a> (Mateusz Grzechociński)
-<a href="#kata_merging">Merging and rebasing</a> (Mateusz Harasymczuk)
-<a href="#kata_rebase">Git rebase</a> (Grzegorz Kubiak)
-<a href="#kata_conf">Configs/aliases</a> (Łukasz Siwiński)
-<a href="#kata_reset">Reset vs. revert</a> (Marcin Zajączkowski)
-</code></pre>
-            </td>
-        </tr>
-        <tr>
-            <td>15:40</td>
-            <td>
-<pre><code><a href="#kata_interactive_rebase">Interactive rebase</a> (Wojtek Erbetowski)
-<a href="#kata_submodule">Submodules</a> (Paweł Cesar Sanjuan Szklarz)
-<a href="#kata_conf">Configs/aliases</a> (Jakub Nabrdalik)
-<a href="#kata_flow">Git flow</a> (Michał Bareja)
-<a href="#kata_bisect">Git bisect</a> (Grzegorz Kubiak)
-<a href="#kata_github">GitHub</a> (Łukasz Siwiński)
-<a href="#kata_stash">Rescue stash</a> (Kamil Trzciński)
-</code></pre>
-            </td>
-        </tr>
-        <tr>
-            <td>16:30</td>
-            <td>
-<pre><code><a href="#kata_interactive_rebase">Interactive rebase</a> (Jakub Nabrdalik)
-<a href="#kata_flow">Git flow</a> (Michał Bareja)
-<a href="#kata_undo">Undoing changes</a> (Mateusz Grzechociński)
-<a href="#kata_branches">Branches and tags</a> (Mateusz Harasymczuk)
-<a href="#kata_usb">USB workflow</a> (Łukasz Siwiński)
-<a href="#kata_patch">Patches</a> (Kamil Trzciński)
-<a href="#kata_manipulation">Manipulating commits</a> (Marcin Zajączkowski)
-</code></pre>
-            </td>
-        </tr>
-        <tr>
-            <td>17:20</td>
-            <td>
-<pre><code><a href="#kata_submodule">Submodules</a> (Paweł Cesar Sanjuan Szklarz)
-<a href="#kata_internals">Git internals</a> (Jakub Nabrdalik)
-<a href="#kata_rerere">Git rerere</a> (Mateusz Grzechociński)
-<a href="#kata_merging">Merging and rebasing</a> (Mateusz Harasymczuk)
-<a href="#kata_filter">Git filter-branch</a> (Grzegorz Kubiak)
-<a href="#kata_svn">Git-svn</a> (Kamil Trzciński)
-<a href="#kata_reset">Reset vs. revert</a> (Marcin Zajączkowski)
-</code></pre>
-            </td>
-        </tr>
+<!-- HEADER --------------------------------------------------------------- -->
+
+<div class="container">
+    <div class="page-header" id="banner">
+        <div class="row">
+            <div class="col-lg-2">
+                <p class="lead">Start time</p>
+            </div>
+            <div class="col-lg-10">
+                <p class="lead">Kata</p>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="container">
+    <div class="row">
+        <div class="col-lg-2">
+            <div class="bsa well">11:00</div>
+        </div>
+        <div class="col-lg-10">
+            <div class="bsa well">Opening</div>
+        </div>
+    </div>
+</div>
+
+<!-- CONTENT --------------------------------------------------------------- -->
+
+<div class="col-lg-2"><div class="bsa well">11:30</div></div>
+
+<div class="col-lg-10">
+    <div class="bsa well">
+        <a href="#kata_rebase">Git rebase</a> (Wojtek Erbetowski)<br/>
+        <a href="#kata_submodule">Submodules</a> (Paweł Cesar Sanjuan Szklarz)<br/>
+        <a href="#kata_conf">Configs/aliases</a> (Jakub Nabrdalik)<br/>
+        <a href="#kata_pullpush">Pull &amp; push options</a> (Mateusz Grzechociński)<br/>
+        <a href="#kata_branches">Branches and tags</a> (Mateusz Harasymczuk)<br/>
+        <a href="#kata_filter">Git filter-branch</a> (Grzegorz Kubiak)<br/>
+    </div>
+</div>
+            
+<div class="col-lg-2"><div class="bsa well">12:20</div></div>
+            
+<div class="col-lg-10">
+    <div class="bsa well">
+        <a href="#kata_manipulation">Manipulating commits</a> (Jakub Nabrdalik)<br/>
+        <a href="#kata_flow">Git flow</a> (Michał Bareja)<br/>
+        <a href="#kata_refspec">Refspec</a> (Mateusz Grzechociński)<br/>
+        <a href="#kata_merging">Merging and rebasing</a> (Mateusz Harasymczuk)<br/>
+        <a href="#kata_usb">USB workflow</a> (Łukasz Siwiński)<br/>
+        <a href="#kata_stash">Rescue stash</a> (Kamil Trzciński)<br/>
+        <a href="#kata_undo">Undoing changes</a> (Marcin Zajączkowski)<br/>
+    </div>
+</div>
+            
+<div class="col-lg-2"><div class="bsa well">13:10</div></div>
+<div class="col-lg-10">
+    <div class="bsa well">
+        <a href="#kata_submodule">Submodules</a> (Paweł Cesar Sanjuan Szklarz)<br/>
+        <a href="#kata_pullpush">Pull &amp; push options</a> (Michał Bareja)<br/>
+        <a href="#kata_rerere">Git rerere</a> (Mateusz Grzechociński)<br/>
+        <a href="#kata_internals">Git internals</a> (Mateusz Harasymczuk)<br/>
+        <a href="#kata_bisect">Git bisect</a> (Grzegorz Kubiak)<br/>
+        <a href="#kata_svn">Git-svn</a> (Kamil Trzciński)<br/>
+        <a href="#kata_stash">Rescue stash</a> (Marcin Zajączkowski)<br/>
+    </div>
+</div>
+        
+<div class="col-lg-2"><div class="bsa well">13:50</div></div>
+            
+<div class="col-lg-10"><div class="bsa well">Lunch</div></div>
+
+<div class="col-lg-2"><div class="bsa well">14:50</div></div>
+            
+<div class="col-lg-10"><div class="bsa well">
+<a href="#kata_interactive_rebase">Interactive rebase</a> (Jakub Nabrdalik)<br/>
+<a href="#kata_undo">Undoing changes</a> (Michał Bareja)<br/>
+<a href="#kata_fish">Fish shell</a> (Mateusz Grzechociński)<br/>
+<a href="#kata_merging">Merging and rebasing</a> (Mateusz Harasymczuk)<br/>
+<a href="#kata_rebase">Git rebase</a> (Grzegorz Kubiak)<br/>
+<a href="#kata_conf">Configs/aliases</a> (Łukasz Siwiński)<br/>
+<a href="#kata_reset">Reset vs. revert</a> (Marcin Zajączkowski)<br/>
+</div></div>
+            
+<div class="col-lg-2"><div class="bsa well">15:40</div></div>
+<div class="col-lg-10"><div class="bsa well">
+<a href="#kata_interactive_rebase">Interactive rebase</a> (Wojtek Erbetowski)<br/>
+<a href="#kata_submodule">Submodules</a> (Paweł Cesar Sanjuan Szklarz)<br/>
+<a href="#kata_conf">Configs/aliases</a> (Jakub Nabrdalik)<br/>
+<a href="#kata_flow">Git flow</a> (Michał Bareja)<br/>
+<a href="#kata_bisect">Git bisect</a> (Grzegorz Kubiak)<br/>
+<a href="#kata_github">GitHub</a> (Łukasz Siwiński)<br/>
+<a href="#kata_stash">Rescue stash</a> (Kamil Trzciński)<br/>
+</div></div>
+            
+        
+        
+<div class="col-lg-2"><div class="bsa well">16:30</div></div>
+            
+<div class="col-lg-10"><div class="bsa well">
+<a href="#kata_interactive_rebase">Interactive rebase</a> (Jakub Nabrdalik)<br/>
+<a href="#kata_flow">Git flow</a> (Michał Bareja)<br/>
+<a href="#kata_undo">Undoing changes</a> (Mateusz Grzechociński)<br/>
+<a href="#kata_branches">Branches and tags</a> (Mateusz Harasymczuk)<br/>
+<a href="#kata_usb">USB workflow</a> (Łukasz Siwiński)<br/>
+<a href="#kata_patch">Patches</a> (Kamil Trzciński)<br/>
+<a href="#kata_manipulation">Manipulating commits</a> (Marcin Zajączkowski)<br/>
+</div></div>
+            
+        
+        
+<div class="col-lg-2"><div class="bsa well">17:20</div></div>            
+<div class="col-lg-10"><div class="bsa well">
+<a href="#kata_submodule">Submodules</a> (Paweł Cesar Sanjuan Szklarz)<br/>
+<a href="#kata_internals">Git internals</a> (Jakub Nabrdalik)<br/>
+<a href="#kata_rerere">Git rerere</a> (Mateusz Grzechociński)<br/>
+<a href="#kata_merging">Merging and rebasing</a> (Mateusz Harasymczuk)<br/>
+<a href="#kata_filter">Git filter-branch</a> (Grzegorz Kubiak)<br/>
+<a href="#kata_svn">Git-svn</a> (Kamil Trzciński)<br/>
+<a href="#kata_reset">Reset vs. revert</a> (Marcin Zajączkowski)<br/>
+</div></div>
+            
+        
         </tbody>
     </table>
     <h1>Kata descriptions (Polish)</h1>
