@@ -2,42 +2,80 @@
 <html>
 <head>
     <meta charset='utf-8'>
-    <meta http-equiv="X-UA-Compatible" content="chrome=1">
-
-    <link rel="stylesheet" type="text/css" href="stylesheets/stylesheet.css" media="screen"/>
-    <link rel="stylesheet" type="text/css" href="stylesheets/pygment_trac.css" media="screen"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="bootswatch/bootstrap.css" media="screen">
+    <link rel="stylesheet" href="bootswatch/font-awesome.min.css">
+    <link rel="stylesheet" href="bootswatch/bootswatch.min.css">
+    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+      <script src="css/html5shiv.js"></script>
+      <script src="css/respond.min.js"></script>
+    <![endif]-->
+<!-- 
     <link rel="stylesheet" type="text/css" href="stylesheets/print.css" media="print"/>
+ -->
 
-    <title>git kata</title>
+    <title>Git Kata 2 - FAQ</title>
 </head>
-
 <body>
 
 <header>
+    
+    <!-- MENU -->
+    <div class="navbar navbar-default navbar-fixed-top">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-responsive-collapse">
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="./index.html">Git Kata 2</a>
+        </div>
+        <div class="navbar-collapse collapse navbar-responsive-collapse">
+          <ul class="nav navbar-nav">
+            <li class="dropdown">
+              <a href="index.html" class="dropdown-toggle" data-toggle="dropdown">start <b class="caret"></b></a>
+              <ul class="dropdown-menu">
+                <li><a href="#mission">Mission</a></li>
+                <li><a href="#location">Time and place</a></li>
+                <li><a href="#agenda">Agenda</a></li>
+                <li><a href="#sponsors">Sponsors</a></li>
+                <li><a href="#partners">Partners</a></li>
+                <li><a href="#mentors">Partners</a></li>
+                <li><a href="#organizers">Organizers</a></li>
+              </ul>
+            </li>
+            <li><a href="FAQ.html">faq</a></li>
+            <li><a href="registration.html">registration</a>
+            <li><a href="agenda.html">agenda</a></li>
+            <li><a href="flyer.html">poster</a></li>
+            <li><a href="reference">reference</a></li>
+          </ul>
+           
+        </div><!-- /.nav-collapse -->
+      </div><!-- /.container -->
+    </div><!-- /.navbar -->
+
+
     <div class="container">
-        <h1>git kata</h1>
+       
 
-        <h2>git workshops in kata format</h2>
-
-        <section id="downloads">
-            <a href="index.html" class="btn">init</a>
-            <a href="FAQ.html" class="btn">faq</a>
-            <a href="registration.html" class="btn">registration</a>
-            <a href="agenda.html" class="btn">agenda</a>
-            <a href="flyer.html" class="btn">poster</a>
-            <a href="reference.html" class="btn">reference</a>
-        </section>
     </div>
 </header>
 
 <div class="container">
     <section id="main_content">
 
+        <hr/>
+
         <h1>Do I need to know English to attend?</h1>
         <p>
             Although the website is in english, most of the trainings will be in Polish.
             Only is there are any foreigners interested mentors may switch to English on demand.
         </p>
+        
+        <hr/>
 
         <h1>I don't know how to register</h1>
         <p>
@@ -51,11 +89,15 @@
             There is still time.
         </p>
 
+        <hr/>
+
         <h1>I'm not a Git user but want to see the event. May I come?</h1>
         <p>
             If there is any other reason than improving your Git - you're welcomed. Just please
             <a href="mailto:wojciech@erbetowski.pl">contact us</a> first.
         </p>
+
+        <hr/>
 
     </section>
 </div>

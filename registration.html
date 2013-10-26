@@ -1,40 +1,66 @@
 <!DOCTYPE html>
 <html>
+
 <head>
     <meta charset='utf-8'>
-    <meta http-equiv="X-UA-Compatible" content="chrome=1">
-
-    <link rel="stylesheet" type="text/css" href="stylesheets/stylesheet.css" media="screen"/>
-    <link rel="stylesheet" type="text/css" href="stylesheets/pygment_trac.css" media="screen"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="bootswatch/bootstrap.css" media="screen">
+    <link rel="stylesheet" href="bootswatch/font-awesome.min.css">
+    <link rel="stylesheet" href="bootswatch/bootswatch.min.css">
+    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+      <script src="css/html5shiv.js"></script>
+      <script src="css/respond.min.js"></script>
+    <![endif]-->
+<!-- 
     <link rel="stylesheet" type="text/css" href="stylesheets/print.css" media="print"/>
+ -->
 
-    <title>git kata</title>
+    <title>Git Kata 2 - Registration</title>
 </head>
 
 <body>
 
-<header>
-    <div class="container">
-        <h1>git kata</h1>
-
-        <h2>git workshops in kata format</h2>
-
-        <section id="downloads">
-            <a href="index.html" class="btn">init</a>
-            <a href="FAQ.html" class="btn">faq</a>
-            <a href="registration.html" class="btn">registration</a>
-            <a href="agenda.html" class="btn">agenda</a>
-            <a href="flyer.html" class="btn">poster</a>
-            <a href="reference.html" class="btn">reference</a>
-        </section>
-    </div>
-</header>
+    <!-- MENU -->
+    <div class="navbar navbar-default navbar-fixed-top">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-responsive-collapse">
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="./index.html">Git Kata 2</a>
+        </div>
+        <div class="navbar-collapse collapse navbar-responsive-collapse">
+          <ul class="nav navbar-nav">
+            <li class="dropdown">
+              <a href="index.html" class="dropdown-toggle" data-toggle="dropdown">start <b class="caret"></b></a>
+              <ul class="dropdown-menu">
+                <li><a href="#mission">Mission</a></li>
+                <li><a href="#location">Time and place</a></li>
+                <li><a href="#agenda">Agenda</a></li>
+                <li><a href="#sponsors">Sponsors</a></li>
+                <li><a href="#partners">Partners</a></li>
+                <li><a href="#mentors">Partners</a></li>
+                <li><a href="#organizers">Organizers</a></li>
+              </ul>
+            </li>
+            <li><a href="FAQ.html">faq</a></li>
+            <li><a href="registration.html">registration</a>
+            <li><a href="agenda.html">agenda</a></li>
+            <li><a href="flyer.html">poster</a></li>
+            <li><a href="reference">reference</a></li>
+          </ul>
+        </div><!-- /.nav-collapse -->
+      </div><!-- /.container -->
+    </div><!-- /.navbar -->
 
 <div class="container">
     <section id="main_content">
-<h1><a id="registration">Registration</a></h1>
+        <h1>Registration</h1>
         <pre><code>$ git pull-request </code></pre>
-        <h2 style="color: red;">We're sold out!</h2><br/><br/>
+        <h2 style="color: red;">Registration will be opened soon...</h2><br/><br/>
         <p style="text-align: center;">
             <!--To join us on March, 23rd, go to the
             <a target="_blank" href="https://bitbucket.org/wojtassj/git-kata-registration">registration repository</a>.
