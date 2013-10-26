@@ -303,7 +303,7 @@ body {
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-size: 14px;
   line-height: 1.428571429;
-  color: #c8c8c8;
+  color: greenyellow;
   background-color: #272b30;
 }
 
@@ -391,6 +391,7 @@ hr {
 
 p {
   margin: 0 0 10px;
+  color: #c8c8c8;
 }
 
 .lead {
@@ -403,6 +404,7 @@ p {
 @media (min-width: 768px) {
   .lead {
     font-size: 21px;
+    color: greenyellow;
   }
 }
 
@@ -1719,7 +1721,7 @@ legend {
   margin-bottom: 20px;
   font-size: 21px;
   line-height: inherit;
-  color: #c8c8c8;
+  color: greenyellow;
   border: 0;
   border-bottom: 1px solid #1c1e22;
 }
@@ -3374,7 +3376,7 @@ input[type="button"].btn-block {
   clear: both;
   font-weight: normal;
   line-height: 1.428571429;
-  color: #c8c8c8;
+  color: greenyellow;
   white-space: nowrap;
 }
 
@@ -4702,7 +4704,7 @@ textarea.input-group-sm > .input-group-btn > .btn {
 }
 
 .navbar-default .navbar-brand {
-  color: #c8c8c8;
+  color: greenyellow;
 }
 
 .navbar-default .navbar-brand:hover,
@@ -4712,11 +4714,11 @@ textarea.input-group-sm > .input-group-btn > .btn {
 }
 
 .navbar-default .navbar-text {
-  color: #c8c8c8;
+  color: greenyellow;
 }
 
 .navbar-default .navbar-nav > li > a {
-  color: #c8c8c8;
+  color: greenyellow;
 }
 
 .navbar-default .navbar-nav > li > a:hover,
@@ -4749,7 +4751,7 @@ textarea.input-group-sm > .input-group-btn > .btn {
 }
 
 .navbar-default .navbar-toggle .icon-bar {
-  background-color: #c8c8c8;
+  background-color: greenyellow;
 }
 
 .navbar-default .navbar-collapse,
@@ -4778,13 +4780,13 @@ textarea.input-group-sm > .input-group-btn > .btn {
 }
 
 .navbar-default .navbar-nav > .dropdown > a .caret {
-  border-top-color: #c8c8c8;
-  border-bottom-color: #c8c8c8;
+  border-top-color: greenyellow;
+  border-bottom-color: greenyellow;
 }
 
 @media (max-width: 767px) {
   .navbar-default .navbar-nav .open .dropdown-menu > li > a {
-    color: #c8c8c8;
+    color: greenyellow;
   }
   .navbar-default .navbar-nav .open .dropdown-menu > li > a:hover,
   .navbar-default .navbar-nav .open .dropdown-menu > li > a:focus {
@@ -4806,7 +4808,7 @@ textarea.input-group-sm > .input-group-btn > .btn {
 }
 
 .navbar-default .navbar-link {
-  color: #c8c8c8;
+  color: greenyellow;
 }
 
 .navbar-default .navbar-link:hover {
@@ -5339,7 +5341,7 @@ a.thumbnail:focus {
 
 .thumbnail .caption {
   padding: 9px;
-  color: #c8c8c8;
+  color: greenyellow;
 }
 
 .alert {
@@ -5624,7 +5626,7 @@ a.thumbnail:focus {
 }
 
 a.list-group-item {
-  color: #c8c8c8;
+  color: greenyellow;
 }
 
 a.list-group-item .list-group-item-heading {
@@ -5816,7 +5818,7 @@ a.list-group-item:focus {
 }
 
 .panel-default > .panel-heading {
-  color: #c8c8c8;
+  color: greenyellow;
   background-color: #3e444c;
   border-color: rgba(0, 0, 0, 0.6);
 }
