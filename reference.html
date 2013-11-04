@@ -13,9 +13,12 @@
       <script src="css/html5shiv.js"></script>
       <script src="css/respond.min.js"></script>
     <![endif]-->
+	<script src="bootswatch/jquery.min.js"></script>
+	<script src="bootswatch/bootstrap.min.js"></script>
+	<script src="bootswatch/bootswatch.js"></script>
 	<script src="./javascripts/angular.min.1.0.7.js"></script>
 	<script src="./javascripts/MenuCtrl.js"></script>
-
+	<script src="./javascripts/GalleryCtrl.js"></script>
     <title>Git Kata 2 - Start</title>
 </head>
 
@@ -50,36 +53,67 @@
 	  </div><!-- /.container -->
 	</div><!-- /.navbar -->
 
-<div class="container">
-<section id="main_content">
-
-<h1>Photos</h1>
-
-<ul>
-	<li><a href="https://plus.google.com/photos/105116905624196940229/albums/5859009820196313009">from Iwona Ryc on G+</a></li>
-    <li><a href="https://plus.google.com/u/0/photos/113990170437825708147/albums/5858991690234123265">from Aneta Marszalek on G+</a></li>
-    <li><a href="https://plus.google.com/u/0/photos/104573887275832399539/albums/5858490690573866369">From Tomek Netczuk on G+</a></li>
-</ul>
-
-<h1>Wrote about us</h1>
-
-<ul>
-    <li><a href="https://solidsoft.wordpress.com/2013/03/30/after-git-kata-a-free-git-workshop/">After Git kata – a free Git workshop @ solidsoft.wordpress.com</a></li>
-    <li><a href="http://pbetkier.blogspot.com/2013/04/gitkata-workshops.html">Gitkata workshops @ pbetkier.blogspot.com</a></li>
-    <li><a href="http://www.polidea.com/en/Blog,134,Raising_the_bar_training_Git_users">Raising the bar - training Git users @ polidea.com</a></li>
-    <li><a href="http://blog.jankowalski.pl/gitkata-pl.html">gitkata.pl @ blog.jankowalski.pl</a></li>
-</ul>
-
-<h1>Previous editions</h1>
-
-<ul>
-	<li><a href="http://v1.gitkata.pl">March 23, 2012 - Git Kata 1</a></li>
-</ul>
-
-</section>
-
-
-</div>
+	<div class="container">
+		<div class="row">
+			<div class="col-lg-4">
+				<h1>Wrote about us</h1>
+				<ul>
+				    <li><a href="https://solidsoft.wordpress.com/2013/03/30/after-git-kata-a-free-git-workshop/">After Git kata – a free Git workshop @ solidsoft.wordpress.com</a></li>
+				    <li><a href="http://pbetkier.blogspot.com/2013/04/gitkata-workshops.html">Gitkata workshops @ pbetkier.blogspot.com</a></li>
+				    <li><a href="http://www.polidea.com/en/Blog,134,Raising_the_bar_training_Git_users">Raising the bar - training Git users @ polidea.com</a></li>
+				    <li><a href="http://blog.jankowalski.pl/gitkata-pl.html">gitkata.pl @ blog.jankowalski.pl</a></li>
+				</ul>
+			</div>
+			<div class="col-lg-3">
+				<h1>More photos</h1>
+				<ul>
+					<li><a href="https://plus.google.com/photos/105116905624196940229/albums/5859009820196313009">by Iwona Ryc</a></li>
+				    <li><a href="https://plus.google.com/u/0/photos/113990170437825708147/albums/5858991690234123265">by Aneta Marszalek</a></li>
+				    <li><a href="https://plus.google.com/u/0/photos/104573887275832399539/albums/5858490690573866369">by Tomek Netczuk</a></li>
+				</ul>
+			</div>
+			<div class="col-lg-5">
+				<h1>Previous editions</h1>
+				<ul>
+					<li><a href="http://v1.gitkata.pl">March 23, 2012 - Git Kata 1</a></li>
+				</ul>
+			</div>
+		</div>
+	</div>
+	<hr/>
+	<!-- ### CAROUSEL start ### -->
+	<div class="container">
+		<div class="row">
+			<div class="col-lg-8">
+			<div id="myCarousel" class="carousel slide" ng-controller="GalleryCtrl">
+				<div class="carousel-inner">
+					<div class="item active">
+						<img src="images/photos/visualisation.JPG" />
+						<!-- 
+						<div class="carousel-caption">
+							<p>Caption</p>
+						</div>
+						 -->
+					</div>
+					<div class="item" ng-repeat="photo in photos">
+						<img src="{{photo.url}}" />
+					</div>
+				</div>
+				<a class="carousel-control left" href="#myCarousel" data-slide="prev">&lsaquo;</a>
+				<a class="carousel-control right" href="#myCarousel" data-slide="next">&rsaquo;</a>
+			</div>
+			<script>
+				$(document).ready(function() {
+					$('.carousel').carousel({
+						interval : 3000
+					});
+				});
+			</script>
+			<div class="col-lg-4">&nbsp;</div>
+			</div>
+		</div>
+	</div>
+	<!-- ### CAROUSEL end ### -->
 
 </body>
 </html>

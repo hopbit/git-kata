@@ -1,6 +1,9 @@
 function GalleryCtrl($scope) {
 	$scope.photos = [
 			{
+				url : 'https://lh3.googleusercontent.com/-tTxmryGZtBg/UU9jcWaShWI/AAAAAAAAAPk/oZ3FHnKBdyg/w858-h572-no/IMG_6551.JPG'
+			},
+			{
 				url : 'https://lh5.googleusercontent.com/-1uCJAIRN8dA/UU9je_BiulI/AAAAAAAAAP4/FCNx9WwV8lg/w858-h572-no/IMG_6553.JPG'
 			},
 			{
