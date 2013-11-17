@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html ng-app>
+
+<!-- HEADER -->
+<head>
+    <meta charset='utf-8'>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="bootswatch/bootstrap.css">
+    <link rel="stylesheet" href="bootswatch/font-awesome.min.css">
+    <link rel="stylesheet" href="bootswatch/bootswatch.min.css">
+	<script>
+	  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+	  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+	  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+	  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+	
+	  ga('create', 'UA-45541501-1', 'gitkata.pl');
+	  ga('send', 'pageview');
+	</script>
+    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+      <script src="bootswatch/html5shiv.js"></script>
+      <script src="bootswatch/respond.min.js"></script>
+    <![endif]-->
+    
+    <script src="bootswatch/jquery.min.js"></script>
+	<script src="bootswatch/bootstrap.min.js"></script>
+	<script src="bootswatch/bootswatch.js"></script>
+    
+	<script src="./javascripts/angular.min.1.0.7.js"></script>
+	<script src="./javascripts/MenuCtrl.js"></script>
+	
+	<script type="text/javascript">
+		$(function() {
+			$("#btn-show-modal").click(function(e) {
+				e.preventDefault();
+				$("#dialog-example").modal("show");
+			});
+		});
+	</script>
+
+    <title>Git Kata 2 - Start</title>
+</head>
+
+<body>
+
+    <!-- MENU -->
+	<div class="navbar navbar-default navbar-fixed-top" ng-controller="MenuCtrl">
+	  <div class="container">
+	    <div class="navbar-header">
+	      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-responsive-collapse">
+	        <span class="icon-bar"></span>
+	        <span class="icon-bar"></span>
+	        <span class="icon-bar"></span>
+	      </button>
+	      <a class="navbar-brand" href="./index.html">Git Kata 2</a>
+	    </div>
+	    <div class="navbar-collapse collapse navbar-responsive-collapse">
+	      <ul class="nav navbar-nav">
+	        <li ng-repeat="menu in menus">
+			  <a href="{{menu.href}}">{{menu.label}}</b></a>
+			<!-- 
+ 			  <a href="{{menu.href}}" class="dropdown-toggle" data-toggle="dropdown">{{menu.label}}<b class="caret"></b></a>
+ 			-->
+			  <!-- 
+			  <ul class="dropdown-menu">
+			    <li ng-repeat="submenu in menu.submenus"><a href="{{submenu.href}}">{{submenu.label}}</a></li>
+			  </ul>
+			   -->
+			</li>
+	      </ul>
+	    </div><!-- /.nav-collapse -->
+	  </div><!-- /.container -->
+	</div><!-- /.navbar -->
+
+<div class="container">
+<section id="main_content">
+
+<center>
+<h1>Agenda</h1>
+</center>
+
+<hr/>
+
+<table class="table table-hover">
+	<!-- AGENDA HEADERS -->
+	<thead>
+		<tr>
+			<th>Time</th>
+			<th>Room 1</th>
+			<th>Room 2</th>
+			<th>Room 3</th>
+		</tr>
+	</thead>
+	<tbody>
+	<!-- AGENDA ROWS -->
+	<tr>
+		<td>11:00 - 11:20</td>
+		<td colspan="3">Otwarcie</td>
+	</tr>
+	<tr>
+		<td>11:25 - 11:45</td>
+		<td>Jan Kowalski: <a href="#" data-toggle="modal" data-target="#kata1">Kata 1</a></td>
+		<td>Krzysztof Nowakowski: <a href="#" data-toggle="modal" data-target="#kata2">Kata 2</a></td>
+		<td>Adam Nowak: <a href="#" data-toggle="modal" data-target="#kata3">Kata 3</a></td>
+	</tr>
+	<tr>
+		<td>11:55 - 12:35</td>
+		<td>Krzysztof Nowakowski: Kata 4</td>
+		<td>Adam Nowak: Kata 5</td>
+		<td>Jan Kowalski: Kata 6</td>
+	</tr>
+	</tbody>
+</table>
+
+<hr/>
+
+
+<!-- 
+<div class="modal hide" id="kata2">
+	<div class="modal-header">Naglowek Kata 2</div>
+	<div class="modal-body">Opis Kata 2</div>
+	<div class="modal-footer">Stopka Kata 2</div>
+</div>
+
+<div class="modal hide" id="kata3">
+	<div class="modal-header">Naglowek Kata 3</div>
+	<div class="modal-body">Opis Kata 3</div>
+	<div class="modal-footer">Stopka Kata 3</div>
+</div>
+ -->
+
+
+</section>
+</div>
+ 
+<!-- Modal -->
+<div class="modal fade" id="kata1" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+        <h4 class="modal-title" id="myModalLabel">Kata Title</h4>
+      </div>
+      <div class="modal-body">
+        <p>Kata Description</p>
+        <p>Lorem ipsum dolor</p>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+      </div>
+    </div><!-- /.modal-content -->
+  </div><!-- /.modal-dialog -->
+</div><!-- /.modal -->
+
+<div class="modal fade" id="kata2" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+        <h4 class="modal-title" id="myModalLabel">Kata Title</h4>
+      </div>
+      <div class="modal-body">
+        <p>Kata Description</p>
+        <p>Lorem ipsum dolor</p>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+      </div>
+    </div><!-- /.modal-content -->
+  </div><!-- /.modal-dialog -->
+</div><!-- /.modal -->
+
+<div class="modal fade" id="kata3" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+        <h4 class="modal-title" id="myModalLabel">Kata Title</h4>
+      </div>
+      <div class="modal-body">
+        <p>Kata Description</p>
+        <p>Lorem ipsum dolor</p>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+      </div>
+    </div><!-- /.modal-content -->
+  </div><!-- /.modal-dialog -->
+</div><!-- /.modal -->
+ 
+</body>
+</html>
+
+<!-- 
+
+for (row in rows) {
+	roomKeys.add(row.kataRoom);
+	timeKeys.add(row.kataTime);
+
+}
+
+	sala1	sala 2
+20:00
+21:00
+itd...
+
+<thead>
+<tr>
+	<th>blank</th>
+for(room in roomKeys) {
+	print("<td>"+room+"</th>");
+}
+</tr>
+</thead>
+<tbody>
+	for(time in timeKeys) {
+		for(row in rows) {
+		if(time == row.katatime)
+		<tr>
+		<td>kata</td>
+		</tr>
+		}
+	}
+</tbody>
+
+for (time in timeKeys)  {
+	
+	
+}
+
+ -->
