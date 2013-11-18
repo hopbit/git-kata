@@ -30,6 +30,9 @@ function MenuCtrl($scope) {
 		href : 'registration.html',
 		label : 'Registration'
 	}, {
+		href : 'sponsors.html',
+		label : 'Sponsors'
+	}, {
 		href : 'agenda.html',
 		label : 'Agenda'
 	} /* TODO , { href : 'flyer.html', label : 'poster' } */
