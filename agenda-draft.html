@@ -88,7 +88,7 @@
 		<td>{{ row.time }}</td>
 		<td ng-repeat="kata in row.katas" colspan="{{ kata.colspan }}" >
 			{{ kata.mentor }} <br/>
-			<a href="#" data-toggle="modal" data-target="#kata{{ kata.id }}">
+			<a href="#" data-toggle="modal" title="{{ kata.shortDesc }}" data-target="#kata{{ kata.id }}">
 				{{ kata.title }}
 			</a>
 		</td>
