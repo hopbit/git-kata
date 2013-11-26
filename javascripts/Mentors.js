@@ -14,7 +14,7 @@ function Mentors($scope) {
 		bio : "I co-run a small IT company for over 10 years. In such environment I had the chance to gain skills in various areas of software life cycle from design, project management, development, build engineering, continuous integration all the way to deployment and maintenance. I have worked with CVS and SVN before switching to git. I was responsible for migrating our repositories, and training my coworkers to use the new revision management tools. Eclipse is my IDE of choice when doing Java / Scala development. While I prefer to use git on command line for more advanced operations, I find EGit - the git client integrated in Eclipse to be adequate and quite convenient for the bread-and-butter commit - fetch - rebase - push workflow. In my session, I'm going to demonstrate how to install, configure and use EGit for the tasks it's best suited for."
 	},
 	{
-		id : "jakub-nabrdalik",	name : "Jakub Nabrdalik", homepage : "#", img : "false",
+		id : "jakub-nabrdalik",	name : "Jakub Nabrdalik", homepage : "#", img : "true",
 		bio : "TBD"
 	},
 	{
