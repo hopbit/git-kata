@@ -52,6 +52,10 @@ function Mentors($scope) {
 	{
 		id : "pawel-sanjuan-szklarz", name : "Paweł Sanjuan Szklarz", homepage : "#", img : "false",
 		bio : "TBD"
+	},
+	{
+		id : "tomasz-ducin", name : "Tomasz Ducin", homepage : "#tomasz-ducin", img : "true",
+		bio : "I am a lead frontend developer at Gemius where we deal with big data analysis platforms. Mostly I work in Python & JavaScript, but I also have growing backend interests. I praise modern software development concepts like TDD, Continuous Integration, Scrum and so on, because our job is not only to *write* the code. Since I've started to use git, I can't imagine software development without it. SVN was ok, but it's git time now ;)<br/><br/>I listen to music all day long, visit cinema/theatre in my spare time and love to travel abroad on weekends. Last but not least, (Monty) Python rules!"
 	}
 	];
 	

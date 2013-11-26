@@ -124,10 +124,9 @@
 	        <p>If You think that You can be a mentor, just <a href="contact.html">contact us</a>
 	        
 	        <ul data-ng-controller="Mentors">
-	        	<li data-ng-repeat="mentor in mentors">
+	        	<li data-ng-repeat="mentor in mentors | orderBy:'id'">
 	        		<a href="mentors.html#{{ mentor.id}}">{{ mentor.name }}</a>
 				</li>
-		       
 			</ul>
 	        <!-- 
 	        <h3>Mateusz Harasymczuk</h3>
