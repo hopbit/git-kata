@@ -23,35 +23,35 @@ function Mentors($scope) {
 	},
 	{
 		id : "justyna-sadlo", name : "Justyna Sadło", homepage : "#", img : "false",
-		bio : "-"
+		bio : "TBD"
 	},
 	{
 		id : "krzysztof-adamski", name : "Krzysztof Adamski", homepage : "#", img : "false",
-		bio : "-"
+		bio : "TBD"
 	},
 	{
 		id : "lukasz-szczesny", name : "Łukasz Szczęsny", homepage : "#", img : "false",	
-		bio : "-"
+		bio : "TBD"
 	},
 	{
 		id : "mariusz-smykula", name : "Mariusz Smykuła", homepage : "#", img : "false",	
-		bio : "-"
+		bio : "TBD"
 	},
 	{
 		id : "michal-bareja", name : "Michał Bareja", homepage : "#", img : "true",	
-		bio : "-"
+		bio : "TBD"
 	},
 	{
 		id : "michal-lewandowski", name : "Michał Lewandowski", homepage : "#", img : "false",	
-		bio : "-"
+		bio : "TBD"
 	},
 	{
 		id : "mateusz-kaczmarek", name : "Mateusz Kaczmarek", homepage : "#", img : "false",
-		bio : "-"
+		bio : "TBD"
 	},
 	{
 		id : "pawel-sanjuan-szklarz", name : "Paweł Sanjuan Szklarz", homepage : "#", img : "false",
-		bio : "-"
+		bio : "TBD"
 	}
 	];
 	
