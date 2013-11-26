@@ -14,12 +14,12 @@ function Mentors($scope) {
 		bio : "I co-run a small IT company for over 10 years. In such environment I had the chance to gain skills in various areas of software life cycle from design, project management, development, build engineering, continuous integration all the way to deployment and maintenance. I have worked with CVS and SVN before switching to git. I was responsible for migrating our repositories, and training my coworkers to use the new revision management tools. Eclipse is my IDE of choice when doing Java / Scala development. While I prefer to use git on command line for more advanced operations, I find EGit - the git client integrated in Eclipse to be adequate and quite convenient for the bread-and-butter commit - fetch - rebase - push workflow. In my session, I'm going to demonstrate how to install, configure and use EGit for the tasks it's best suited for."
 	},
 	{
-		id : "jakub-nabrdalik",	name : "Jakub Nabrdalik", homepage : "#", img : "true",
-		bio : "TBD"
+		id : "jakub-nabrdalik",	name : "Jakub Nabrdalik", homepage : "http://blog.solidcraft.eu", img : "true",
+		bio : " I am a software developer who cares about Software Craftsmanship and Domain Design. I've been Practicing Test-driven development and Pair programming since 2005. I work at <a href='http://touk.pl'>TouK</a>, where I code (Groovy and Java), lead teams, manage projects and do other fun stuff. Sometimes I also give talks at Java conferences, WJUG meetings, and hackathons. I strongly believe in benefits of good work, clean code and maintainable software. <br/><br/>You can find my blog at <a href='http://blog.solidcraft.eu'>blog.solidcraft.eu</a>."
 	},
 	{
 		id : "grzegorz-kubiak", name : "Grzegorz Kubiak", homepage : "#", img : "true",
-		bio : "TBD"
+		bio : "I am a Java developer who always tries new experiences. I have had adventures with Android and C++. I have written my own domain specific language with antlr3. Some time ago I have started using git. At the git-kata workshops I am going to show you few interesting commands which I found being very useful.<br/><br/>Besides all, I am also happy user of Gentoo Linux :)"
 	},
 	{
 		id : "justyna-sadlo", name : "Justyna Sadło", homepage : "#", img : "false",
