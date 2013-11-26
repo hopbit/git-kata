@@ -46,24 +46,26 @@
 <!-- ### MENTORS ### -->
 <div class="container" data-ng-controller="Mentors">
 	<hr/>
-	<div class="row" data-ng-repeat="mentor in mentors">
-		
-		<div class="col-lg-1"">&nbsp;</div>
-		
-		<div class="col-lg-3" id="{{ mentor.id }}">
-			<a href="{{ mentor.homepage }}" target="_blank">
-        		<img src="images/mentors/{{ mentor.id }}.png" title="{{ mentor.name }}" class="img-rounded img-responsive"/>
-        	</a>
+	<div data-ng-repeat="mentor in mentors">
+		<div class="row">
+			
+			<div class="col-lg-1">&nbsp;</div>
+			
+			<div class="col-lg-3" id="{{ mentor.id }}">
+				<a href="{{ mentor.homepage }}" target="_blank">
+	        		<img src="images/mentors/{{ mentor.id }}.png" title="{{ mentor.name }}" class="img-circle img-responsive"/>
+	        	</a>
+			</div>
+	
+			<div class="col-lg-7">
+		        <h2><a href="{{ mentor.homepage }}" target="_blank">{{ mentor.name }}</a></h2>
+		        <p>{{ mentor.bio }}</p>
+			</div>
+			
+			<div class="col-lg-1">&nbsp;</div>
 		</div>
-
-		<div class="col-lg-7">
-	        <h2><a href="{{ mentor.homepage }}" target="_blank">{{ mentor.name }}</a></h2>
-	        <p>{{ mentor.bio }}</p>
-		</div>
-		
-		<div class="col-lg-1">&nbsp;</div>
+		<hr/>
 	</div>
-	<hr/>
 </div>
 
 </body>
