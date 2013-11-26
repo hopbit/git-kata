@@ -12,7 +12,13 @@ function Mentors($scope) {
 		name : "Piotr Jasiun",
 		homepage : "#",
 		bio : "I started my career as a Freelance Web Designer then switched to mobiles as an Android Developer in Polidea. I worked in CERN integrating C++ SCADA systems with JavaScript. I’m currently a JavaScript Developer on the CKEditor open source project. I love working in small companies with people who are passionate about the high-tech industry. I’m astonished by how quickly technology is changing these days, which is why I’m an advocate of Agile Methodologies. I also have a fondness for application usability. I caught the git bug after the first Kata conference and I intend to convey this interest onto others."
-	}	
+	},	
+	{
+		id : "rafal-krzewski",
+		name : "Rafał Krzewski",
+		homepage : "http://www.ohloh.net/accounts/rkrzewski",
+		bio : "I co-run a small IT company for over 10 years. In such environment I had the chance to gain skills in various areas of software life cycle from design, project management, development, build engineering, continuous integration all the way to deployment and maintenance. I have worked with CVS and SVN before switching to git. I was responsible for migrating our repositories, and training my coworkers to use the new revision management tools. Eclipse is my IDE of choice when doing Java / Scala development. While I prefer to use git on command line for more advanced operations, I find EGit - the git client integrated in Eclipse to be adequate and quite convenient for the bread-and-butter commit - fetch - rebase - push workflow. In my session, I'm going to demonstrate how to install, configure and use EGit for the tasks it's best suited for."
+	},
 	];
 	
 }
