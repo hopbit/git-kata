@@ -57,11 +57,11 @@
 	
 	<hr/>
 	<div data-ng-repeat="mentor in mentors | filter:searchText">
-		<div class="row">
+		<div class="row" id="{{ mentor.id }}">
 			
 			<div class="col-lg-1">&nbsp;</div>
 			
-			<div class="col-lg-3" id="{{ mentor.id }}">
+			<div class="col-lg-3">
 				<a href="{{ mentor.homepage }}">
 	        		<img src="images/mentors/{{ mentor.id }}.png" title="{{ mentor.name }}" class="img-circle img-responsive"/>
 	        	</a>

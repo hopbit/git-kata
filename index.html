@@ -20,6 +20,7 @@
 	
 	<script src="./javascripts/angular.min.js"></script>
 	<script src="./javascripts/MenuCtrl.js"></script>
+	<script src="./javascripts/Mentors.js"></script>
 
     <title>Git Kata 2 - Start</title>
 </head>
@@ -122,18 +123,11 @@
 	        
 	        <p>If You think that You can be a mentor, just <a href="contact.html">contact us</a>
 	        
-	        <ul>
-	        	<li>Adam Pierzchała</li>
-		        <li>Grzegorz Kubiak</li>
-		        <li>Jakub Nabrdalik</li>
-		        <li>Justyna Sadło</li>
-				<li>Krzysztof Adamski</li>
-				<li>Łukasz Szcz&#281;sny</li>
-				<li>Mariusz Smykuła</li>
-		        <li>Michał Bareja</li>
-		        <li>Michał Lewandowski</li>
-		        <li>Mateusz Kaczmarek</li>
-		        <li>Paweł Sanjuan Szklarz</li>
+	        <ul data-ng-controller="Mentors">
+	        	<li data-ng-repeat="mentor in mentors">
+	        		<a href="mentors.html#{{ mentor.id}}">{{ mentor.name }}</a>
+				</li>
+		       
 			</ul>
 	        <!-- 
 	        <h3>Mateusz Harasymczuk</h3>
