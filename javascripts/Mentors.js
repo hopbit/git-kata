@@ -18,7 +18,7 @@ function Mentors($scope) {
 		bio : "TBD"
 	},
 	{
-		id : "grzegorz-kubiak", name : "Grzegorz Kubiak", homepage : "#", img : "false",
+		id : "grzegorz-kubiak", name : "Grzegorz Kubiak", homepage : "#", img : "true",
 		bio : "TBD"
 	},
 	{
@@ -38,7 +38,7 @@ function Mentors($scope) {
 		bio : "-"
 	},
 	{
-		id : "michal-bareja", name : "Michał Bareja", homepage : "#", img : "false",	
+		id : "michal-bareja", name : "Michał Bareja", homepage : "#", img : "true",	
 		bio : "-"
 	},
 	{
