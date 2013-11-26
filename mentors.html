@@ -56,7 +56,7 @@
 	</div>
 	
 	<hr/>
-	<div data-ng-repeat="mentor in mentors | filter:searchText | orderBy: mentor.name">
+	<div data-ng-repeat="mentor in mentors | orderBy:'id' | filter:searchText">
 		<div class="row" id="{{ mentor.id }}">
 			
 			<div class="col-lg-1">&nbsp;</div>

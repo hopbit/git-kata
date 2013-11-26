@@ -38,11 +38,11 @@ function Mentors($scope) {
 		bio : "TBD"
 	},
 	{
-		id : "michal-bareja", name : "Michał Bareja", homepage : "#", img : "true",	
+		id : "michal-lewandowski", name : "Michał Lewandowski", homepage : "#", img : "false",	
 		bio : "TBD"
 	},
 	{
-		id : "michal-lewandowski", name : "Michał Lewandowski", homepage : "#", img : "false",	
+		id : "michal-bareja", name : "Michał Bareja", homepage : "#", img : "true",	
 		bio : "TBD"
 	},
 	{
