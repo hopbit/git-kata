@@ -30,6 +30,9 @@ function MenuCtrl($scope) {
 		href : 'registration.html',
 		label : 'Registration'
 	}, {
+		href : 'mentors.html',
+		label : 'Mentors'
+	}, {
 		href : 'sponsors.html',
 		label : 'Sponsors'
 	}, {

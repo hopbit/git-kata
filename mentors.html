@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html ng-app>
+
+<!-- HEADER -->
+<head>
+    <meta charset='utf-8'>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="bootswatch/bootstrap.css" media="screen">
+    <link rel="stylesheet" href="bootswatch/font-awesome.min.css">
+    <link rel="stylesheet" href="bootswatch/bootswatch.min.css">
+    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+      <script src="css/html5shiv.js"></script>
+      <script src="css/respond.min.js"></script>
+    <![endif]-->
+	<script src="./javascripts/angular.min.1.0.7.js"></script>
+	<script src="./javascripts/MenuCtrl.js"></script>
+	<script src="./javascripts/Mentors.js"></script>
+
+    <title>Git Kata 2 - Mentors</title>
+</head>
+
+<body>
+
+    <!-- MENU -->
+	<div class="navbar navbar-default navbar-fixed-top" ng-controller="MenuCtrl">
+	  <div class="container">
+	    <div class="navbar-header">
+	      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-responsive-collapse">
+	        <span class="icon-bar"></span>
+	        <span class="icon-bar"></span>
+	        <span class="icon-bar"></span>
+	      </button>
+	      <a class="navbar-brand" href="./index.html">Git Kata 2</a>
+	    </div>
+	    <div class="navbar-collapse collapse navbar-responsive-collapse">
+	      <ul class="nav navbar-nav">
+	        <li ng-repeat="menu in menus">
+			  <a href="{{menu.href}}">{{menu.label}}</b></a>
+			</li>
+	      </ul>
+	    </div><!-- /.nav-collapse -->
+	  </div><!-- /.container -->
+	</div><!-- /.navbar -->
+
+<!-- ### MENTORS ### -->
+<div class="container" data-ng-controller="Mentors">
+	<hr/>
+	<div class="row" data-ng-repeat="mentor in mentors">
+		
+		<div class="col-lg-1"">&nbsp;</div>
+		
+		<div class="col-lg-3" id="{{ mentor.id }}">
+			<a href="{{ mentor.homepage }}" target="_blank">
+        		<img src="images/mentors/{{ mentor.id }}.png" title="{{ mentor.name }}" class="img-rounded img-responsive"/>
+        	</a>
+		</div>
+
+		<div class="col-lg-7">
+	        <h2><a href="{{ mentor.homepage }}" target="_blank">{{ mentor.name }}</a></h2>
+	        <p>{{ mentor.bio }}</p>
+		</div>
+		
+		<div class="col-lg-1">&nbsp;</div>
+	</div>
+	<hr/>
+</div>
+
+</body>
+</html>
