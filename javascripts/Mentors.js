@@ -15,7 +15,7 @@ function Mentors($scope) {
 	},
 	{
 		id : "jakub-nabrdalik",	name : "Jakub Nabrdalik", homepage : "http://blog.solidcraft.eu", img : "true",
-		bio : " I am a software developer who cares about Software Craftsmanship and Domain Design. I've been Practicing Test-driven development and Pair programming since 2005. I work at <a href='http://touk.pl'>TouK</a>, where I code (Groovy and Java), lead teams, manage projects and do other fun stuff. Sometimes I also give talks at Java conferences, WJUG meetings, and hackathons. I strongly believe in benefits of good work, clean code and maintainable software. <br/><br/>You can find my blog at <a href='http://blog.solidcraft.eu'>blog.solidcraft.eu</a>."
+		bio : " I am a software developer who cares about Software Craftsmanship and Domain Design. I've been Practicing Test-driven development and Pair programming since 2005. I work at <a href='http://touk.pl'>TouK</a>, where I code (Groovy and Java), lead teams, manage projects and do other fun stuff. Sometimes I also give talks at Java conferences, WJUG meetings, and hackathons. I strongly believe in benefits of good work, clean code and maintainable software. <br/><br/>You can find more at <a href='http://solidcraft.eu'>solidcraft.eu</a>."
 	},
 	{
 		id : "grzegorz-kubiak", name : "Grzegorz Kubiak", homepage : "#", img : "true",
