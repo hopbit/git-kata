@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="bootswatch/bootstrap.css" media="screen">
     <link rel="stylesheet" href="bootswatch/font-awesome.min.css">
     <link rel="stylesheet" href="bootswatch/bootswatch.min.css">
+    <link rel="stylesheet" href="bootswatch/extension.css">
     <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!--[if lt IE 9]>
       <script src="bootswatch/html5shiv.js"></script>
@@ -121,7 +122,7 @@
 	        <p>If You think that You can be a mentor, just <a href="contact.html">contact us</a>
 	        
 	        <ul data-ng-controller="Mentors">
-	        	<li data-ng-repeat="mentor in mentors | orderBy:'id'">
+	        	<li data-ng-repeat="mentor in mentors | orderBy:'id'" class="columnized">
 	        		<a href="mentors.html#{{ mentor.id}}">{{ mentor.name }}</a>
 				</li>
 			</ul>
@@ -191,17 +192,14 @@
 	        
 	        <h1 id="organizers" class="section_header">Organizers</h1>
 	        <pre><code>$ git blame </code></pre>
-	        <p style="text-align: center;">
 	            <ul>
-	            <li><a href="http://erbetowski.pl">Wojtek Erbetowski</a></li>
-	            <li><a href="https://coderbits.com/viroos">Maciej Sawicki</a></li>
-	            <li><a href="http://siwinski.info">Łukasz Siwiński</a></li>
-	            <li><a href="#">Adam Chudzik</a></li>
-	            <li><a href="#">Wojciech Korzeniewski</a></li>
-	            <li><a href="https://github.com/kamilszymanski">Kamil Szymański</a></li>
+	            <li class="columnized"><a href="http://erbetowski.pl">Wojtek Erbetowski</a></li>
+	            <li class="columnized"><a href="https://coderbits.com/viroos">Maciej Sawicki</a></li>
+	            <li class="columnized"><a href="http://siwinski.info">Łukasz Siwiński</a></li>
+	            <li class="columnized"><a href="#">Adam Chudzik</a></li>
+	            <li class="columnized"><a href="#">Wojciech Korzeniewski</a></li>
+	            <li class="columnized"><a href="https://github.com/kamilszymanski">Kamil Szymański</a></li>
 	            </ul>
-	        </p>
-		
 			
     	</div> 
 	</div>

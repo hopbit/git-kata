@@ -1,0 +1,10 @@
+li:nth-child(even).columnized {
+	width: 50%;
+	float: right;
+}
+
+li:nth-child(odd).columnized {
+	width: 50%;
+	float: left;
+	padding-right: 2em;
+}
