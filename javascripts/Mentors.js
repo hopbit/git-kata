@@ -42,8 +42,8 @@ function Mentors($scope) {
 		bio : "TBD"
 	},
 	{
-		id : "michal-bareja", name : "Michał Bareja", homepage : "#", img : "true",	
-		bio : "TBD"
+		id : "michal-bareja", name : "Michał Bareja", homepage : "https://twitter.com/MichaelBareja", img : "true",	
+		bio : "Java developer who is always focused on delivering code of the highest possible quality. Had a year long adventure with Ruby and most recently started hacking in JavaScript with AngularJS. Member of Pragmatists team.<br/><br/>Favourite way of working: test driving in a pair.<br/><br/>Favourite git command: `git config --global branch.autosetuprebase always`"
 	},
 	{
 		id : "mateusz-kaczmarek", name : "Mateusz Kaczmarek", homepage : "#", img : "false",
