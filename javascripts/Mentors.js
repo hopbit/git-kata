@@ -22,8 +22,8 @@ function Mentors($scope) {
 		bio : "I am a Java developer who always tries new experiences. I have had adventures with Android and C++. I have written my own domain specific language with antlr3. Some time ago I have started using git. At the git-kata workshops I am going to show you few interesting commands which I found being very useful.<br/><br/>Besides all, I am also happy user of Gentoo Linux :)"
 	},
 	{
-		id : "justyna-sadlo", name : "Justyna Sadło", homepage : "#", img : "false",
-		bio : "TBD"
+		id : "justyna-sadlo", name : "Justyna Sadło", homepage : "#", img : "true",
+		bio : "I am a student at the Warsaw University of Technology and a software developer in my free time ;) I like to learn new things - especially new languages and tools that make my work easier. Besides IT I dance lindy hop and do other forms of physical activity."
 	},
 	{
 		id : "krzysztof-adamski", name : "Krzysztof Adamski", homepage : "#", img : "false",
