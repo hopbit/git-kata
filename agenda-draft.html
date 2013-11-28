@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html ng-app>
+<html data-ng-app>
 
 <!-- HEADER -->
 <head>
@@ -37,7 +37,7 @@
 <body>
 
     <!-- MENU -->
-	<div class="navbar navbar-default navbar-fixed-top" ng-controller="MenuCtrl">
+	<div class="navbar navbar-default navbar-fixed-top" data-ng-controller="MenuCtrl">
 	  <div class="container">
 	    <div class="navbar-header">
 	      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-responsive-collapse">
@@ -50,15 +50,7 @@
 	    <div class="navbar-collapse collapse navbar-responsive-collapse">
 	      <ul class="nav navbar-nav">
 	        <li data-ng-repeat="menu in menus">
-			  <a href="{{menu.href}}">{{menu.label}}</b></a>
-			<!-- 
- 			  <a href="{{menu.href}}" class="dropdown-toggle" data-toggle="dropdown">{{menu.label}}<b class="caret"></b></a>
- 			-->
-			  <!-- 
-			  <ul class="dropdown-menu">
-			    <li ng-repeat="submenu in menu.submenus"><a href="{{submenu.href}}">{{submenu.label}}</a></li>
-			  </ul>
-			   -->
+			  <a href="{{menu.href}}">{{menu.label}}</a>
 			</li>
 	      </ul>
 	    </div><!-- /.nav-collapse -->
@@ -74,19 +66,19 @@
 
 <hr/>
 
-<div ng-controller="Agenda">
+<div data-ng-controller="Agenda">
 <table class="table table-hover">
 	<!-- AGENDA HEADERS -->
 	<thead>
 		<tr>
-			<th ng-repeat="header in headers">{{ header }}</th>
+			<th data-ng-repeat="header in headers">{{ header }}</th>
 		</tr>
 	</thead>
 	<tbody>
 	<!-- AGENDA ROWS -->
-	<tr ng-repeat="row in rows">
+	<tr data-ng-repeat="row in rows">
 		<td>{{ row.time }}</td>
-		<td ng-repeat="kata in row.katas" colspan="{{ kata.colspan }}" >
+		<td data-ng-repeat="kata in row.katas" colspan="{{ kata.colspan }}" >
 			{{ kata.mentor }} <br/>
 			<a href="#" data-toggle="modal" title="{{ kata.shortDesc }}" data-target="#kata{{ kata.id }}">
 				{{ kata.title }}

@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html ng-app>
+<html data-ng-app>
 
 <!-- HEADER -->
 <head>
@@ -31,7 +31,7 @@
 <body>
 
     <!-- MENU -->
-	<div class="navbar navbar-default navbar-fixed-top" ng-controller="MenuCtrl">
+	<div class="navbar navbar-default navbar-fixed-top" data-ng-controller="MenuCtrl">
 	  <div class="container">
 	    <div class="navbar-header">
 	      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-responsive-collapse">
@@ -43,8 +43,8 @@
 	    </div>
 	    <div class="navbar-collapse collapse navbar-responsive-collapse">
 	      <ul class="nav navbar-nav">
-	        <li ng-repeat="menu in menus">
-			  <a href="{{menu.href}}">{{menu.label}}</b></a>
+	        <li data-ng-repeat="menu in menus">
+			  <a href="{{menu.href}}">{{menu.label}}</a>
 			<!-- 
  			  <a href="{{menu.href}}" class="dropdown-toggle" data-toggle="dropdown">{{menu.label}}<b class="caret"></b></a>
  			-->

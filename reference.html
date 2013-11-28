@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html ng-app>
+<html data-ng-app>
 
 <!-- HEADER -->
 <head>
@@ -25,7 +25,7 @@
 <body>
 
     <!-- MENU start -->
-	<div class="navbar navbar-default navbar-fixed-top" ng-controller="MenuCtrl">
+	<div class="navbar navbar-default navbar-fixed-top" data-ng-controller="MenuCtrl">
 	  <div class="container">
 	    <div class="navbar-header">
 	      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-responsive-collapse">
@@ -37,16 +37,8 @@
 	    </div>
 	    <div class="navbar-collapse collapse navbar-responsive-collapse">
 	      <ul class="nav navbar-nav">
-	        <li ng-repeat="menu in menus">
-			  <a href="{{menu.href}}">{{menu.label}}</b></a>
-			<!-- 
- 			  <a href="{{menu.href}}" class="dropdown-toggle" data-toggle="dropdown">{{menu.label}}<b class="caret"></b></a>
- 			-->
-			  <!-- 
-			  <ul class="dropdown-menu">
-			    <li ng-repeat="submenu in menu.submenus"><a href="{{submenu.href}}">{{submenu.label}}</a></li>
-			  </ul>
-			   -->
+	        <li data-ng-repeat="menu in menus">
+			  <a href="{{menu.href}}">{{menu.label}}</a>
 			</li>
 	      </ul>
 	    </div><!-- /.nav-collapse -->
@@ -86,7 +78,7 @@
 	<div class="container">
 		<div class="row">
 			<div class="col-lg-8">
-			<div id="myCarousel" class="carousel slide" ng-controller="GalleryCtrl">
+			<div id="myCarousel" class="carousel slide" data-ng-controller="GalleryCtrl">
 				<div class="carousel-inner">
 					<div class="item active">
 						<img src="images/photos/visualisation.JPG" />
@@ -96,7 +88,7 @@
 						</div>
 						 -->
 					</div>
-					<div class="item" ng-repeat="photo in photos">
+					<div class="item" data-ng-repeat="photo in photos">
 						<img src="{{photo.url}}" class="img-rounded"/>
 					</div>
 				</div>
