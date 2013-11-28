@@ -30,8 +30,8 @@ function Mentors($scope) {
 		bio : "TBD"
 	},
 	{
-		id : "lukasz-szczesny", name : "Łukasz Szczęsny", homepage : "#", img : "false",	
-		bio : "TBD"
+		id : "lukasz-szczesny", name : "Łukasz Szczęsny", homepage : "https://wybcz.pl/blog/", img : "true",	
+		bio : "I am a system administrator specializing in GNU/Linux environment. I work at the University of Warsaw. I love automation and managing configuration with Git :) Once upon a time I migrated large codebase from CVS to Subversion and eventually to Git."
 	},
 	{
 		id : "mariusz-smykula", name : "Mariusz Smykuła", homepage : "#", img : "false",	
