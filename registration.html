@@ -60,23 +60,31 @@
 	</div><!-- /.navbar -->
 
 <div class="container">
-    <section id="main_content">
-        <h1>Registration</h1>
-        <pre><code>$ git pull-request </code></pre>
-        <h2 style="color: red;">Registration will be opened soon...</h2><br/><br/>
-        <p style="text-align: center;">
-            <!--To join us on March, 23rd, go to the
-            <a target="_blank" href="https://bitbucket.org/wojtassj/git-kata-registration">registration repository</a>.
-            Fork us, make ANY change in the source code (we count on your creativity)
-            and submit a pull request.
-            <br/><br/>
-            Yeah, that's right - accepted pull request means accepted attendee! We couldn't thought
-            that any geeker, could we? :-)
-            -->
-            <br/>
+	<br/>
+	<div class="row" data-ng-init="phase='0';"> <!-- <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< REGISTRATION FLAG CFG -->
+		<div class="col-lg-12" data-ng-switch data-on="phase">
+			
+	        <pre><code>$ git pull-request </code></pre>
 
-        </p>
-	</section>
+        	<h2 data-ng-switch-when="0" style="color: red;">Registration will be opened at 13:37 on 28th of November, 2013 (Friday).</h2>
+
+	        <h2 data-ng-switch-when="1">
+	        	To join us on 8th of December, 2013 (Sunday):<br/><br/>
+	        	<ol>
+	        	<li>Go to the <a target="_blank" href="https://github.com/git-kata/registration-v2">registration repository</a></li>
+	        	<li>Fork us</li>
+	        	<li>Make a nice commit in the source code (we count on your creativity!)</li>
+	        	<li>Submit a pull request</li>
+	        	</ol><br/>
+            	Yeah, that's right - accepted pull request means accepted attendee! We couldn't thought that any geeker, could we? :-)
+	        </h2>
+	        
+	        <h2 data-ng-switch-when="2">
+	        	Registration is now closed, but we hope that You'll be faster in the next edition!
+	        </h2>
+
+		</div>
+	</div>
 </div>
        
 </body>
