@@ -1,6 +1,6 @@
 function Agenda($scope) {
 // ą ć ę ł ń ó ś ź ż
-	$scope.headers = [ "Time", "Room 1", "Room 2", "Room 3", "Room 4",
+	$scope.headers = [ "Time", "Allegro Room", "Room 2", "Room 3", "Room 4",
 			"Room 5", "Room 6", "Room 7" ];
 
 	$scope.rows = [ 
@@ -96,8 +96,8 @@ function Agenda($scope) {
 	{
 		time : "15:40/16:00",
 		katas : [ 
+	         { id : "0", mentor : "Janek Kowalski", title : "legit", shortDesc: "" , colspan : "1"}, 
 			{ id : "0", mentor : "Łukasz Szczęsny", title : "gitolite", shortDesc: "" , colspan : "1" },
-			{ id : "0", mentor : "Janek Kowalski", title : "legit", shortDesc: "" , colspan : "1"}, 
 			{ id : "0", mentor : "Paweł Sanjuan Szklarz", title : "subtree", shortDesc: "" , colspan : "1"}, 
 			{ id : "0", mentor : "Mariusz Smykuła", title : "tig", shortDesc: "interaktywny git" , colspan : "1"}, 
 			{ id : "0", mentor : "Piotr Betkier", title : "git internals", shortDesc: ".git dir & how it works" , colspan : "1" },
