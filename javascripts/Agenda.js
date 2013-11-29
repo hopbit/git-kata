@@ -5,7 +5,8 @@ function Agenda($scope) {
 
 	$scope.rows = [ 
 	{
-		time : "11:00 - 11:20",
+		time : "11:00/11:20",
+		duration: "20 min",
 		katas : [ 
           { id : "", mentor : "", title : "", shortDesc: "" , colspan : "1" },
           { id : "", mentor : "", title : "", shortDesc: "" , colspan : "1" },
@@ -17,113 +18,119 @@ function Agenda($scope) {
           ]
 	},
 	{
-		time : "11:25 - 11:45",
+		time : "11:25/11:45",
+		duration: "20 min",
 		katas : [ 
-     	{ id : "#", mentor : "Tomasz Ducin", title : "git init", shortDesc: "---" , colspan : "1"}, 
-     	{ id : "#", mentor : "---", title : "---", shortDesc: "" , colspan : "1"}, 
-     	{ id : "#", mentor : "---", title : "---", shortDesc: "" , colspan : "1"}, 
-     	{ id : "#", mentor : "Adam Pierzchała", title : "git init", shortDesc: "---" , colspan : "1"}, 
-     	{ id : "#", mentor : "---", title : "---", shortDesc: "" , colspan : "1"}, 
-     	{ id : "#", mentor : "---", title : "---", shortDesc: "" , colspan : "1"},
-     	{ id : "#", mentor : "Michał Bareja", title : "git rebase -i", shortDesc: "" , colspan : "1"} 
+			{ id : "0", mentor : "Piotr Betkier", title : "cd ./git", shortDesc: "git internals, .git dir & how it works" , colspan : "1" },
+			{ id : "0", mentor : "Grzegorz Kubiak", title : "git bisect", shortDesc: "" , colspan : "1"}, 
+			{ id : "0", mentor : "Michał Bareja", title : "git branch & git tag", shortDesc: "branches & tags" , colspan : "1"}, 
+			{ id : "0", mentor : "Piotr Jasiun", title : "git config", shortDesc: "configs, handful aliases, other tips & tricks" , colspan : "1" },
+			{ id : "0", mentor : "Jakub Nabrdalik", title : "git config", shortDesc: "configs, handful aliases, other tips & tricks" , colspan : "1"}, 
+			{ id : "0", mentor : "Adam Pierzchała", title : "git merge vs git rebase", shortDesc: "" , colspan : "1"},
+			{ id : "0", mentor : "Janek Kowalski", title : "legit", shortDesc: "" , colspan : "1"} 
      	]
 	},
 	{
-		time : "11:55 - 12:35",
+		time : "11:55/12:35",
+		duration: "40 min",
 		katas : [ 
-     	{ id : "#", mentor : "Justyna Sadło", title : "local branches", shortDesc: "" , colspan : "1"}, 
-     	{ id : "#", mentor : "---", title : "---", shortDesc: "" , colspan : "1"}, 
-     	{ id : "#", mentor : "---", title : "---", shortDesc: "" , colspan : "1"}, 
-     	{ id : "#", mentor : "---", title : "---", shortDesc: "" , colspan : "1"}, 
-     	{ id : "#", mentor : "Jakub Nabrdalik", title : "git rebase -i", shortDesc: "interactive rebase" , colspan : "1"}, 
-     	{ id : "#", mentor : "---", title : "---", shortDesc: "" , colspan : "1"}, 
-     	{ id : "#", mentor : "Michał Lewandowski", title : "git init", shortDesc: "Odśwież sobie gita" , colspan : "1"}
+     	{ id : "0", mentor : "Rafał Krzewski", title : "egit + eclipse", shortDesc: "" , colspan : "1"}, 
+     	{ id : "0", mentor : "Radoslaw Scheibinger", title : "gerrit", shortDesc: "" , colspan : "1"}, 
+     	{ id : "0", mentor : "Tomasz Ducin", title : "git ci", shortDesc: "interating git wih jenkins/travis" , colspan : "1"}, 
+     	{ id : "0", mentor : "Mateusz Kaczmarek", title : "git everyday", shortDesc: "working with git on daily basis, needs basic git knowdlege, rebase -i" , colspan : "1"}, 
+     	{ id : "0", mentor : "Michał Bareja", title : "gitflow", shortDesc: "" , colspan : "1"}, 
+     	{ id : "0", mentor : "Krzysztof Adamski", title : "git rebase -i", shortDesc: "interactive rebase & squashing" , colspan : "1"}, 
+     	{ id : "0", mentor : "Michał Lewandowski", title : "git refresh", shortDesc: "refresh your git knowdlege/quick introduction to git" , colspan : "1" }
      	]
 	},
 	{
-		time : "12:35 - 13:30",
+		time : "12:35/13:30",
+		duration: "20 min",
 		katas : [ 
-	      { id : "", mentor : "", title : "", shortDesc: "" , colspan : "1" },
-	      { id : "", mentor : "", title : "", shortDesc: "" , colspan : "1" },
-	      { id : "", mentor : "", title : "", shortDesc: "" , colspan : "1" },
-	      { id : "", mentor : "Przerwa 1", title : "", shortDesc: "" , colspan : "1" },
+         { id : "0", mentor : "", title : "", shortDesc: "" , colspan : "1"}, 
+         { id : "0", mentor : "", title : "", shortDesc: "" , colspan : "1"}, 
+         { id : "0", mentor : "", title : "", shortDesc: "---" , colspan : "1"}, 
+         { id : "", mentor : "Przerwa 1", title : "", shortDesc: "" , colspan : "1" },
 	      { id : "", mentor : "", title : "", shortDesc: "" , colspan : "1" },
 	      { id : "", mentor : "", title : "", shortDesc: "" , colspan : "1" },
 	      { id : "", mentor : "", title : "", shortDesc: "" , colspan : "1" }]
 	},
 	{
-		time : "13:30 - 13:50",
+		time : "13:30/13:50",
+		duration: "20 min",
 		katas : [ 
-     	{ id : "#", mentor : "Michał Bareja", title : "---", shortDesc: "" , colspan : "1"}, 
-     	{ id : "#", mentor : "---", title : "---", shortDesc: "" , colspan : "1"}, 
-     	{ id : "1", mentor : "Tomasz Ducin", title : "git init", shortDesc: "---" , colspan : "1"},
-     	{ id : "#", mentor : "---", title : "---", shortDesc: "" , colspan : "1"}, 
-     	{ id : "#", mentor : "---", title : "---", shortDesc: "" , colspan : "1"}, 
-     	{ id : "4", mentor : "Adam Pierzchała", title : "git init", shortDesc: "---" , colspan : "1"}, 
-     	{ id : "#", mentor : "---", title : "---", shortDesc: "" , colspan : "1"}
+         { id : "0", mentor : "Piotr Jasiun", title : "git rebase --onto", shortDesc: "" , colspan : "1"}, 
+         { id : "0", mentor : "Adam Pierzchała", title : "git rerere", shortDesc: "" , colspan : "1"}, 
+         { id : "0", mentor : "Tomasz Ducin", title : "git scrum", shortDesc: "using git on scrum projects" , colspan : "1"},
+         { id : "0", mentor : "Jakub Nabrdalik", title : "cd ./git", shortDesc: "git internals - .git dir & how it worsk" , colspan : "1" },
+         { id : "0", mentor : "Justyna Sadło", title : "git checkout -b hotfix", shortDesc: "local feature branches" , colspan : "1"}, 
+         { id : "0", mentor : "Grzegorz Kubiak", title : "git filter-branch", shortDesc: "" , colspan : "1" },
+         { id : "0", mentor : "Michał Lewandowski", title : "git stash", shortDesc: "" , colspan : "1"}
      	]
 	},
 	{
-		time : "14:00 - 14:40",
+		time : "14:00/14:40",
+		duration: "40 min",
 		katas : [ 
-     	{ id : "7", mentor : "Michał Lewandowski", title : "git init", shortDesc: "Odśwież sobie gita" , colspan : "1"}, 
-     	{ id : "#", mentor : "---", title : "---", shortDesc: "" , colspan : "1"}, 
-     	{ id : "#", mentor : "---", title : "---", shortDesc: "" , colspan : "1"}, 
-     	{ id : "#", mentor : "---", title : "---", shortDesc: "" , colspan : "1"}, 
-     	{ id : "#", mentor : "---", title : "---", shortDesc: "" , colspan : "1"}, 
-     	{ id : "#", mentor : "---", title : "---", shortDesc: "" , colspan : "1"},
-     	{ id : "7", mentor : "Jakub Nabrdalik", title : "git rebase -i", shortDesc: "interactive rebase" , colspan : "1"}
+			{ id : "0", mentor : "Mateusz Kaczmarek", title : "git rebase -i", shortDesc: "interactive rebase & squashing)" , colspan : "1"}, 
+			{ id : "0", mentor : "Paweł Sanjuan Szklarz", title : "git submodules", shortDesc: "" , colspan : "1"}, 
+			{ id : "0", mentor : "Michał Bareja", title : "git undo", shortDesc: "(undoing changes: revert, reset, reflog, cherry-pick, amend)" , colspan : "1"}, 
+			{ id : "0", mentor : "Maciej Opała", title : "gitflow", shortDesc: "" , colspan : "1"}, 
+			{ id : "0", mentor : "Jakub Nabrdalik", title : "git rebase -i", shortDesc: "interactive rebase & squashing)" , colspan : "1"}, 
+			{ id : "0", mentor : "Krzysztof Adamski", title : "gitlab", shortDesc: "" , colspan : "1"},
+			{ id : "7", mentor : "Łukasz Szczęsny", title : "git-annex", shortDesc: "---" , colspan : "1"}
      	]
 	},
 	{
-		time : "14:40 - 15:40",
+		time : "14:40/15:40",
 		katas : [ 
-         { id : "", mentor : "", title : "", shortDesc: "" , colspan : "1" },
-         { id : "", mentor : "", title : "", shortDesc: "" , colspan : "1" },
-         { id : "", mentor : "", title : "", shortDesc: "" , colspan : "1" },
-         { id : "", mentor : "Przerwa 2", title : "", shortDesc: "" , colspan : "1" },
-         { id : "", mentor : "", title : "", shortDesc: "" , colspan : "1" },
-         { id : "", mentor : "", title : "", shortDesc: "" , colspan : "1" },
-         { id : "", mentor : "", title : "", shortDesc: "" , colspan : "1" }]
+	         { id : "", mentor : "", title : "", shortDesc: "" , colspan : "1" },
+	         { id : "", mentor : "", title : "", shortDesc: "" , colspan : "1" },
+	         { id : "", mentor : "", title : "", shortDesc: "" , colspan : "1" },
+	         { id : "", mentor : "Przerwa 2", title : "", shortDesc: "" , colspan : "1" },
+	         { id : "", mentor : "", title : "", shortDesc: "" , colspan : "1" },
+	         { id : "", mentor : "", title : "", shortDesc: "---" , colspan : "1"}, 
+	         { id : "", mentor : "", title : "", shortDesc: "" , colspan : "1" }
+         ]
 	},
 	{
-		time : "15:40 - 16:00",
+		time : "15:40/16:00",
 		katas : [ 
-     	{ id : "1", mentor : "Adam Pierzchała", title : "git rerere", shortDesc: "---" , colspan : "1"}, 
-     	{ id : "#", mentor : "---", title : "---", shortDesc: "" , colspan : "1"}, 
-     	{ id : "#", mentor : "---", title : "---", shortDesc: "" , colspan : "1"}, 
-     	{ id : "1", mentor : "Michał Lewandowski", title : "git stash", shortDesc: "---" , colspan : "1"}, 
-     	{ id : "#", mentor : "---", title : "---", shortDesc: "" , colspan : "1"}, 
-     	{ id : "#", mentor : "---", title : "---", shortDesc: "" , colspan : "1"}, 
-     	{ id : "#", mentor : "---", title : "---", shortDesc: "" , colspan : "1"}
+			{ id : "0", mentor : "Łukasz Szczęsny", title : "gitolite", shortDesc: "" , colspan : "1" },
+			{ id : "0", mentor : "Janek Kowalski", title : "legit", shortDesc: "" , colspan : "1"}, 
+			{ id : "0", mentor : "Paweł Sanjuan Szklarz", title : "subtree", shortDesc: "" , colspan : "1"}, 
+			{ id : "0", mentor : "Mariusz Smykuła", title : "tig", shortDesc: "interaktywny git" , colspan : "1"}, 
+			{ id : "0", mentor : "Piotr Betkier", title : "cd ./git", shortDesc: "git internals, .git dir & how it works" , colspan : "1" },
+			{ id : "0", mentor : "Jakub Nabrdalik", title : "git config", shortDesc: "configs, handful aliases, other tips & tricks" , colspan : "1"}, 
+			{ id : "0", mentor : "Grzegorz Kubiak", title : "git bisect", shortDesc: "" , colspan : "1"} 
      	]
 	},
 	{
-		time : "16:10 - 16:30",
+		time : "16:10/16:30",
 		katas : [ 
-     	{ id : "#", mentor : "---", title : "---", shortDesc: "" , colspan : "1"}, 
-     	{ id : "#", mentor : "---", title : "---", shortDesc: "" , colspan : "1"}, 
-     	{ id : "#", mentor : "---", title : "---", shortDesc: "" , colspan : "1"}, 
-     	{ id : "#", mentor : "---", title : "---", shortDesc: "" , colspan : "1"}, 
-     	{ id : "#", mentor : "---", title : "---", shortDesc: "" , colspan : "1"}, 
-     	{ id : "#", mentor : "---", title : "---", shortDesc: "" , colspan : "1"}, 
-     	{ id : "#", mentor : "---", title : "---", shortDesc: "" , colspan : "1"}
+         { id : "0", mentor : "Michał Bareja", title : "git branch & git tag", shortDesc: "branches & tags" , colspan : "1"}, 
+         { id : "0", mentor : "Justyna Sadło", title : "git checkout -b hotfix", shortDesc: "local feature branches" , colspan : "1"}, 
+         { id : "0", mentor : "Janek Kowalski", title : "praca z git", shortDesc: "git cola" , colspan : "1"}, 
+         { id : "0", mentor : "Piotr Jasiun", title : "git config", shortDesc: "configs, handful aliases, other tips & tricks" , colspan : "1" },
+         { id : "0", mentor : "Łukasz Szczęsny", title : "gitolite", shortDesc: "" , colspan : "1" },
+         { id : "0", mentor : "Adam Pierzchała", title : "git rerere", shortDesc: "" , colspan : "1"}, 
+         { id : "0", mentor : "Tomasz Ducin", title : "git scrum", shortDesc: "using git on scrum projects" , colspan : "1"},
      	]
 	},
 	{
-		time : "16:40 - 17:00",
+		time : "16:40/17:00",
 		katas : [ 
-     	{ id : "#", mentor : "---", title : "---", shortDesc: "" , colspan : "1"}, 
-     	{ id : "#", mentor : "---", title : "---", shortDesc: "" , colspan : "1"}, 
-     	{ id : "1", mentor : "Adam Pierzchała", title : "git rerere", shortDesc: "---" , colspan : "1"},
-     	{ id : "#", mentor : "---", title : "---", shortDesc: "" , colspan : "1"}, 
-     	{ id : "#", mentor : "---", title : "---", shortDesc: "" , colspan : "1"}, 
-     	{ id : "1", mentor : "Michał Lewandowski", title : "git stash", shortDesc: "---" , colspan : "1"}, 
-     	{ id : "#", mentor : "---", title : "---", shortDesc: "" , colspan : "1"}
+		         { id : "0", mentor : "Adam Pierzchała", title : "git rerere", shortDesc: "" , colspan : "1"}, 
+		         { id : "0", mentor : "Michał Lewandowski", title : "git stash", shortDesc: "" , colspan : "1"},
+		         { id : "0", mentor : "Łukasz Szczęsny", title : "git-annex", shortDesc: "---" , colspan : "1"},
+		         { id : "0", mentor : "Grzegorz Kubiak", title : "git filter-branch", shortDesc: "" , colspan : "1" },
+		         { id : "0", mentor : "Janek Kowalski", title : "praca z git", shortDesc: "git cola" , colspan : "1"}, 
+		         { id : "0", mentor : "Paweł Sanjuan Szklarz", title : "subtree", shortDesc: "" , colspan : "1"}, 
+		         { id : "1", mentor : "Mariusz Smykuła", title : "tig", shortDesc: "interaktywny git" , colspan : "1"} 
      	]
 	},
 	{
-		time : "17:00 - 17:30",
+		time : "17:00/17:30",
 		katas : [ 
          { id : "", mentor : "", title : "", shortDesc: "" , colspan : "1" },
          { id : "", mentor : "", title : "", shortDesc: "" , colspan : "1" },
