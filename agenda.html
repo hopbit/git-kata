@@ -5,25 +5,31 @@
 <head>
     <meta charset='utf-8'>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="bootswatch/bootstrap.css" media="screen">
+    <link rel="stylesheet" href="bootswatch/bootstrap.css">
     <link rel="stylesheet" href="bootswatch/font-awesome.min.css">
     <link rel="stylesheet" href="bootswatch/bootswatch.min.css">
-	<script>
-	  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-	  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-	  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-	  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
-	
-	  ga('create', 'UA-45541501-1', 'gitkata.pl');
-	  ga('send', 'pageview');
-	</script>
     <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!--[if lt IE 9]>
-      <script src="css/html5shiv.js"></script>
-      <script src="css/respond.min.js"></script>
+      <script src="bootswatch/html5shiv.js"></script>
+      <script src="bootswatch/respond.min.js"></script>
     <![endif]-->
+    
+    <script src="bootswatch/jquery.min.js"></script>
+	<script src="bootswatch/bootstrap.min.js"></script>
+	<script src="bootswatch/bootswatch.js"></script>
+    
 	<script src="./javascripts/angular.min.js"></script>
 	<script src="./javascripts/MenuCtrl.js"></script>
+	<script src="./javascripts/Agenda.js"></script>
+	
+	<script type="text/javascript">
+		$(function() {
+			$("#btn-show-modal").click(function(e) {
+				e.preventDefault();
+				$("#dialog-example").modal("show");
+			});
+		});
+	</script>
 
     <title>Git Kata 2 - Start</title>
 </head>
@@ -54,424 +60,113 @@
 <div class="container">
 <section id="main_content">
 
-<center>
-<h1>Agenda</h1>
-</center>
-
-<!-- HEADER --------------------------------------------------------------- 
--->
-
-<pre>
-11:00 - 11:20 otwarcie
-11:25 - 11:45 kata
-11:55 - 12:35 kata
-12:35 - 13:30 przerwa
-13:30 - 13:50 kata
-14:00 - 14:40 kata
-14:40 - 15:40 przerwa
-15:40 - 16:00 kata
-16:10 - 16:30 kata
-16:40 - 17:00 kata
-17:00 zakończenie
-
-Bardziej szczegółowa agenda pojawi się wkrótce...
-</pre>
-
-<!--  TODO
-<div class="container">
-    <div class="page-header" id="banner">
-        <div class="row">
-            <div class="col-lg-2">
-                <p class="lead">Start time</p>
-            </div>
-            <div class="col-lg-10">
-                <p class="lead">Kata</p>
-            </div>
-        </div>
-    </div>
-</div>
-
-<div class="container">
-    <div class="row">
-        <div class="col-lg-2">
-            <div class="bsa well">11:00</div>
-        </div>
-        <div class="col-lg-10">
-            <div class="bsa well">Opening</div>
-        </div>
-    </div>
-</div>
-
-<div class="col-lg-2"><div class="bsa well">??:??</div></div>
-
-<div class="col-lg-10">
-    <div class="bsa well">
-        <a href="#">Kata 1</a> (Mentor 1)<br/>
-        <a href="#">Kata 2</a> (Mentor 2)<br/>
-        <a href="#">Kata 2</a> (Mentor 2)<br/>
-    </div>
-</div>
- -->
-
-<!-- CONTENT --------------------------------------------------------------- 
-
-<div class="col-lg-2"><div class="bsa well">11:30</div></div>
-
-<div class="col-lg-10">
-    <div class="bsa well">
-        <a href="#kata_rebase">Git rebase</a> (Wojtek Erbetowski)<br/>
-        <a href="#kata_submodule">Submodules</a> (Paweł Cesar Sanjuan Szklarz)<br/>
-        <a href="#kata_conf">Configs/aliases</a> (Jakub Nabrdalik)<br/>
-        <a href="#kata_pullpush">Pull &amp; push options</a> (Mateusz Grzechociński)<br/>
-        <a href="#kata_branches">Branches and tags</a> (Mateusz Harasymczuk)<br/>
-        <a href="#kata_filter">Git filter-branch</a> (Grzegorz Kubiak)<br/>
-    </div>
-</div>
-            
-<div class="col-lg-2"><div class="bsa well">12:20</div></div>
-            
-<div class="col-lg-10">
-    <div class="bsa well">
-        <a href="#kata_manipulation">Manipulating commits</a> (Jakub Nabrdalik)<br/>
-        <a href="#kata_flow">Git flow</a> (Michał Bareja)<br/>
-        <a href="#kata_refspec">Refspec</a> (Mateusz Grzechociński)<br/>
-        <a href="#kata_merging">Merging and rebasing</a> (Mateusz Harasymczuk)<br/>
-        <a href="#kata_usb">USB workflow</a> (Łukasz Siwiński)<br/>
-        <a href="#kata_stash">Rescue stash</a> (Kamil Trzciński)<br/>
-        <a href="#kata_undo">Undoing changes</a> (Marcin Zajączkowski)<br/>
-    </div>
-</div>
-            
-<div class="col-lg-2"><div class="bsa well">13:10</div></div>
-<div class="col-lg-10">
-    <div class="bsa well">
-        <a href="#kata_submodule">Submodules</a> (Paweł Cesar Sanjuan Szklarz)<br/>
-        <a href="#kata_pullpush">Pull &amp; push options</a> (Michał Bareja)<br/>
-        <a href="#kata_rerere">Git rerere</a> (Mateusz Grzechociński)<br/>
-        <a href="#kata_internals">Git internals</a> (Mateusz Harasymczuk)<br/>
-        <a href="#kata_bisect">Git bisect</a> (Grzegorz Kubiak)<br/>
-        <a href="#kata_svn">Git-svn</a> (Kamil Trzciński)<br/>
-        <a href="#kata_stash">Rescue stash</a> (Marcin Zajączkowski)<br/>
-    </div>
-</div>
-        
-<div class="col-lg-2"><div class="bsa well">13:50</div></div>
-            
-<div class="col-lg-10"><div class="bsa well">Lunch</div></div>
-
-<div class="col-lg-2"><div class="bsa well">14:50</div></div>
-            
-<div class="col-lg-10"><div class="bsa well">
-<a href="#kata_interactive_rebase">Interactive rebase</a> (Jakub Nabrdalik)<br/>
-<a href="#kata_undo">Undoing changes</a> (Michał Bareja)<br/>
-<a href="#kata_fish">Fish shell</a> (Mateusz Grzechociński)<br/>
-<a href="#kata_merging">Merging and rebasing</a> (Mateusz Harasymczuk)<br/>
-<a href="#kata_rebase">Git rebase</a> (Grzegorz Kubiak)<br/>
-<a href="#kata_conf">Configs/aliases</a> (Łukasz Siwiński)<br/>
-<a href="#kata_reset">Reset vs. revert</a> (Marcin Zajączkowski)<br/>
-</div></div>
-            
-<div class="col-lg-2"><div class="bsa well">15:40</div></div>
-<div class="col-lg-10"><div class="bsa well">
-<a href="#kata_interactive_rebase">Interactive rebase</a> (Wojtek Erbetowski)<br/>
-<a href="#kata_submodule">Submodules</a> (Paweł Cesar Sanjuan Szklarz)<br/>
-<a href="#kata_conf">Configs/aliases</a> (Jakub Nabrdalik)<br/>
-<a href="#kata_flow">Git flow</a> (Michał Bareja)<br/>
-<a href="#kata_bisect">Git bisect</a> (Grzegorz Kubiak)<br/>
-<a href="#kata_github">GitHub</a> (Łukasz Siwiński)<br/>
-<a href="#kata_stash">Rescue stash</a> (Kamil Trzciński)<br/>
-</div></div>
-            
-        
-        
-<div class="col-lg-2"><div class="bsa well">16:30</div></div>
-            
-<div class="col-lg-10"><div class="bsa well">
-<a href="#kata_interactive_rebase">Interactive rebase</a> (Jakub Nabrdalik)<br/>
-<a href="#kata_flow">Git flow</a> (Michał Bareja)<br/>
-<a href="#kata_undo">Undoing changes</a> (Mateusz Grzechociński)<br/>
-<a href="#kata_branches">Branches and tags</a> (Mateusz Harasymczuk)<br/>
-<a href="#kata_usb">USB workflow</a> (Łukasz Siwiński)<br/>
-<a href="#kata_patch">Patches</a> (Kamil Trzciński)<br/>
-<a href="#kata_manipulation">Manipulating commits</a> (Marcin Zajączkowski)<br/>
-</div></div>
-            
-        
-        
-<div class="col-lg-2"><div class="bsa well">17:20</div></div>            
-<div class="col-lg-10"><div class="bsa well">
-<a href="#kata_submodule">Submodules</a> (Paweł Cesar Sanjuan Szklarz)<br/>
-<a href="#kata_internals">Git internals</a> (Jakub Nabrdalik)<br/>
-<a href="#kata_rerere">Git rerere</a> (Mateusz Grzechociński)<br/>
-<a href="#kata_merging">Merging and rebasing</a> (Mateusz Harasymczuk)<br/>
-<a href="#kata_filter">Git filter-branch</a> (Grzegorz Kubiak)<br/>
-<a href="#kata_svn">Git-svn</a> (Kamil Trzciński)<br/>
-<a href="#kata_reset">Reset vs. revert</a> (Marcin Zajączkowski)<br/>
-</div></div>
-            
-        
-        </tbody>
-    </table>
-    <h1>Kata descriptions (Polish)</h1>
-    <h2 id="kata_rebase">Git rebase</h2>
-    <h3>Motywacja</h3>
-    <p>
-        Rebase pozwala na zwinne manipulacje commitami w grupach. Można sobie poradzić bez tej komendy, umieszczając ręcznie odpowiednie commity w innych miejscach, lecz z rebasem zmienia się całe nasze podejście do Gita. Dla nieznających tego polecenia to "must"
-    </p>
-    <h3>Scenariusz</h3>
-    <p>
-Zaczniemy od dwóch branchy. Przeniesiemy sobie kilka commitów w inne miejsce i spowrotem. Zmienimy przy okazji labelki (branche). Następnie poznamy sytuacje skrajne, czyli np przeniesienie brancha na samego siebie.
-    </p>
-<hr/>
-
-    <h2 id="kata_submodule">Git submodules</h2>
-    <h3>Motywacja</h3>
-    <p>
-        Kiedy rozwijamy aplikacji i uzywamy zewnatrznej biblioteki (open source albo poprostu oddzielny projekt wewnatrz naszej firmy) czesto mamy problem zaleznosci wersji. Nie chcemy czekac na kolejny release biblioteki zeby rozwinac aplikacji. Wtedy mozemy zintegrowac ta biblioteke do naszego repo jaki submodule i granulacje zaleznosci sprowadzic do konkrentych commitow: commit X aplikacji zalezy od commitu Y biblioteki.
-    </p>
-    <h3>Scenariusz</h3>
-    <p>
-        Startujemy z osobnej aplikacji i dwie biblioteki. Zintegrujemy biblioteki jaki submoduly i uzalezniamy sie od konkrentego builda. Zrobimy kilka przebiegow modyfikacji: tylko apka, tylko biblioteki, branche rownolegle dla app/biblioteki. Na koniec skazujemy biblioteki i wrocimy do zaleznosci od konkrentego release biblioteki.
-    </p>
-    <hr/>
-
-    <h2 id="kata_conf">Configs, handful aliases, other tips &amp; tricks</h2>
-    <h3>Motywacja</h3>
-    <p>
-        Siadasz obok człowieka, żeby zrobić jakiś pair-programming albo generalnie pomóć mu w gicie, i patrzysz jak się męczy. Albo jak twierdzi że git to tylko z IDE.
-        Zwykle znaczy to, że nie skonfigurował sobie środowiska.
-        Git jest naprawdę dobrze zbudowany, ale człowiek który napisał te całe ""UI"" miszczem usability nie był (to nie Torvalds, Torvalds zrobił bebechy). W związku z tym, trzeba czasem sobie trochę pomóć i o tym będzie ta kata.
-    </p>
-    <h3>Scenariusz</h3>
-    <p>
-        Zaczniemy od zawartości .git/config, ustwienia kim jestem per projekt, kolorków, i domyślnego edytora, a potem pojedziemy z aliasami, różnymi fajnymi i nie tylko.
-    </p>
-<hr/>
-
-    <h2 id="kata_pullpush">Pull &amp; push options (push current/tracking branches, pull with rebase)</h2>
-    <h3>Motywacja</h3>
-    <p>
-        Czemu git pull czasami robi merge'a a czasami nie? Jak go zmusić, aby zamiast merge'a robił rebase? Czemu jak wypycham zmiany z mojego branche'a to razem z nim wypychane są wszystkie zmiany z pozostałych branche'y? Ta kata wyjaśni domyślne zachowania gita i pokaże jak je zmienić
-    </p>
-    <h3>Scenariusz</h3>
-    <p>
-        Kata będzie podzielona na dwie części: push i pull. Zaczniemy od testowania różnych konfiguracji wybierania branche'y które mają być wypchnięte. Nauczymy się jak tworzyć zdalne branche na serwerze. W drugiej części sprawdzimy kiedy git pull kończy się commitem merge'ującym oraz jak możemy go zmusić do rebase'owania
-    </p>
-<hr/>
-
-    <h2 id="kata_branches">Branche i tagi</h2>
-    <h3>Motywacja</h3>
-    <p>
-        Czym są branche? Jak tworzone i reprezentowane są tagi i inne obiekty w GIT? Co czyni go takim wyjątkowym i jak się to ma do pozostałych systemów kontroli wersji.
-    </p>
-    <h3>Scenariusz</h3>
-    <p>
-        Zapoznamy się z obiektami reprezentującymi tagi, branche i commity w GIT. Nauczymy się jak się je tworzy, zarządza, merguje i jak najlepiej stworzyć drzewko w naszym repozytorium.
-    </p>
-<hr/>
-
-    <h2 id="kata_filter">Git filter-branch</h2>
-    <h3>Motywacja</h3>
-    <p>
-        Chcesz upublicznić swój projekt z całą historią commitów? Niestety zawiera ona dane, których nie możesz udostępnić, takie jak adresy e-mail albo nieopatrznie zamieszczone hasła. Co wtedy? Wtedy możesz zmienić swoją historię za pomocą git filter-branch.
-    </p>
-    <h3>Scenariusz</h3>
-    <p>
-        Na przykładach zobaczymy w działaniu filtry dostępne w komendzie filter-branch. Za ich pomocą "masowo" przepiszemy historie specjalnie przygotowanych gałęzi.
-    </p>
-<hr/>
-
-    <h2 id="kata_manipulation">Manipulating commits with amend and cherry-pick</h2>
-    <h3>Motywacja</h3>
-    <p>
-        Zapomniałem zacommitować jeden plik? Zrobiłem literówkę w komentarzu? Przed dokonaniem pusha możemy szybko to naprawić w sposób wygodniejszy niż z poleceniem reset.
-        Jak utrzymując stabilny branch wydaniowy zbierać tylko poprawki bezpieczeństwa z mastera? Jak szybko pożyczyć jeden commit od kolegi? Na co trzeba wtedy uważać.
-    </p>
-    <h3>Scenariusz</h3>
-    <p>
-        Zaczniemy od amend i tego co oferuje i w jakich sytuacjach się sprawdza. Potem spróbujemy użyć i zrozumieć do czego jest cherry-pick biorąc jeden z commitów z innego brancha. Potem zobaczymy kilka w akcji. Na koniec porozmawiamy o tym kiedy NIE WOLNO tak robić.
-    </p>
-<hr/>
-
-    <h2 id="kata_flow">Git-flow</h2>
-    <h3>Motywacja</h3>
-    <p>
-        Wszyscy wiemy jak zrobić commit na branchu i wypushować go remote repo. Ale jak poradzić sobie z kilkoma branchami? Co gdy do jednego repo commituje wielu developerów którzy pracują nad różnymi nowymi funkcjonalnościami? Do tego mamy jeszcze brancha który odzwierciedla stan aktualnej produkcji i chcemy zrobić w nim poprawkę ale tak żeby nie zgubiła się w wersji developerskiej. Gitflow odpowiada na te wszystkie problemy poprzez narzucanie sensownego modelu branchowania i dodanie kilku komend które znacznie ułatwiają połapanie się w tym całym chaosie.
-    </p>
-    <h3>Scenariusz</h3>
-    <p>
-        Nauczymy się tworzyć feature branche przy pomocy gitflowa oraz jak sprawnie się między niemi przełączać i dzielić z innymi developerami. Kolejny krok to release. Sprawdzimy jak gitflow może pomóc nam w tej sytuacji. Gdzie powinny trafić commity robione podczas release'u, Kiedy powinniśmy otagować repozytorium oraz jak cofnąć nieudany release. Na koniec poznamy zestaw komend "gitflow hotfix ...". Dowiemy się jak zarządzać poprawkami do wersji produkcyjnej i dlaczego używać do tego gitflowa zamiast samemu wykonywać merge'e i cherry-pick'i.
-    </p>
-<hr/>
-
-<h2 id="kata_refspec">Git refspec (fetchowanie określonych branche'y)</h2>
-<h3>Motywacja</h3>
-<p>
-    Słów push, pull, master używasz codziennie. Ale czy czasami zdarzło Ci się używać ":" w komendach gita? Wiesz co to jest pull origin +master:master? Jak fetchować tylko interesujące Cię branche? Jak skasować zdalnego branche'a? Kata pokaże Ci to co jest refspec i jak się tego używa w najpopularniejszych komendach jak pull i push
-</p>
-<h3>Scenariusz</h3>
-<p>
-    Rozpoczniemy od omówienia struktury refspec, spróbujemy znaleźć ją w konfigu naszego repo. Nauczymy się jak dużą siłę ma "+". Zrobimy kilka zdalnych branche'y w róznych refspecach i nauczymy się jak śledzić tylko te, które nas interesują.
-</p>
-<hr/>
-
-<h2 id="kata_merging">Merging vs rebasing</h2>
-<h3>Motywacja</h3>
-<p>
-    Czym różni się merge od rebase? Dlaczego jeden z nich jest lepszy, jak to się ma do historii repozytorium i commitów?
-</p>
-<h3>Scenariusz</h3>
-<p>
-    Dowiemy się jak wygląda repozytorium przed i po mergach, rebaseach. Reprezentację obiektów GITowych oraz wpływ na nasz kod i pojawianie się konfliktów.
-</p>
-<hr/>
-
-<h2 id="kata_usb">USB workflow</h2>
-<h3>Motywacja</h3>
-<p>
-Czasami zdarza się, że przygotowanie serwera ze zdalnym repozytorium może być niepotrzebnym overheadem, lub jest po prostu niemożliwe (np. ze względu na brak dostępu do sieci). Taka sytuacja może się wydarzyć np. na warsztatach podobnych do Git Kata. Dzięki temu, że każde repozytorium gita jest pełną kopią, to możemy wykorzystać dowolny nośnik jako nasz "serwer" z głównym repozytorium. W przypadku tego Kata naszym serwerem stanie się zwykły pendrive. 
-</p>
-<h3>Scenariusz</h3>
-<p>
-Na początku zaczniemy od omówienia jak może wyglądać konfiguracja/zestaw środowisk do pracy z repozytorium na USB. Następnie szybko zestawimy takie środowisko dla przykładowych maszyn i założymy repozytorium. Kolejne kroki to będzą przykładem jak może wyglądać praca/wymiana dancyh poprzez repozytorium na USB.
-</p>
-<hr/>
-
-<h2 id="kata_stash">Przyjmowanie zmian ze świata, lokalne ficzer branche, odratowanie stasha po dropie</h2>
-<h3>Motywacja</h3>
-<p>
-    Gdy pracujemy świat nie śpi. Inni programiści dokonują zmian i czasem okoliczności zmuszają nas do uwzględniania ich przed dokonaniem pusha do mastera. W Subversion update przy niefortunnym commicie kolegi mógł zapewnić nam godziny dodatkowej pracy. Mając Gita jesteśmy w dużo lepszej sytuacji. Celem katy jest odpowiedź na pytania: Co to jest stash? Co to są lokalne ficzer branche? Dlaczego warto ich używać? Jak naprawić blokera na produkcji mając rozgrzebany nowy ficzer?
-</p>
-<h3>Scenariusz</h3>
-<p>
-    Zaczniemy od sposobów radzenia sobie z przyjmowaniem do siebie zmian commitowanych przez inne osoby w sytuacji, kiedy nasz kawałek nie jest jeszcze gotowy i nie chcemy/nie możemy go wysłać do zdalnego repozytorium. Następnie zobaczymy dlaczego zamiast na masterze warto pracować na lokalnych ficzer branchach i jak szybko przejść od zaplanowanej pracy do ""gaszenia pożaru na produkcji"". Jako bonus zobaczymy, co zrobić jak przypadkiem zamiast ""stash pop"" wpisze nam się ""stash drop"".
-
-    Uwaga. Kata częściowo zazębia się z "Merging &amp; Rebasing".
-</p>
-<hr/>
-
-<h2 id="kata_undo">Undoing changes</h2>
-<h3>Motywacja</h3>
-<p>
-    "Oops, ten commit nie miał tak wyglądać", "Zapomniałem o jednym pliku", "Źle rozwiązałem ten konflikt". Jak zmienić message, jak odwrócić commit, jak zmienić historię? Ta kata nauczy Cię jak wyjśc obronną ręką z sytuacji, w których coś poszło nie tak
-</p>
-<h3>Scenariusz</h3>
-<p>
-    Zaczniemy od najprostszej zmiany ostatniego commita. Potem będziemy je odwracać - jeden lub kilka. Nauczymy się też usuwać commit z historii przy użyciu reset i rebase -i. Zakończymy reflogiem, który pomoże nam w naprawdę trudnych chwilach :) Jeśli starczy czasu przejdziemy przez git clean i git checkout --
-</p>
-<hr/>
-
-<h2 id="kata_rerere">Git rerere</h2>
-<h3>Motywacja</h3>
-<p>
-    Git rerere, czyli "Reuse Recorder Resolution" pozwala zaoszczędzić dużo czasu spędzonego nad mozolnym rozwiązywaniem konfliktów w GIT. Kata nie tylko nauczy Cię jak włączyć i korzystać z tej opcji, ale pokaże Ci jak to wszystko działa i w jakich sytuacjach ta opcja może Ci zaoszczędzić mnóstwo czasu
-</p>
-<h3>Scenariusz</h3>
-<p>
-    Rozpoczniemy z kilkoma skonfliktowanymi ze sobą branche'ami, które będziemy chcieli zmerge'ować. Sprawdzimy ile czasu spędzimy nad rozwiązaniem wszystkich konfliktów. Następnie skorzystamy z rerere i zobaczymy co się zmieni. Kata zakończy się pokazaniem jak mechanizm rerere działa pod spodem, jakie ma wady i zalety. Zakończymy odpowiedzią na pytanie: "Jak pracować w grupie, aby mieć jak najmniej konfliktów"
-</p>
-<hr/>
-
-<h2 id="kata_internals">Bebechy gita: katalog .git i jak to działa</h2>
-<h3>Motywacja</h3>
-<p>
-    Początkujący gitowcy często narzekają, że polecenia nie mają sensu, a sam git jest zakręcony jak słoik. Tymczasem bebechy gita są banalnie proste i super skuteczne. To tylko API jest delikatnie mówiąc przekombinowane. Jeśli poznać zawartość katalogu .git i co się w nim dzieje, można dużo lepiej zrozumieć gita i jego API. W sytuacji awaryjnej, pomoże nam to odzyskać dane i lub zrobic to co chcemy, gdy w innej sytuacji musielibyśmy najpierw nauczyć się nowej komendy (potencjalnie niebezpiecznej).
-</p>
-<h3>Scenariusz</h3>
-<p>
-    Przejdziemy przez zawartość katalogu .git i zobaczymy co gdzie leży, jak się uzupełnia, jak modyfikować gita bez używania poleceń (edytorem tekstu) i co z tego wszystkiego wynika (np. jak się przestać bać, robić prosty backup, albo  zrozumieć git reset). Ponadto przedstawione zostaną obiekty w gicie dzięki poznaniu których zrozumiemy dlaczego jest jednym z najlepszych systemów kontroli wersji.
-</p>
-<hr/>
-
-<h2 id="kata_bisect">Git bisect</h2>
-<h3>Motywacja</h3>
-
+	<div class="row">
+		<div class="col-lg-12 text-center">
+			<h2>Agenda</h2>
+		</div>
+	</div>
+	<div class="row">
+		<div class="col-lg-12 text-center">
+			<h4>Watch out! Distribution of below katas can be modified in couple next days!</h4>
+		</div>
+	</div>
 <br/>
+<div data-ng-controller="Agenda">
+<table class="table table-hover">
+	<!-- AGENDA HEADERS -->
+	<thead>
+		<tr>
+			<th data-ng-repeat="header in headers">{{ header }}</th>
+		</tr>
+	</thead>
+	<tbody>
+	<!-- AGENDA ROWS -->
+	<tr data-ng-repeat="row in rows">
+		<td>{{ row.time }}</td>
+		<td data-ng-repeat="kata in row.katas" colspan="{{ kata.colspan }}" >
+			{{ kata.mentor }} <br/>
+			<a href="#" data-toggle="modal" title="{{ kata.shortDesc }}" data-target="#kata{{ kata.id }}">
+				{{ kata.title }}
+			</a>
+		</td>
+	</tr>
+	</tbody>
+</table>
+</div>
 
-<span style="color: red;">Uwaga: pełne uczestnictwo w tej kacie wymaga zainstalowanego mavena lub gradle</span>
-<p>
-    Czasami, nawet pomimo używania continous integration i testów automatycznych,
-    pojawia się w projekcie tajemnicza regresja. Co gorsza, nikt z zespołu nie ma
-    pomysłu, co ją mogło spowodować. Wtedy z pomocą przychodzi nam komenda git
-    bisect.
-</p>
-<h3>Scenariusz</h3>
-<p>
-    Na specjalnie przygotowanych gałęziach zobaczymy jak znaleźć commita, który "popsuł" coś w projekcie. Najpierw regresji będziemy szukać za pomocą testów ręcznych. Potem na gałęzi zawierającej tysiąc commitów znajdziemy problematyczną zmianę wpisując w konsoli tylko jedną komendę.
-</p>
 <hr/>
-
-<h2 id="kata_svn">Git-svn</h2>
-<h3>Motywacja</h3>
-<p>
-    Pracujesz nad projektem, która nadal korzysta z SVN. A twój szef oraz twoi koledzy są niechętni do wprowadzania zmian. Natomiast, Ty jako innowator chcesz korzystać z bardziej zwinnych technik programowania. Git daje Ci taką możliwość! Wykorzystaj dostępną infrastrukturę w połączeniu z mocą Gita.
-</p>
-<h3>Scenariusz</h3>
-<p>
-    Zaczniemy od przygotowania repozytorium Git na bazie już istniejącego repozytorium SVN. Przećwiczymy pracę na branchach, dodawnie oraz usuwanie tagów. Nauczymy się jak należy pullować i pushować do repozytoriów SVN oraz czego nie należy robić wykorzystując git-svn. Jako uzupełnienie wspominmy o obsługiwanych właściwościach repozytoriów SVN.
-</p>
-<hr/>
-
-<h2 id="kata_fish">Fish shell &amp; git prompt</h2>
-<h3>Motywacja</h3>
-<p>
-    Masz linuxa? Używasz basha? Ta kata jest dla Ciebie! Poznasz bash++ czyli konsolę fish i jej wsparcie dla gita. Po tej kacie nie będziesz już zastanawiał się na jakim branche'u pracujesz, czy jesteś w trakcie rebase'a a może rozwiązujesz jakiś konflikt w trakcie merge'a. Przestaniesz używać git status do sprawdzenia, czy wszystko co scommitowałeś zostało wypchnięte do upstreama.
-</p>
-<h3>Scenariusz</h3>
-<p>
-    Kata będzie podzielona na dwie części: fish i git+fish. Zaczniemy od instalacji konsoli fish. Omówimy jej przewagę nad bashem. Druga część to włączenie funkcji git_prompt, tune'owanie jej zachowania i stworzenie swojego własnego prompta.
-</p>
-<hr/>
-
-<h2 id="kata_github">Praca z serwisami: github, bitbucket</h2>
-<h3>Motywacja</h3>
-<p>
-Do pracy przy projektach komercyjnych zazwyczaj będziesz wykorzytywał(a) repozytorium, które będzie umieszczone w wewnętrznej sieci twojej firmy/klienta. Jeśli jednak chciał(a)byś pobawić się w wolnym czasie jakimś prywatnym lub otwartym projektem, np. nad stworzyć fajną grę, to serwer z repozytorium umożliwiającym synchronizację pomiędzy różnymi programistami (lub pomiędzy twoim różnymi maszynami) może znacznie ułatwić Ci zabawę. Dzięki serwisom github i bitbucket nie musisz samodzielnie stawiać własnego serwera Git.
-</p>
-<h3>Scenariusz</h3>
-<p>
-W tej kacie skupimy się nie tylko na omówieniu i przedstawieniu w jaki sposób zestawić sobie środowisko do pracy z serwisem github i bitbucket, ale też postaramy się zobaczyć jaki inne zalety (poza samym trzymaniem historii naszych zmian) oferują nam te serwisy. Ponadto zobaczymy w jaki sposób można jednocześnie korzystać z obu serwisów pracując nad jednym projektem.
-</p>
-<hr/>
-
-<h2 id="kata_patch">Patches</h2>
-<h3>Motywacja</h3>
-<p>
-Czy zastanawiałeś się jak wygląda praca nad projektami OpenSource, takimi jak linux-kernel, OpenWrt, czy Proxmox? Okazuje się, że pull request nie zawsze jest najlepszym i najwygodniejszym rozwiązaniem. Z pomocą przychodzą wbudowane narzędzia: format-patch, email-patch i am.
-</p>
-<h3>Scenariusz</h3>
-<p>
-Naczymy się jak korzystać z wyżej wymienionych narzędzi zamiast standardowych pull requestów.
-</p>
-<hr/>
-
-<h2 id="kata_interactive_rebase">Git rebase -i</h2>
-<h3>Motywacja</h3>
-<p>
-    Interaktywny rebase w Gicie pozwala na bardzo zwinne operowanie strukturą historii w poukładany i prosty sposób. Kata ma za zadanie pokazać jak posługiwać się instrukcją, jakie mamy możliwości i na co uważać.
-</p>
-<h3>Scenariusz</h3>
-<p>
-    Zaczynamy od przełożenia jednego commita na inny branch. Następnie przekładamy zakres commitów. Później przekładamy brancha. Kolejny etap to zmiana kolejności commitów, usuniecie jednego z nich. Na koniec dowiemy się kiedy i jak robić zamieszanie w historii, a kiedy nie wolno.
-</p>
-<hr/>
-
-<h2 id="kata_reset">reset vs. revert</h2>
-<h3>Motywacja</h3>
-<p>
-    Pomyłki się zdarzają się nawet najlepszym. Ci mniej doświadczeni popełniają je znacznie częściej. Jeżeli tylko zachowamy spokój w zdecydowanej większości przypadków możemy eleganko (i bez śladu) odwrócić niepożądane operacji wykonane na repo lokalnym. Jeżeli  zdarzy się już push na serwer zdalny nie wszystkie chwyty są nadal dozwolone, ale wciąż możemy odwrócić nasze zmiany.
-</p>
-<h3>Scenariusz</h3>
-<p>
-    Przyjrzymy się dwóm podejściom do naprawiania niechcianej sytuacji w repozytorium. Nauczymy się cofać niechciane commity, nieudane merge oraz usuwać ""śmieci"" wrzucone do repo zdalnego przez niedoświadcoznego kolegę. Dowiemy się czym różnią się od siebie, jakie mają wady i zalety oraz kiedy powinniśmy (a kiedy nie możemy) ich stosować.
-
-    Uwaga. Kata w sporej części zazębia się z ""Undoing changes"".
-</p>
-<hr/>
--->
 
 </section>
 </div>
+ 
+<!-- Modal -->
+
+<div class="modal fade" id="kata0" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-body">
+        <p>More details about this kata will be available soon...</p>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+      </div>
+    </div><!-- /.modal-content -->
+  </div><!-- /.modal-dialog -->
+</div><!-- /.modal -->
+
+<div class="modal fade" id="kata1" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+        <h4 class="modal-title" id="myModalLabel">Kata Title</h4>
+      </div>
+      <div class="modal-body">
+        <p>Kata Description</p>
+        <p>Lorem ipsum dolor</p>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+      </div>
+    </div><!-- /.modal-content -->
+  </div><!-- /.modal-dialog -->
+</div><!-- /.modal -->
+
+<div class="modal fade" id="kata2" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+        <h4 class="modal-title" id="myModalLabel">Kata Title</h4>
+      </div>
+      <div class="modal-body">
+        <p>Kata Description</p>
+        <p>Lorem ipsum dolor</p>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+      </div>
+    </div><!-- /.modal-content -->
+  </div><!-- /.modal-dialog -->
+</div><!-- /.modal -->
+
+<div class="modal fade" id="kata3" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+        <h4 class="modal-title" id="myModalLabel">Kata Title</h4>
+      </div>
+      <div class="modal-body">
+        <p>Kata Description</p>
+        <p>Lorem ipsum dolor</p>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+      </div>
+    </div><!-- /.modal-content -->
+  </div><!-- /.modal-dialog -->
+</div><!-- /.modal -->
  
 </body>
 </html>
