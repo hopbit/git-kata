@@ -25,21 +25,21 @@ function MenuCtrl($scope) {
 			label : 'Organizers',
 		} ]*/
 	}, {
-		href : 'faq.html',
-		label : 'FAQ'
-	}, {
 		href : 'registration.html',
 		label : 'Registration'
+	}, {
+		href : 'agenda.html',
+		label : 'Agenda'
+	}, {
+		href : 'faq.html',
+		label : 'FAQ'
 	}, {
 		href : 'mentors.html',
 		label : 'Mentors'
 	}, {
 		href : 'sponsors.html',
 		label : 'Sponsors'
-	}, {
-		href : 'agenda.html',
-		label : 'Agenda'
-	} /* TODO , { href : 'flyer.html', label : 'poster' } */
+	}
 	, {
 		href : 'reference.html',
 		label : 'Reference'
