@@ -66,6 +66,10 @@ function Mentors($scope) {
 		bio : "I am a Software Developer at <a href='http://www.pragmatists.pl/'>Pragmatists</a>, where on every day basis I use Agile and Extreme Programming techniques, including TDD and Pair Programming. After work I make my insane ideas come true, which are making games, creating algorithms for automatic terrain generation and conquering the world. For all of them I use git."
 	},
 	{
+		id : "mateusz-harasymczuk", name : "Mateusz Harasymczuk", homepage : "http://www.harasymczuk.pl/", img : "true",
+		bio : "Hi, my name is Matt and I am an Developer Evangelist. I try to commit to my work and every single task. It gives me a huge satisfaction and power to live my life. Moreover I try to share my passion with my colleagues and everyone around me. I really do believe in team work. I hope, that I'll be able to infect you with my optimism. In return I expect to learn as much as it is possible from you! I really do believe in Agile, Scrum, Clean Code, Strict Coding Styles and Open Standards!"
+	},
+	{
 		id : "tomasz-ducin", name : "Tomasz Ducin", homepage : "http://symfony-world.blogspot.com/", img : "true",
 		bio : "I am a lead frontend developer at Gemius where we deal with big data analysis platforms. Mostly I work in Python & JavaScript, but I also have growing backend interests. I praise modern software development concepts like TDD, Continuous Integration, Scrum and so on, because our job is not only to *write* the code. Since I've started to use git, I can't imagine software development without it. SVN was ok, but it's git time now ;)<br/><br/>I listen to music all day long, visit cinema/theatre in my spare time and love to travel abroad on weekends. Last but not least, (Monty) Python rules!"
 	}
