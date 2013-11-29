@@ -110,7 +110,7 @@ function Agenda($scope) {
 		katas : [ 
          { id : "0", mentor : "Michał Bareja", title : "git branch & git tag", shortDesc: "branches & tags" , colspan : "1"}, 
          { id : "0", mentor : "Justyna Sadło", title : "git checkout -b hotfix", shortDesc: "local feature branches" , colspan : "1"}, 
-         { id : "0", mentor : "Janek Kowalski", title : "praca z git", shortDesc: "git cola" , colspan : "1"}, 
+         { id : "0", mentor : "Janek Kowalski", title : "github", shortDesc: "git cola" , colspan : "1"}, 
          { id : "0", mentor : "Piotr Jasiun", title : "git config", shortDesc: "configs, handful aliases, other tips & tricks" , colspan : "1" },
          { id : "0", mentor : "Łukasz Szczęsny", title : "gitolite", shortDesc: "" , colspan : "1" },
          { id : "0", mentor : "Adam Pierzchała", title : "git rerere", shortDesc: "" , colspan : "1"}, 
@@ -124,7 +124,7 @@ function Agenda($scope) {
 		         { id : "0", mentor : "Michał Lewandowski", title : "git stash", shortDesc: "" , colspan : "1"},
 		         { id : "0", mentor : "Łukasz Szczęsny", title : "git-annex", shortDesc: "---" , colspan : "1"},
 		         { id : "0", mentor : "Grzegorz Kubiak", title : "git filter-branch", shortDesc: "" , colspan : "1" },
-		         { id : "0", mentor : "Janek Kowalski", title : "praca z git", shortDesc: "git cola" , colspan : "1"}, 
+		         { id : "0", mentor : "Janek Kowalski", title : "github", shortDesc: "git cola" , colspan : "1"}, 
 		         { id : "0", mentor : "Paweł Sanjuan Szklarz", title : "subtree", shortDesc: "" , colspan : "1"}, 
 		         { id : "1", mentor : "Mariusz Smykuła", title : "tig", shortDesc: "interaktywny git" , colspan : "1"} 
      	]
