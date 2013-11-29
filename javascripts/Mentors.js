@@ -26,8 +26,8 @@ function Mentors($scope) {
 		bio : "I am a student at the Warsaw University of Technology and a software developer in my free time ;) I like to learn new things - especially new languages and tools that make my work easier. Besides IT I dance lindy hop and do other forms of physical activity."
 	},
 	{
-		id : "krzysztof-adamski", name : "Krzysztof Adamski", homepage : "#", img : "false",
-		bio : "TBD"
+		id : "krzysztof-adamski", name : "Krzysztof Adamski", homepage : "http://k.japko.eu", img : "false",
+		bio : "Linux Systems Engineer currently working in ISP company on custom made IPTV solution. At work, I spend most of the time as an Android Platform and Embedded Linux Developer working on some low level aspects of Android and Linux based SetTopBox devices. Since I’m a technical leader of the IPTV department, I’m also involved in many other activities ranging from code reviews, Linux server management to JavaScript front-end and Python/Django back-end development."
 	},
 	{
 		id : "lukasz-szczesny", name : "Łukasz Szczęsny", homepage : "https://wybcz.pl/blog/", img : "true",	
