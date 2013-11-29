@@ -2,8 +2,9 @@ function MenuCtrl($scope) {
 
 	$scope.menus = [ {
 		href : 'index.html',
-		label : 'Start',
-		submenus : [ {
+		label : 'Start'
+		/*
+		,submenus : [ {
 			href : '#mission',
 			label : 'Mission'
 		}, {
@@ -15,14 +16,14 @@ function MenuCtrl($scope) {
 		}, {
 			href : '#sponsors',
 			label : 'Sponsors',
-		}/* TODO{ href : '#partners', label : 'Parters', } */
+		}
 		, {
 			href : '#mentors',
 			label : 'Mentors',
 		}, {
 			href : '#organizers',
 			label : 'Organizers',
-		} ]
+		} ]*/
 	}, {
 		href : 'faq.html',
 		label : 'FAQ'
