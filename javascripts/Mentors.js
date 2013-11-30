@@ -50,8 +50,8 @@ function Mentors($scope) {
 		bio : "TBD"
 	},
 	{
-		id : "pawel-sanjuan-szklarz", name : "Paweł Sanjuan Szklarz", homepage : "#", img : "false",
-		bio : "TBD"
+		id : "pawel-sanjuan-szklarz", name : "Paweł Sanjuan Szklarz", homepage : "#", img : "true",
+		bio : "Software developer with mathematical background. Polish/Mexican origins, 2 kids and to many ideas to develop."
 	},
 	{
 		id : "jan-kowalski", name : "Jan Kowalski", homepage : "http://blog.jankowalski.pl", img : "false",
