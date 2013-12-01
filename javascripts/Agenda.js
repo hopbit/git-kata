@@ -27,7 +27,7 @@ function Agenda($scope) {
 			{ id : "0", mentor : "Piotr Jasiun", title : "git config", shortDesc: "configs, handful aliases, other tips & tricks" , colspan : "1" },
 			{ id : "0", mentor : "Jakub Nabrdalik", title : "git config", shortDesc: "configs, handful aliases, other tips & tricks" , colspan : "1"}, 
 			{ id : "0", mentor : "Adam Pierzchała", title : "git merge vs git rebase", shortDesc: "" , colspan : "1"},
-			{ id : "0", mentor : "Janek Kowalski", title : "legit", shortDesc: "" , colspan : "1"} 
+			{ id : "0", mentor : "Justyna Sadło", title : "git checkout -b hotfix", shortDesc: "local feature branches" , colspan : "1"}, 
      	]
 	},
 	{
@@ -109,12 +109,12 @@ function Agenda($scope) {
 		time : "16:10/16:30",
 		katas : [ 
          { id : "0", mentor : "Michał Bareja", title : "git branch & git tag", shortDesc: "branches & tags" , colspan : "1"}, 
-         { id : "0", mentor : "Justyna Sadło", title : "git checkout -b hotfix", shortDesc: "local feature branches" , colspan : "1"}, 
-         { id : "0", mentor : "Janek Kowalski", title : "github", shortDesc: "git cola" , colspan : "1"}, 
+         { id : "0", mentor : "Mateusz Harasymczuk", title : "pull requests", shortDesc: "git cola" , colspan : "1"}, 
          { id : "0", mentor : "Piotr Jasiun", title : "git config", shortDesc: "configs, handful aliases, other tips & tricks" , colspan : "1" },
          { id : "0", mentor : "Łukasz Szczęsny", title : "git-annex", shortDesc: "" , colspan : "1" },
          { id : "0", mentor : "Adam Pierzchała", title : "git rerere", shortDesc: "" , colspan : "1"}, 
          { id : "0", mentor : "Tomasz Ducin", title : "git scrum", shortDesc: "using git on scrum projects" , colspan : "1"},
+         { id : "0", mentor : "Janek Kowalski", title : "legit", shortDesc: "" , colspan : "1"} 
      	]
 	},
 	{
