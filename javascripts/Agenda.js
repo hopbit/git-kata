@@ -78,7 +78,7 @@ function Agenda($scope) {
 			{ id : "0", mentor : "Maciej Opała", title : "gitflow", shortDesc: "" , colspan : "1"}, 
 			{ id : "0", mentor : "Jakub Nabrdalik", title : "git rebase -i", shortDesc: "interactive rebase & squashing)" , colspan : "1"}, 
 			{ id : "0", mentor : "Krzysztof Adamski", title : "gitlab", shortDesc: "" , colspan : "1"},
-			{ id : "7", mentor : "Łukasz Szczęsny", title : "git-annex", shortDesc: "---" , colspan : "1"}
+			{ id : "0", mentor : "Mateusz Harasymczuk", title : "Release Management with GIT", shortDesc: "" , colspan : "1"}
      	]
 	},
 	{
