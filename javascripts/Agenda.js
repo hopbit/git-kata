@@ -2,12 +2,12 @@ function Agenda($scope) {
 // ą ć ę ł ń ó ś ź ż
 	$scope.headers = [ 
            "Time", 
-           "Allegro A (Room 0.37)", 
-           "Allegro B (Room 0.38)", 
-           "Allegro C (Room 2.32)",
            "Pragmatists A (Room 0.03)", 
            "Pragmatists B (Room 3.29)", 
            "Pragmatists C (Room 4.31)", 
+           "Allegro A (Room 0.37)", 
+           "Allegro B (Room 0.38)", 
+           "Allegro C (Room 2.32)",
            "Helion (Room 5.02)"
            ];
 
