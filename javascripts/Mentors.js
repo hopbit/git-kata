@@ -38,7 +38,7 @@ function Mentors($scope) {
 		bio : "TBD"
 	},
 	{
-		id : "michal-lewandowski", name : "Michał Lewandowski", homepage : "#", img : "true",	
+		id : "michal-lewandowski", name : "Michał Lewandowski", homepage : "https://github.com/mlevvy", img : "true",	
 		bio : "I don't like texts full of buzzwords. You will not find them here.<br/><br/>I am walking around Java. If you want to know more, talk with me.<br/><br/>I would like you, to remember one thing. I belive that we are craftsmen. I belive in rising the bar of professional software development by practicing it and helping others learn the craft."
 	},
 	{
