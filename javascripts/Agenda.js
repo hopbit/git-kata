@@ -78,7 +78,7 @@ function Agenda($scope) {
 			{ id : "0", mentor : "Maciej Opała", title : "gitflow", shortDesc: "" , colspan : "1"}, 
 			{ id : "0", mentor : "Jakub Nabrdalik", title : "git rebase -i", shortDesc: "interactive rebase & squashing)" , colspan : "1"}, 
 			{ id : "0", mentor : "Krzysztof Adamski", title : "gitlab", shortDesc: "" , colspan : "1"},
-			{ id : "0", mentor : "Mateusz Harasymczuk", title : "Release Management with GIT", shortDesc: "" , colspan : "1"}
+			{ id : "0", mentor : "Mateusz Harasymczuk", title : "branching model", shortDesc: "" , colspan : "1"}
      	]
 	},
 	{
@@ -112,7 +112,7 @@ function Agenda($scope) {
          { id : "0", mentor : "Justyna Sadło", title : "git checkout -b hotfix", shortDesc: "local feature branches" , colspan : "1"}, 
          { id : "0", mentor : "Janek Kowalski", title : "github", shortDesc: "git cola" , colspan : "1"}, 
          { id : "0", mentor : "Piotr Jasiun", title : "git config", shortDesc: "configs, handful aliases, other tips & tricks" , colspan : "1" },
-         { id : "0", mentor : "Łukasz Szczęsny", title : "gitolite", shortDesc: "" , colspan : "1" },
+         { id : "0", mentor : "Łukasz Szczęsny", title : "git-annex", shortDesc: "" , colspan : "1" },
          { id : "0", mentor : "Adam Pierzchała", title : "git rerere", shortDesc: "" , colspan : "1"}, 
          { id : "0", mentor : "Tomasz Ducin", title : "git scrum", shortDesc: "using git on scrum projects" , colspan : "1"},
      	]
@@ -122,7 +122,7 @@ function Agenda($scope) {
 		katas : [ 
 		         { id : "0", mentor : "Adam Pierzchała", title : "git rerere", shortDesc: "" , colspan : "1"}, 
 		         { id : "0", mentor : "Michał Lewandowski", title : "git stash", shortDesc: "" , colspan : "1"},
-		         { id : "0", mentor : "Łukasz Szczęsny", title : "git-annex", shortDesc: "---" , colspan : "1"},
+		         { id : "0", mentor : "Mateusz Harasymczuk", title : "release management with git", shortDesc: "---" , colspan : "1"},
 		         { id : "0", mentor : "Grzegorz Kubiak", title : "git filter-branch", shortDesc: "" , colspan : "1" },
 		         { id : "0", mentor : "Janek Kowalski", title : "github", shortDesc: "git cola" , colspan : "1"}, 
 		         { id : "0", mentor : "Paweł Sanjuan Szklarz", title : "subtree", shortDesc: "" , colspan : "1"}, 
