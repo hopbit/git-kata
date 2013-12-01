@@ -82,7 +82,7 @@
 	<tbody>
 	<!-- AGENDA ROWS -->
 	<tr data-ng-repeat="row in rows">
-		<td>{{ row.time }}</td>
+		<td><span title="{{ row.duration }}">{{ row.time }}</span></td>
 		<td data-ng-repeat="kata in row.katas" colspan="{{ kata.colspan }}" >
 			{{ kata.mentor }} <br/>
 			<a href="#" data-toggle="modal" title="{{ kata.shortDesc }}" data-target="#kata{{ kata.id }}">
