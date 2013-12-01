@@ -5,8 +5,8 @@ function Agenda($scope) {
            "Pragmatists 0.03", 
            "Allegro 0.37", 
            "Allegro 0.38", 
-           "Allegro 2.32",
-           "Pragmatists 3.29", 
+           "Pragmatists 2.32", 
+           "Allegro 3.29",
            "Pragmatists 4.31", 
            "Helion 5.02"
            ];
