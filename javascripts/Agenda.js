@@ -70,8 +70,8 @@ function Agenda($scope) {
 		         { id : "0", mentor : "Adam Pierzchała", title : "git rerere", shortDesc: "" , colspan : "1"}, 
 		         { id : "0", mentor : "Piotr Betkier", title : "git internals", shortDesc: ".git dir & how it works" , colspan : "1" },
          { id : "0", mentor : "Tomasz Ducin", title : "git scrum", shortDesc: "using git on scrum projects" , colspan : "1"},
-         { id : "0", mentor : "Jakub Nabrdalik", title : "git internals", shortDesc: ".git dir & how it worsk" , colspan : "1" },
          { id : "0", mentor : "Justyna Sadło", title : "git checkout -b hotfix", shortDesc: "local feature branches" , colspan : "1"}, 
+         { id : "0", mentor : "Jakub Nabrdalik", title : "git internals", shortDesc: ".git dir & how it worsk" , colspan : "1" },
          { id : "0", mentor : "Grzegorz Kubiak", title : "git filter-branch", shortDesc: "" , colspan : "1" },
          { id : "0", mentor : "Michał Lewandowski", title : "git stash", shortDesc: "" , colspan : "1"}
      	]
@@ -108,8 +108,8 @@ function Agenda($scope) {
 			{ id : "0", mentor : "Janek Kowalski", title : "legit", shortDesc: "" , colspan : "1"}, 
 			{ id : "0", mentor : "Mariusz Smykuła", title : "tig", shortDesc: "interaktywny git" , colspan : "1"}, 
 			{ id : "0", mentor : "Paweł Sanjuan Szklarz", title : "subtree", shortDesc: "" , colspan : "1"}, 
-			{ id : "0", mentor : "Piotr Jasiun", title : "git rebase --onto", shortDesc: "" , colspan : "1"}, 
 			{ id : "0", mentor : "Jakub Nabrdalik", title : "git config", shortDesc: "configs, handful aliases, other tips & tricks" , colspan : "1"}, 
+			{ id : "0", mentor : "Piotr Jasiun", title : "git rebase --onto", shortDesc: "" , colspan : "1"}, 
 			{ id : "0", mentor : "Grzegorz Kubiak", title : "git bisect", shortDesc: "" , colspan : "1"} 
      	]
 	},
