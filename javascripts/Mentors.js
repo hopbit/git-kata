@@ -58,8 +58,8 @@ function Mentors($scope) {
 		bio : "I develop software! I have this unfortunate feeling that nothing works out-of-the-box for me. Every new technology I try to adopt is like dealing with tons of issues. I need to have my elegant code quickly and easily running. I hate pathos. I hate git. I know it can really hurt you. That is why I'll show you how to work with it human way. I participate in github open source project fabtools. In spare time I play squash."
 	},
 	{
-		id : "maciej-opala", name : "Maciej Opała", homepage : "#", img : "false",
-		bio : "TBD"
+		id : "maciej-opala", name : "Maciej Opała", homepage : "http://github.com/Opalo", img : "true",
+		bio : "Currently I work as software engineer at Polidea, more around Java than strictly with it. Like to share knowledge and have a lot of patience :) Feel free to ask if You're interested in any of my activities."
 	},
 	{
 		id : "adam-pierzchala", name : "Adam Pierzchała", homepage : "#", img : "false",
