@@ -1,6 +1,6 @@
 function Agenda($scope) {
 // ą ć ę ł ń ó ś ź ż
-	$scope.headers = [ "Time", "Allegro Room", "Room 2", "Room 3", "Room 4",
+	$scope.headers = [ "Time", "Pragmatists Room", "Allegro Room", "Room 3", "Room 4",
 			"Room 5", "Room 6", "Room 7" ];
 
 	$scope.rows = [ 
