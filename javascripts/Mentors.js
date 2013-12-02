@@ -34,8 +34,8 @@ function Mentors($scope) {
 		bio : "I am a system administrator specializing in GNU/Linux environment. I work at the University of Warsaw. I love automation and managing configuration with Git :) Once upon a time I migrated large codebase from CVS to Subversion and eventually to Git."
 	},
 	{
-		id : "mariusz-smykula", name : "Mariusz Smykuła", homepage : "#", img : "false",	
-		bio : "TBD"
+		id : "mariusz-smykula", name : "Mariusz Smykuła", homepage : "http://mariuszs.github.io", img : "true",	
+		bio : "Software developer, open-source enthusiast and strong believer in open standards."
 	},
 	{
 		id : "michal-lewandowski", name : "Michał Lewandowski", homepage : "https://github.com/mlevvy", img : "true",	
