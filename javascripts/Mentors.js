@@ -54,7 +54,7 @@ function Mentors($scope) {
 		bio : "Software developer with mathematical background. Polish/Mexican origins, 2 kids and to many ideas to develop.<br/><br/><a href='http://softwaremathmodel.blogspot.com'>http://softwaremathmodel.blogspot.com</a><br/><a href='https://github.com/paweld2'>https://github.com/paweld2</a><br/><a href='http://paweld2.eu'>http://paweld2.eu</a>"
 	},
 	{
-		id : "jan-kowalski", name : "Jan Kowalski", homepage : "http://blog.jankowalski.pl", img : "false",
+		id : "jan-kowalski", name : "Jan Kowalski", homepage : "http://blog.jankowalski.pl", img : "true",
 		bio : "I develop software! I have this unfortunate feeling that nothing works out-of-the-box for me. Every new technology I try to adopt is like dealing with tons of issues. I need to have my elegant code quickly and easily running. I hate pathos. I hate git. I know it can really hurt you. That is why I'll show you how to work with it human way. I participate in github open source project fabtools. In spare time I play squash."
 	},
 	{
