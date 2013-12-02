@@ -21,6 +21,7 @@
 	<script src="./javascripts/angular.min.js"></script>
 	<script src="./javascripts/MenuCtrl.js"></script>
 	<script src="./javascripts/Agenda.js"></script>
+	<script src="./javascripts/Kata.js"></script>
 	
 	<script type="text/javascript">
 		$(function() {
@@ -107,9 +108,10 @@
 </section>
 </div>
  
-<!-- Modal -->
+<!-- Agenda Details -->
 
-<div class="modal fade" id="kata0" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+<div data-ng-controller="Kata">
+<div class="modal fade" id="kata0" tabindex="-1" data-role="dialog" data-aria-labelledby="myModalLabel" data-aria-hidden="true">
   <div class="modal-dialog">
     <div class="modal-content">
       <div class="modal-body">
@@ -122,59 +124,24 @@
   </div><!-- /.modal-dialog -->
 </div><!-- /.modal -->
 
-<div class="modal fade" id="kata1" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+<div class="modal fade" id="kata{{kata.id}}" tabindex="-1" data-role="dialog" data-aria-labelledby="myModalLabel" data-aria-hidden="true" data-ng-repeat="kata in katas">
   <div class="modal-dialog">
     <div class="modal-content">
       <div class="modal-header">
-        <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
-        <h4 class="modal-title" id="myModalLabel">Kata Title</h4>
+        <button type="button" class="close" data-dismiss="modal" data-aria-hidden="true">&times;</button>
+        <h4 class="modal-title" id="myModalLabel">{{kata.title}}</h4>
       </div>
       <div class="modal-body">
-        <p>Kata Description</p>
-        <p>Lorem ipsum dolor</p>
+      	<p data-ng-bind-html-unsafe="kata.description"></p>
       </div>
       <div class="modal-footer">
         <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
       </div>
-    </div><!-- /.modal-content -->
-  </div><!-- /.modal-dialog -->
-</div><!-- /.modal -->
+    </div>
+  </div>
+</div>
 
-<div class="modal fade" id="kata2" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
-  <div class="modal-dialog">
-    <div class="modal-content">
-      <div class="modal-header">
-        <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
-        <h4 class="modal-title" id="myModalLabel">Kata Title</h4>
-      </div>
-      <div class="modal-body">
-        <p>Kata Description</p>
-        <p>Lorem ipsum dolor</p>
-      </div>
-      <div class="modal-footer">
-        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-      </div>
-    </div><!-- /.modal-content -->
-  </div><!-- /.modal-dialog -->
-</div><!-- /.modal -->
-
-<div class="modal fade" id="kata3" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
-  <div class="modal-dialog">
-    <div class="modal-content">
-      <div class="modal-header">
-        <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
-        <h4 class="modal-title" id="myModalLabel">Kata Title</h4>
-      </div>
-      <div class="modal-body">
-        <p>Kata Description</p>
-        <p>Lorem ipsum dolor</p>
-      </div>
-      <div class="modal-footer">
-        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-      </div>
-    </div><!-- /.modal-content -->
-  </div><!-- /.modal-dialog -->
-</div><!-- /.modal -->
+</div>
  
 </body>
 </html>
