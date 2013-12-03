@@ -45,14 +45,6 @@
 	      <ul class="nav navbar-nav">
 	        <li data-ng-repeat="menu in menus">
 			  <a href="{{menu.href}}">{{menu.label}}</a>
-			<!-- 
- 			  <a href="{{menu.href}}" class="dropdown-toggle" data-toggle="dropdown">{{menu.label}}<b class="caret"></b></a>
- 			-->
-			  <!-- 
-			  <ul class="dropdown-menu">
-			    <li ng-repeat="submenu in menu.submenus"><a href="{{submenu.href}}">{{submenu.label}}</a></li>
-			  </ul>
-			   -->
 			</li>
 	      </ul>
 	    </div><!-- /.nav-collapse -->
@@ -76,7 +68,10 @@
 	        	<li>Make a nice commit in the source code (we count on your creativity!)</li>
 	        	<li>Submit a pull request</li>
 	        	</ol><br/>
-            	Yeah, that's right - accepted pull request means accepted attendee! We couldn't thought that any geekier, could we? :-)
+            	Yeah, that's right - accepted pull request means accepted attendee! We couldn't thought that any geekier, could we? :-)<br/><br/>
+				<a target="_blank" href="https://github.com/git-kata/registration-v2">
+					<img src="images/git-kata-registration.png" class="img-rounded" title="Git Kata 2 Registration Repository"/>
+				</a><br/><br/>
 	        </h2>
 	        
 	        <h2 data-ng-switch-when="2">
