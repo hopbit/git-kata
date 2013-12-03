@@ -46,7 +46,12 @@ function Kata($scope) {
     	 id : "9",
     	 title : "git checkout -b hotfix",
     	 description : "Feature branches are one of the options for fast hotfix development. They may become our best friend, but also may lead to branch hell.<br/><br/> This Kata will be divided into three parts. The first part will focus on the standard workflow of feature branches. In the second part we will look over the different options that we have to smoothen our feature branch history or prepare our feature as a single commit (useful when we use various tools). The Kata will end with a short discussion when to use feature branches and when to avoid them."
-     }
+     },
+        {
+            id: "git-gerrit",
+            title: "gerrit",
+            description: "Gerrit is an advanced opensource web application for the collaborative code reviews. </br></br>In this kata you will learn how gerrit can help with improving quality of the codebase in your repository. I will explain how gerrit workflow looks like, what is great and what are the main pitfall of this tool"
+        }
 	];
 
 }

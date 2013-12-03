@@ -44,7 +44,9 @@ function Agenda($scope) {
 		katas : [ 
 		         { id : "0", mentor : "Michał Bareja", title : "gitflow", shortDesc: "" , colspan : "1"}, 
      	{ id : "0", mentor : "Rafał Krzewski", title : "egit + eclipse", shortDesc: "" , colspan : "1"}, 
-     	{ id : "0", mentor : "Radoslaw Scheibinger", title : "gerrit", shortDesc: "" , colspan : "1"}, 
+     	{ id : "git-gerrit", mentor : "Radoslaw Scheibinger", title : "gerrit",
+            shortDesc: "Gerrit is an advanced opensource for collaborative code reviews. In the git gerrit kata you will learn the basics of how to use it" ,
+            colspan : "1"},
      	{ id : "0", mentor : "Mateusz Kaczmarek", title : "git everyday", shortDesc: "working with git on daily basis, needs basic git knowdlege, rebase -i" , colspan : "1"}, 
      	{ id : "6", mentor : "Tomasz Ducin", title : "continous integration with git", shortDesc: "interating git wih jenkins/travis" , colspan : "1"}, 
      	{ id : "0", mentor : "Krzysztof Adamski", title : "git rebase -i", shortDesc: "interactive rebase & squashing" , colspan : "1"}, 
