@@ -46,6 +46,11 @@ function Kata($scope) {
     	 id : "9",
     	 title : "git checkout -b hotfix",
     	 description : "Feature branches are one of the options for fast hotfix development. They may become our best friend, but also may lead to branch hell.<br/><br/> This Kata will be divided into three parts. The first part will focus on the standard workflow of feature branches. In the second part we will look over the different options that we have to smoothen our feature branch history or prepare our feature as a single commit (useful when we use various tools). The Kata will end with a short discussion when to use feature branches and when to avoid them."
+     },
+     {     
+    	 id : "10",
+    	 title : "git internals",
+    	 description : "Git is not a version control system. Git is actually an interesting filesystem with a VCS-like interface. It's fascinating. And it's pretty simple.<br/><br/> I will present git from the internals point of view. We will dive into .git directory and see what happens under the hood during our everyday work. Ever tried making a commit without calling git commit command? After this kata git will no longer be a magic black box for you. You will be able to solve various problems with git more easily.<br/><br/>If you haven't thought about git being a NoSQL key-value store yet, then this kata is for you."
      }
 	];
 
