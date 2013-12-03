@@ -56,6 +56,11 @@ function Kata($scope) {
     	 id : "11",
     	 title : "gitlab",
     	 description : "GitLab is a web based, self hosted Git management application. It's very similar to GitHub but it's an open source project. If you are interested in using GitHub-like workflow but you want to keep your repositories on your own servers and you don't want to pay any license costs, GitLab is for you.<br/><br/>This kata won't show you how to install GitLab. Instead it will walk you through it's features, show some of it's weaknesses and describe the workflow you can use in your team. All you need in order to participate is a web browser installed and a SSH public key generated. Git client may be useful, too."
+     },
+     {
+    	 id: "12",
+    	 title: "gerrit",
+    	 description: "Gerrit is an advanced opensource web application for the collaborative code reviews. </br></br>In this kata you will learn how gerrit can help with improving quality of the codebase in your repository. I will explain how gerrit workflow looks like, what is great and what are the main pitfalls of this tool"
      }
 	];
 
