@@ -46,8 +46,8 @@ function Mentors($scope) {
 		bio : "Java developer who is always focused on delivering code of the highest possible quality. Had a year long adventure with Ruby and most recently started hacking in JavaScript with AngularJS. Member of Pragmatists team.<br/><br/>Favourite way of working: test driving in a pair.<br/><br/>Favourite git command: `git config --global branch.autosetuprebase always`"
 	},
 	{
-		id : "mateusz-kaczmarek", name : "Mateusz Kaczmarek", homepage : "#", img : "false",
-		bio : "TBD"
+		id : "mateusz-kaczmarek", name : "Mateusz Kaczmarek", homepage : "http://blog.kaczmarek.it/", img : "true",
+		bio : "I am a Software Developer. I believe there is no one answer, programming language, tool or framework resolving all kind of problems in best way. But for VCS there is the best solution - Git :) I am also think that program should do only one thing and do it well. Unfortunately this is not a philosophy behind Git interface. With one command You can delete remote branch, do coffee and wash dishes ;) Fortunately after some time You start liking this command madness and start using git with pleasure."
 	},
 	{
 		id : "pawel-sanjuan-szklarz", name : "Paweł Sanjuan Szklarz", homepage : "https://github.com/paweld2", img : "true",
