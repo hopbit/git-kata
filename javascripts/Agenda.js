@@ -104,7 +104,7 @@ function Agenda($scope) {
 	{
 		time : "15:40/16:00",
 		katas : [ 
-			{ id : "0", mentor : "Łukasz Szczęsny", title : "gitolite", shortDesc: "" , colspan : "1" },
+			{ id : "7", mentor : "Łukasz Szczęsny", title : "gitolite", shortDesc: "" , colspan : "1" },
 			{ id : "0", mentor : "Janek Kowalski", title : "legit", shortDesc: "" , colspan : "1"}, 
 			{ id : "0", mentor : "Mariusz Smykuła", title : "tig", shortDesc: "interaktywny git" , colspan : "1"}, 
 			{ id : "0", mentor : "Grzegorz Kubiak", title : "git bisect", shortDesc: "" , colspan : "1"},
