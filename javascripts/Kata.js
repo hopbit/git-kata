@@ -30,7 +30,7 @@ function Kata($scope) {
      {
     	 id : "6",
     	 title : "continous integration with git",
-    	 description : "In the beginning we'll say a few sentences about CI - if there'd be anyone who doesn't know what it is or what are the benefits. Kata will be divided into 2 parts: <a href='http://travis-ci.org/' target='_blank'>travis</a> and <a href='http://jenkins-ci.org/' target='_blank'>jenkins</a>. Both are free & popular CI platforms, designed for different types of projects. We'll take a very quick tour over functionalities of each tool and try to use them with our repos afterwards. I'd expect you to have a registered github account (this is required for travis integration) as well as jenkins deployed locally on your computers."
+    	 description : "In the beginning we'll say a few sentences about CI - if there'd be anyone who doesn't know what it is or what are the benefits. Kata will be divided into 2 parts: <a href='http://travis-ci.org/' target='_blank'>travis</a> and <a href='http://jenkins-ci.org/' target='_blank'>jenkins</a>. Both are free & popular CI platforms, designed for different types of projects. We'll take a very quick tour over functionalities of each tool and try to use them with our repos afterwards. I'd expect you to have a registered github account (this is required for travis integration) as well as jenkins deployed locally on your computers.<br/><br/><a href='https://github.com/join'>registering github account</a><br/><a href='https://wiki.jenkins-ci.org/display/JENKINS/Installing+Jenkins'>installing jenkins</a>"
      },
      {     
     	 id : "7",
