@@ -41,6 +41,11 @@ function Kata($scope) {
     	 id : "8",
     	 title : "git-annex",
     	 description : "How to store large binary files with Git? How to manage gigabytes of your favourite TV Shows on multiple locations? git-annex is the anwser!<br/><br/> You need to have both <a href='http://www.vagrantup.com/'>Vagrant</a> and <a href='https://www.virtualbox.org/'>VirtualBox</a> installed on your computer."
+     },
+     {     
+    	 id : "9",
+    	 title : "git checkout -b hotfix",
+    	 description : "Feature branches are one of the options for fast hotfix development. They may become our best friend, but also may lead to branch hell.<br/><br/> This Kata will be divided into three parts. The first part will focus on the standard workflow of feature branches. In the second part we will look over the different options that we have to smoothen our feature branch history or prepare our feature as a single commit (useful when we use various tools). The Kata will end with a short discussion when to use feature branches and when to avoid them."
      }
 	];
 
