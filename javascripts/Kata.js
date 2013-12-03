@@ -36,6 +36,11 @@ function Kata($scope) {
     	 id : "7",
     	 title : "gitolite",
     	 description : "We will setup fully-featured Git hosting with very fine-grained access control on our computers in 20 minutes! Then we will try to create some repositories and configure server-side hooks for them.<br/><br/>You need to have both <a href='http://www.vagrantup.com/'>Vagrant</a> and <a href='https://www.virtualbox.org/'>VirtualBox</a> installed on your computer."
+     },
+     {     
+    	 id : "8",
+    	 title : "git-annex",
+    	 description : "How to store large binary files with Git? How to manage gigabytes of your favourite TV Shows on multiple locations? git-annex is the anwser!<br/><br/> You need to have both <a href='http://www.vagrantup.com/'>Vagrant</a> and <a href='https://www.virtualbox.org/'>VirtualBox</a> installed on your computer."
      }
 	];
 

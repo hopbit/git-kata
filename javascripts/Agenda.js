@@ -122,7 +122,7 @@ function Agenda($scope) {
          { id : "0", mentor : "Adam Pierzchała", title : "git rerere", shortDesc: "" , colspan : "1"}, 
          { id : "0", mentor : "Tomasz Ducin", title : "git scrum", shortDesc: "using git on scrum projects" , colspan : "1"},
          { id : "0", mentor : "Piotr Jasiun", title : "git config", shortDesc: "configs, handful aliases, other tips & tricks" , colspan : "1" },
-         { id : "0", mentor : "Łukasz Szczęsny", title : "git-annex", shortDesc: "" , colspan : "1" }
+         { id : "8", mentor : "Łukasz Szczęsny", title : "git-annex", shortDesc: "" , colspan : "1" }
      	]
 	},
 	{
