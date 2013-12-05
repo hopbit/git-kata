@@ -50,7 +50,7 @@ function Agenda($scope) {
      	{ id : "0", mentor : "Mateusz Kaczmarek", title : "git everyday", shortDesc: "working with git on daily basis, needs basic git knowdlege, rebase -i" , colspan : "1"}, 
      	{ id : "6", mentor : "Tomasz Ducin", title : "continous integration with git", shortDesc: "interating git wih jenkins/travis" , colspan : "1"}, 
      	{ id : "0", mentor : "Krzysztof Adamski", title : "git rebase -i", shortDesc: "interactive rebase & squashing" , colspan : "1"}, 
-     	{ id : "0", mentor : "Michał Lewandowski", title : "git refresh", shortDesc: "refresh your git knowdlege/quick introduction to git" , colspan : "1" }
+     	{ id : "19", mentor : "Michał Lewandowski", title : "git refresh", shortDesc: "refresh your git knowdlege/quick introduction to git" , colspan : "1" }
      	]
 	},
 	{
