@@ -71,6 +71,11 @@ function Kata($scope) {
     	 id: "14",
     	 title: "Eclipse + EGit",
     	 description: "Używasz w codziennej pracy Eclipse a źródła projektu przechowujesz w repozytorium git. Kiedy pojawił się EGit 1.0.0 próbowałeś go użyć, ale okazało się że nie dość że interfejs jest 'tajemniczy', to co chwile pojawiają się błędy albo, co gorsza, operacji nie można wykonać z niewiadomych powodów. Od tej pory każdy przełączasz się cierpliwie (lub nie-) między Eclipse a konsolą. Mam dobrą wiadomość: EGit 3.0 (dostarczany razem z Eclipse 4.3) działa całkiem przyzwoicie i może  zaoszczędzić sporo Twojego czasu.<br/><br/> Warsztat w formie kata wymaga podstawowej znajomości gita oraz komputera z zainstalowanym Eclipse w wersji 4.3 (Kepler). Przećwiczymy tworzenie nowych repozytoriów lokalnych, użycie widoków 'Staging', 'History' i 'Commit viewer', operacje na branchach: tworzenie, przełączanie, merge i rebase wraz z rozwiązywaniem konfliktów, oraz pracę z repozytoriami zdalnymi: podłączanie, push i fetch. Omówimy też operacje które (nadal) łatwiej jest wykonać z konsoli."
+     },
+     {
+    	 id: "15",
+    	 title: "git rebase --onto",
+    	 description: "Git rebase is pretty powerfull tool, but sometimes you can get confused and feel that it works magically. If you feel that 'git rebase master' and 'git rebase --onto commit-b commit-a' are two totally different commands come and see they are not. You will learn what the hell will happen after 'git rebase --onto branch-a branch-b branch-c'."
      }
 	];
 
