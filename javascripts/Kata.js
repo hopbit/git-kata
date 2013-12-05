@@ -81,6 +81,11 @@ function Kata($scope) {
     	 id: "16",
     	 title: "git config",
     	 description: "On this kata we will talk about git config file. Starting from the basic configuration, going through basic and advanced aliases I will present how to work with git more efficient. You will learn how to fetch, reset two branches and do rebase using one command. All of aliases I will present, I use in everyday work."
+     },
+     {
+    	 id: "17",
+    	 title: "git / scrum",
+    	 description: "This workshop will not be a typical kata, rather a presentation and discussion. It will cover following topics:<br/><br/> * common branching traps that occur during the sprint<br/> * how to overcome the above - comparison of different merging models<br/> * useful git-related tools enhancing team's performance (code review, continuous integration) and their relation with scrum/git workflow<br/>"
      }
 	];
 
