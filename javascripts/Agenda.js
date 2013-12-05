@@ -43,7 +43,7 @@ function Agenda($scope) {
 		duration: "40 min",
 		katas : [ 
 		         { id : "0", mentor : "Michał Bareja", title : "gitflow", shortDesc: "" , colspan : "1"}, 
-     	{ id : "0", mentor : "Rafał Krzewski", title : "egit + eclipse", shortDesc: "" , colspan : "1"}, 
+     	{ id : "14", mentor : "Rafał Krzewski", title : "egit + eclipse", shortDesc: "" , colspan : "1"}, 
      	{ id : "12", mentor : "Radoslaw Scheibinger", title : "gerrit",
             shortDesc: "Gerrit is an advanced opensource for collaborative code reviews. In the git gerrit kata you will learn the basics of how to use it" ,
             colspan : "1"},

@@ -66,6 +66,11 @@ function Kata($scope) {
     	 id: "13",
     	 title: "git flow",
     	 description: "Często w trakcie pracy z systemem kontroli wersji dochodzisz do wniosku: 'To powinno być w branchu', 'Releasy powinny wychodzić z innego brancha', 'Gdzieś musimy przechowywać stabilne wersje'. Git to nie SVN! Praca z tym narzędziem jest o wiele prostsza, a łatwość tworzenia gałęzi powinna zachęcać do ich wykorzystywania. Właśnie tą cechę gita bardzo mocno wykorzystuje git flow - wzorzec pracy z gitem - stanowiący odpowiedź na nurtujące Cię pytania.<br/><br/> W trakcie warsztatu szczegółowo zapoznamy się z modelem git flow, jego wadami i zaletami, a także nauczymy się z niego korzystać."
+     },
+     {
+    	 id: "14",
+    	 title: "Eclipse + EGit",
+    	 description: "Używasz w codziennej pracy Eclipse a źródła projektu przechowujesz w repozytorium git. Kiedy pojawił się EGit 1.0.0 próbowałeś go użyć, ale okazało się że nie dość że interfejs jest 'tajemniczy', to co chwile pojawiają się błędy albo, co gorsza, operacji nie można wykonać z niewiadomych powodów. Od tej pory każdy przełączasz się cierpliwie (lub nie-) między Eclipse a konsolą. Mam dobrą wiadomość: EGit 3.0 (dostarczany razem z Eclipse 4.3) działa całkiem przyzwoicie i może  zaoszczędzić sporo Twojego czasu.<br/><br/> Warsztat w formie kata wymaga podstawowej znajomości gita oraz komputera z zainstalowanym Eclipse w wersji 4.3 (Kepler). Przećwiczymy tworzenie nowych repozytoriów lokalnych, użycie widoków 'Staging', 'History' i 'Commit viewer', operacje na branchach: tworzenie, przełączanie, merge i rebase wraz z rozwiązywaniem konfliktów, oraz pracę z repozytoriami zdalnymi: podłączanie, push i fetch. Omówimy też operacje które (nadal) łatwiej jest wykonać z konsoli."
      }
 	];
 
