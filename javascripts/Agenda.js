@@ -75,7 +75,7 @@ function Agenda($scope) {
 		         { id : "0", mentor : "Grzegorz Kubiak", title : "git filter-branch", shortDesc: "" , colspan : "1" },
 		         { id : "5", mentor : "Jakub Nabrdalik", title : "Git internals", shortDesc: ".git dir & how it works" , colspan : "1" },
          { id : "9", mentor : "Justyna Sadło", title : "git checkout -b hotfix", shortDesc: "local feature branches" , colspan : "1"}, 
-         { id : "0", mentor : "Michał Lewandowski", title : "git stash", shortDesc: "" , colspan : "1"}
+         		{ id : "18", mentor : "Michał Lewandowski", title : "git stash", shortDesc: "" , colspan : "1"}
      	]
 	},
 	{
@@ -136,7 +136,7 @@ function Agenda($scope) {
 		         { id : "0", mentor : "Grzegorz Kubiak", title : "git filter-branch", shortDesc: "" , colspan : "1" },
 		         { id : "17", mentor : "Tomasz Ducin", title : "git scrum", shortDesc: "using git on scrum projects" , colspan : "1"},
 		         { id : "2", mentor : "Paweł Sanjuan Szklarz", title : "subtree", shortDesc: "" , colspan : "1"}, 
-		         { id : "0", mentor : "Michał Lewandowski", title : "git stash", shortDesc: "" , colspan : "1"}
+		         { id : "18", mentor : "Michał Lewandowski", title : "git stash", shortDesc: "" , colspan : "1"}
      	]
 	},
 	{
