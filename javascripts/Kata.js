@@ -91,6 +91,11 @@ function Kata($scope) {
     	 id: "18",
     	 title: "Git stash",
     	 description: "I have to admit, that the git stash is a simple and easy to use tool. In this 20 minutes kata I would like to discover, possible usages of this command. I would like to explore and experiment with all those switches that are available for this command.<br/><br/> Bring your computer because there will be no slieds, only command line fun."
+     },
+     {
+    	 id: "19",
+    	 title: "Git refresh",
+    	 description: "There is no such command as git refresh. This 40 minutes kata is designed for people who would like to refresh their knowladge about git. I would also welcome people, who are starting with git.<br/><br/> I would like to split this kata in three parts: - Local operations with files such as commiting, adding, checking out.<br/><br/> - Local operations witch branches which mean merging and rebasing.<br/> - Remote operations such as pulling, pushing and fetching.<br/><br/> I would not go deep into those operations. My goal is to pass you an idea of git.<br/><br/> Bring your computer because there will be no slides, only command line fun.<br/><br/>"
      }
 	];
 
