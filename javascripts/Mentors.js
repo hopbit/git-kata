@@ -26,7 +26,7 @@ function Mentors($scope) {
 		bio : "I am a student at the Warsaw University of Technology and a software developer in my free time ;) I like to learn new things - especially new languages and tools that make my work easier. Besides IT I dance lindy hop and do other forms of physical activity."
 	},
 	{
-		id : "krzysztof-adamski", name : "Krzysztof Adamski", homepage : "http://k.japko.eu", img : "false",
+		id : "krzysztof-adamski", name : "Krzysztof Adamski", homepage : "http://k.japko.eu", img : "nima",
 		bio : "Linux Systems Engineer currently working in ISP company on custom made IPTV solution. At work, I spend most of the time as an Android Platform and Embedded Linux Developer working on some low level aspects of Android and Linux based SetTopBox devices. Since I’m a technical leader of the IPTV department, I’m also involved in many other activities ranging from code reviews, Linux server management to JavaScript front-end and Python/Django back-end development."
 	},
 	{
@@ -62,7 +62,7 @@ function Mentors($scope) {
 		bio : "Currently I work as software engineer at Polidea, more around Java than strictly with it. Like to share knowledge and have a lot of patience :) Feel free to ask if You're interested in any of my activities."
 	},
 	{
-		id : "adam-pierzchala", name : "Adam Pierzchała", homepage : "#", img : "false",
+		id : "adam-pierzchala", name : "Adam Pierzchała", homepage : "#", img : "nima",
 		bio : "I am a Software Developer at <a href='http://www.pragmatists.pl/'>Pragmatists</a>, where on every day basis I use Agile and Extreme Programming techniques, including TDD and Pair Programming. After work I make my insane ideas come true, which are making games, creating algorithms for automatic terrain generation and conquering the world. For all of them I use git."
 	},
 	{
