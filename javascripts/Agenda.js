@@ -34,7 +34,7 @@ function Agenda($scope) {
 			{ id : "0", mentor : "Grzegorz Kubiak", title : "git bisect", shortDesc: "" , colspan : "1"}, 
 			{ id : "0", mentor : "Adam Pierzchała", title : "git merge vs git rebase", shortDesc: "" , colspan : "1"},
 			{ id : "3", mentor : "Jakub Nabrdalik", title : "Configs, handful aliases, other tips & tricks", shortDesc: "" , colspan : "1"}, 
-			{ id : "16", mentor : "Piotr Jasiun", title : "git config", shortDesc: "configs, handful aliases, other tips & tricks" , colspan : "1" },
+			{ id : "15", mentor : "Piotr Jasiun", title : "git rebase --onto", shortDesc: "" , colspan : "1"}, 
 			{ id : "9", mentor : "Justyna Sadło", title : "git checkout -b hotfix", shortDesc: "local feature branches" , colspan : "1"}, 
      	]
 	},
@@ -50,7 +50,7 @@ function Agenda($scope) {
      	{ id : "0", mentor : "Mateusz Kaczmarek", title : "git everyday", shortDesc: "working with git on daily basis, needs basic git knowdlege, rebase -i" , colspan : "1"}, 
      	{ id : "6", mentor : "Tomasz Ducin", title : "continous integration with git", shortDesc: "interating git wih jenkins/travis" , colspan : "1"}, 
      	{ id : "0", mentor : "Krzysztof Adamski", title : "git rebase -i", shortDesc: "interactive rebase & squashing" , colspan : "1"}, 
-     	{ id : "0", mentor : "Michał Lewandowski", title : "git refresh", shortDesc: "refresh your git knowdlege/quick introduction to git" , colspan : "1" }
+     	{ id : "19", mentor : "Michał Lewandowski", title : "git refresh", shortDesc: "refresh your git knowdlege/quick introduction to git" , colspan : "1" }
      	]
 	},
 	{
@@ -75,7 +75,7 @@ function Agenda($scope) {
 		         { id : "0", mentor : "Grzegorz Kubiak", title : "git filter-branch", shortDesc: "" , colspan : "1" },
 		         { id : "5", mentor : "Jakub Nabrdalik", title : "Git internals", shortDesc: ".git dir & how it works" , colspan : "1" },
          { id : "9", mentor : "Justyna Sadło", title : "git checkout -b hotfix", shortDesc: "local feature branches" , colspan : "1"}, 
-         { id : "0", mentor : "Michał Lewandowski", title : "git stash", shortDesc: "" , colspan : "1"}
+         		{ id : "18", mentor : "Michał Lewandowski", title : "git stash", shortDesc: "" , colspan : "1"}
      	]
 	},
 	{
@@ -136,7 +136,7 @@ function Agenda($scope) {
 		         { id : "0", mentor : "Grzegorz Kubiak", title : "git filter-branch", shortDesc: "" , colspan : "1" },
 		         { id : "17", mentor : "Tomasz Ducin", title : "git scrum", shortDesc: "using git on scrum projects" , colspan : "1"},
 		         { id : "2", mentor : "Paweł Sanjuan Szklarz", title : "subtree", shortDesc: "" , colspan : "1"}, 
-		         { id : "0", mentor : "Michał Lewandowski", title : "git stash", shortDesc: "" , colspan : "1"}
+		         { id : "18", mentor : "Michał Lewandowski", title : "git stash", shortDesc: "" , colspan : "1"}
      	]
 	},
 	{
