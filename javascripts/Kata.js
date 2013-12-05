@@ -86,6 +86,11 @@ function Kata($scope) {
     	 id: "17",
     	 title: "git / scrum",
     	 description: "This workshop will not be a typical kata, rather a presentation and discussion. It will cover following topics:<br/><br/> * common branching traps that occur during the sprint<br/> * how to overcome the above - comparison of different merging models<br/> * useful git-related tools enhancing team's performance (code review, continuous integration) and their relation with scrum/git workflow<br/>"
+     },
+     {
+    	 id: "18",
+    	 title: "Git stash",
+    	 description: "I have to admit, that the git stash is a simple and easy to use tool. In this 20 minutes kata I would like to discover, possible usages of this command. I would like to explore and experiment with all those switches that are available for this command.<br/><br/> Bring your computer because there will be no slieds, only command line fun."
      }
 	];
 
