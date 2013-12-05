@@ -76,6 +76,11 @@ function Kata($scope) {
     	 id: "15",
     	 title: "git rebase --onto",
     	 description: "Git rebase is pretty powerfull tool, but sometimes you can get confused and feel that it works magically. If you feel that 'git rebase master' and 'git rebase --onto commit-b commit-a' are two totally different commands come and see they are not. You will learn what the hell will happen after 'git rebase --onto branch-a branch-b branch-c'."
+     },
+     {
+    	 id: "16",
+    	 title: "git config",
+    	 description: "On this kata we will talk about git config file. Starting from the basic configuration, going through basic and advanced aliases I will present how to work with git more efficient. You will learn how to fetch, reset two branches and do rebase using one command. All of aliases I will present, I use in everyday work."
      }
 	];
 

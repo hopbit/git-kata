@@ -34,7 +34,7 @@ function Agenda($scope) {
 			{ id : "0", mentor : "Grzegorz Kubiak", title : "git bisect", shortDesc: "" , colspan : "1"}, 
 			{ id : "0", mentor : "Adam Pierzchała", title : "git merge vs git rebase", shortDesc: "" , colspan : "1"},
 			{ id : "3", mentor : "Jakub Nabrdalik", title : "Configs, handful aliases, other tips & tricks", shortDesc: "" , colspan : "1"}, 
-			{ id : "0", mentor : "Piotr Jasiun", title : "git config", shortDesc: "configs, handful aliases, other tips & tricks" , colspan : "1" },
+			{ id : "16", mentor : "Piotr Jasiun", title : "git config", shortDesc: "configs, handful aliases, other tips & tricks" , colspan : "1" },
 			{ id : "9", mentor : "Justyna Sadło", title : "git checkout -b hotfix", shortDesc: "local feature branches" , colspan : "1"}, 
      	]
 	},
@@ -123,7 +123,7 @@ function Agenda($scope) {
          { id : "0", mentor : "Janek Kowalski", title : "legit", shortDesc: "" , colspan : "1"}, 
          { id : "0", mentor : "Adam Pierzchała", title : "git rerere", shortDesc: "" , colspan : "1"}, 
          { id : "0", mentor : "Tomasz Ducin", title : "git scrum", shortDesc: "using git on scrum projects" , colspan : "1"},
-         { id : "0", mentor : "Piotr Jasiun", title : "git config", shortDesc: "configs, handful aliases, other tips & tricks" , colspan : "1" },
+         { id : "16", mentor : "Piotr Jasiun", title : "git config", shortDesc: "configs, handful aliases, other tips & tricks" , colspan : "1" },
          { id : "8", mentor : "Łukasz Szczęsny", title : "git-annex", shortDesc: "" , colspan : "1" }
      	]
 	},
