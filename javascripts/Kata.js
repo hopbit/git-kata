@@ -112,7 +112,7 @@ function Kata($scope) {
      {
          id: "22",
          title: "git branch & git tag",
-         description: "Czym jest branch? Czym jest tag? Jak sie ich używa? Te podstawowe pojęcia warto znać zanim zaczniemy bawić sie bardziej skomplikowanymi komendami. Ta kata dedykowana jest początkującym gitowcom, którzy dopiero zaczynają swoją przygodę z giem."
+         description: "Czym jest branch? Czym jest tag? Jak sie ich używa? Te podstawowe pojęcia warto znać zanim zaczniemy bawić sie bardziej skomplikowanymi komendami. Ta kata dedykowana jest początkującym gitowcom, którzy dopiero zaczynają swoją przygodę z gitem."
      }
 	];
 
