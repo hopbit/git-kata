@@ -39,8 +39,12 @@ function MenuCtrl($scope) {
 	}, {
 		href : 'sponsors.html',
 		label : 'Sponsors'
-	}
-	, {
+	},
+	{
+		href : 'map.html',
+		label : 'Map'
+	},
+	{
 		href : 'reference.html',
 		label : 'Reference'
 	}, {
