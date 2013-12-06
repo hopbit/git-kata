@@ -29,7 +29,7 @@ function Agenda($scope) {
 		time : "11:25/11:45",
 		duration: "20 min",
 		katas : [ 
-		         { id : "0", mentor : "Michał Bareja", title : "git branch & git tag", shortDesc: "branches & tags" , colspan : "1"}, 
+		         { id : "22", mentor : "Michał Bareja", title : "git branch & git tag", shortDesc: "branches & tags" , colspan : "1"},
 			{ id : "10", mentor : "Piotr Betkier", title : "git internals", shortDesc: ".git dir & how it works" , colspan : "1" },
 			{ id : "0", mentor : "Grzegorz Kubiak", title : "git bisect", shortDesc: "" , colspan : "1"}, 
 			{ id : "0", mentor : "Adam Pierzchała", title : "git merge vs git rebase", shortDesc: "" , colspan : "1"},
@@ -42,7 +42,7 @@ function Agenda($scope) {
 		time : "11:55/12:35",
 		duration: "40 min",
 		katas : [ 
-		         { id : "0", mentor : "Michał Bareja", title : "gitflow", shortDesc: "" , colspan : "1"}, 
+		         { id : "20", mentor : "Michał Bareja", title : "gitflow", shortDesc: "" , colspan : "1"},
      	{ id : "14", mentor : "Rafał Krzewski", title : "egit + eclipse", shortDesc: "" , colspan : "1"}, 
      	{ id : "12", mentor : "Radoslaw Scheibinger", title : "gerrit",
             shortDesc: "Gerrit is an advanced opensource for collaborative code reviews. In the git gerrit kata you will learn the basics of how to use it" ,
@@ -82,7 +82,7 @@ function Agenda($scope) {
 		time : "14:00/14:40",
 		duration: "40 min",
 		katas : [ 
-		         { id : "0", mentor : "Michał Bareja", title : "git undo", shortDesc: "(undoing changes: revert, reset, reflog, cherry-pick, amend)" , colspan : "1"}, 
+		         { id : "21", mentor : "Michał Bareja", title : "git undo", shortDesc: "undoing changes: revert, reset, reflog, cherry-pick, amend" , colspan : "1"},
 		         { id : "0", mentor : "Mateusz Harasymczuk", title : "branching model", shortDesc: "" , colspan : "1"},
 			{ id : "0", mentor : "Mateusz Kaczmarek", title : "git rebase -i", shortDesc: "interactive rebase & squashing)" , colspan : "1"}, 
 			{ id : "13", mentor : "Maciej Opała", title : "gitflow", shortDesc: "" , colspan : "1"}, 
@@ -118,7 +118,7 @@ function Agenda($scope) {
 	{
 		time : "16:10/16:30",
 		katas : [ 
-         { id : "0", mentor : "Michał Bareja", title : "git branch & git tag", shortDesc: "branches & tags" , colspan : "1"}, 
+         { id : "22", mentor : "Michał Bareja", title : "git branch & git tag", shortDesc: "branches & tags" , colspan : "1"},
          { id : "0", mentor : "Mateusz Harasymczuk", title : "pull requests", shortDesc: "git cola" , colspan : "1"}, 
          { id : "0", mentor : "Janek Kowalski", title : "legit", shortDesc: "" , colspan : "1"}, 
          { id : "0", mentor : "Adam Pierzchała", title : "git rerere", shortDesc: "" , colspan : "1"}, 

@@ -96,6 +96,23 @@ function Kata($scope) {
     	 id: "19",
     	 title: "Git refresh",
     	 description: "There is no such command as git refresh. This 40 minutes kata is designed for people who would like to refresh their knowladge about git. I would also welcome people, who are starting with git.<br/><br/> I would like to split this kata in three parts: - Local operations with files such as commiting, adding, checking out.<br/><br/> - Local operations witch branches which mean merging and rebasing.<br/> - Remote operations such as pulling, pushing and fetching.<br/><br/> I would not go deep into those operations. My goal is to pass you an idea of git.<br/><br/> Bring your computer because there will be no slides, only command line fun.<br/><br/>"
+     },
+     {
+         id: "20",
+         title: "git flow",
+         description: "Wszyscy wiemy jak zrobić commit na branchu i wypushować go remote repo. Ale jak poradzić sobie z kilkoma branchami? Co gdy do jednego repo commituje wielu developerów którzy pracują nad różnymi nowymi funkcjonalnościami? Do tego mamy jeszcze brancha który odzwierciedla stan aktualnej produkcji i chcemy zrobić w nim poprawkę ale tak żeby nie zgubiła się w wersji developerskiej. Gitflow odpowiada na te wszystkie problemy poprzez narzucanie sensownego modelu branchowania i dodanie kilku komend które znacznie ułatwiają połapanie się w tym całym chaosie." +
+             "<br/><br/>" +
+             "Nauczymy się tworzyć feature branche przy pomocy gitflowa oraz jak sprawnie się między niemi przełączać i dzielić z innymi developerami. Kolejny krok to release. Sprawdzimy jak gitflow może pomóc nam w tej sytuacji. Gdzie powinny trafić commity robione podczas release'u, Kiedy powinniśmy otagować repozytorium oraz jak cofnąć nieudany release. Na koniec poznamy zestaw komend \"gitflow hotfix ...\". Dowiemy się jak zarządzać poprawkami do wersji produkcyjnej i dlaczego używać do tego gitflowa zamiast samemu wykonywać merge'e i cherry-pick'i."
+     },
+     {
+         id: "21",
+         title: "git undo",
+         description: "\"Oops, ten commit nie miał tak wyglądać\", \"Zapomniałem o jednym pliku\", \"Źle rozwiązałem ten konflikt\". Jak zmienić message, jak odwrócić commit, jak zmienić historię? Ta kata nauczy Cię jak wyjśc obronną ręką z sytuacji, w których coś poszło nie tak."
+     },
+     {
+         id: "22",
+         title: "git branch & git tag",
+         description: "Czym jest branch? Czym jest tag? Jak sie ich używa? Te podstawowe pojęcia warto znać zanim zaczniemy bawić sie bardziej skomplikowanymi komendami. Ta kata dedykowana jest początkującym gitowcom, którzy dopiero zaczynają swoją przygodę z giem."
      }
 	];
 
