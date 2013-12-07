@@ -24,7 +24,12 @@ function MenuCtrl($scope) {
 			href : '#organizers',
 			label : 'Organizers',
 		} ]*/
-	}, {
+	},
+	{
+		href : 'news.html',
+		label : 'News'
+	},
+	{
 		href : 'registration.html',
 		label : 'Registration'
 	}, {

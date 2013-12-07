@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html data-ng-app>
+
+<!-- HEADER -->
+<head>
+    <meta charset='utf-8'>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="bootswatch/bootstrap.css" media="screen">
+    <link rel="stylesheet" href="bootswatch/font-awesome.min.css">
+    <link rel="stylesheet" href="bootswatch/bootswatch.min.css">
+    <link rel="stylesheet" href="bootswatch/extension.css">
+    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+      <script src="bootswatch/html5shiv.js"></script>
+      <script src="bootswatch/respond.min.js"></script>
+    <![endif]-->
+	
+	<script src="bootswatch/jquery.min.js"></script>
+	<script src="bootswatch/bootstrap.min.js"></script>
+	<script src="bootswatch/bootswatch.js"></script>
+	
+	<script src="./javascripts/angular.min.js"></script>
+	<script src="./javascripts/MenuCtrl.js"></script>
+	<script src="./javascripts/News.js"></script>
+
+    <title>Git Kata 2 - News</title>
+</head>
+
+<body>
+
+    <!-- MENU -->
+	<div class="navbar navbar-default navbar-fixed-top" data-ng-controller="MenuCtrl">
+	  <div class="container">
+	    <div class="navbar-collapse collapse navbar-responsive-collapse">
+	      <ul class="nav navbar-nav">
+	        <li data-ng-repeat="menu in menus">
+			  <a href="{{menu.href}}">{{menu.label}}</a>
+			</li>
+	      </ul>
+	    </div><!-- /.nav-collapse -->
+	  </div><!-- /.container -->
+	</div><!-- /.navbar -->
+	
+	
+	<!-- ### CONTENT ### -->
+	
+<div class="container" data-ng-controller="News">
+
+	<div class="row">
+		<div class="col-lg-12 text-center">
+			<h2>News</h2>
+		</div>
+	</div>
+	<div class="row">
+		<div class="col-lg-12">
+			<div class="col-lg-2">&nbsp;</div>
+			<input type="text" id="searchBox" data-ng-model="searchBox" placeholder="Search Box" class="col-lg-8"/>
+			<div class="col-lg-2">&nbsp;</div>
+		</div>
+	</div>
+	
+	<hr/>
+
+	<div class="row">
+		<div class="col-lg-2" id="{{ item.date }}" data-ng-repeat="item in news | filter:searchBox | orderBy:'date':true">
+	         <h4><u>{{ item.date }}</u><br/>{{ item.header }}</h4>
+	        <p data-ng-bind-html-unsafe="item.content"></p>
+	        <br/>
+		</div>
+	</div>
+
+</div>
+
+<!-- 
+<script type="text/javascript">
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-45541501-1', 'gitkata.pl');
+  ga('send', 'pageview');
+</script>
+ -->
+	
+</body>
+</html>
