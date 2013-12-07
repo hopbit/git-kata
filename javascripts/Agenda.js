@@ -71,7 +71,7 @@ function Agenda($scope) {
 		katas : [ 
 		         { id : "0", mentor : "Adam Pierzchała", title : "git rerere", shortDesc: "" , colspan : "1"}, 
 		         { id : "10", mentor : "Piotr Betkier", title : "git internals", shortDesc: ".git dir & how it works" , colspan : "1" },
-		         { id : "1", mentor : "Mariusz Smykuła", title : "tig", shortDesc: "interaktywny git" , colspan : "1"}, 
+		         { id : "0", mentor : "Mariusz Smykuła", title : "tig", shortDesc: "interaktywny git" , colspan : "1"}, 
 		         { id : "24", mentor : "Grzegorz Kubiak", title : "git filter-branch", shortDesc: "" , colspan : "1" },
 		         { id : "5", mentor : "Jakub Nabrdalik", title : "Git internals", shortDesc: ".git dir & how it works" , colspan : "1" },
          { id : "9", mentor : "Justyna Sadło", title : "git checkout -b hotfix", shortDesc: "local feature branches" , colspan : "1"}, 
@@ -83,7 +83,7 @@ function Agenda($scope) {
 		duration: "40 min",
 		katas : [ 
 		         { id : "21", mentor : "Michał Bareja", title : "git undo", shortDesc: "undoing changes: revert, reset, reflog, cherry-pick, amend" , colspan : "1"},
-		         { id : "0", mentor : "Mateusz Harasymczuk", title : "branching model", shortDesc: "" , colspan : "1"},
+		         { id : "25", mentor : "Mateusz Harasymczuk", title : "branching model", shortDesc: "" , colspan : "1"},
 			{ id : "0", mentor : "Mateusz Kaczmarek", title : "git rebase -i", shortDesc: "interactive rebase & squashing)" , colspan : "1"}, 
 			{ id : "13", mentor : "Maciej Opała", title : "gitflow", shortDesc: "" , colspan : "1"}, 
 			{ id : "4", mentor : "Jakub Nabrdalik", title : "Git rebase -i", shortDesc: "interactive rebase & squashing)" , colspan : "1"}, 
@@ -119,7 +119,7 @@ function Agenda($scope) {
 		time : "16:10/16:30",
 		katas : [ 
          { id : "22", mentor : "Michał Bareja", title : "git branch & git tag", shortDesc: "branches & tags" , colspan : "1"},
-         { id : "0", mentor : "Mateusz Harasymczuk", title : "pull requests", shortDesc: "git cola" , colspan : "1"}, 
+         { id : "26", mentor : "Mateusz Harasymczuk", title : "pull requests", shortDesc: "git cola" , colspan : "1"}, 
          { id : "0", mentor : "Janek Kowalski", title : "legit", shortDesc: "" , colspan : "1"}, 
          { id : "0", mentor : "Adam Pierzchała", title : "git rerere", shortDesc: "" , colspan : "1"}, 
          { id : "17", mentor : "Tomasz Ducin", title : "git / scrum", shortDesc: "using git on scrum projects" , colspan : "1"},

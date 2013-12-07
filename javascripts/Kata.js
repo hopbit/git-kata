@@ -124,6 +124,16 @@ function Kata($scope) {
     	 title: "git filter-branch",
     	 description: "Motywacja<br/><br/> Chcesz upublicznić swój projekt z całą historią commitów? Niestety zawiera ona dane, których nie możesz udostępnić, takie jak adresy e-mail albo nieopatrznie zamieszczone hasła. Co wtedy? Wtedy możesz zmienić swoją historię za pomocą git filter-branch.<br/><br/> Scenariusz<br/><br/> Na przykładach zobaczymy w działaniu filtry dostępne w komendzie filter-branch. Za ich pomocą 'masowo' przepiszemy historie specjalnie przygotowanych gałęzi."
      },
+     {
+    	 id: "25",
+    	 title: "branching model",
+    	 description: "Motywacja<br/><br/> Czym są branche? Jak tworzone i reprezentowane są tagi i inne obiekty w GIT? Co czyni go takim wyjątkowym i jak się to ma do pozostałych systemów kontroli wersji.<br/><br/> Scenariusz<br/><br/> Zapoznamy się z obiektami reprezentującymi tagi, branche i commity w GIT. Nauczymy się jak się je tworzy, zarządza, merguje i jak najlepiej stworzyć drzewko w naszym repozytorium."
+     },
+     {
+    	 id: "26",
+    	 title: "pull requests",
+    	 description: "Motywacja<br/><br/> Czym różni się merge od rebase? Dlaczego jeden z nich jest lepszy, jak to się ma do historii repozytorium i commitów?<br/><br/> Scenariusz<br/><br/> Dowiemy się jak wygląda repozytorium przed i po mergach, rebaseach. Reprezentację obiektów GITowych oraz wpływ na nasz kod i pojawianie się konfliktów."
+     },
 	];
 
 }
