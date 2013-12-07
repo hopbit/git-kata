@@ -113,7 +113,12 @@ function Kata($scope) {
          id: "22",
          title: "git branch & git tag",
          description: "Czym jest branch? Czym jest tag? Jak sie ich używa? Te podstawowe pojęcia warto znać zanim zaczniemy bawić sie bardziej skomplikowanymi komendami. Ta kata dedykowana jest początkującym gitowcom, którzy dopiero zaczynają swoją przygodę z gitem."
-     }
+     },
+     {
+    	 id: "23",
+    	 title: "git bisect",
+    	 description: "Motywacja<br/><br/> Uwaga: pełne uczestnictwo w tej kacie wymaga zainstalowanego mavena lub gradle<br/><br/> Czasami, nawet pomimo używania continous integration i testów automatycznych, pojawia się w projekcie tajemnicza regresja. Co gorsza, nikt z zespołu nie ma pomysłu, co ją mogło spowodować. Wtedy z pomocą przychodzi nam komenda git bisect.<br/><br/> Scenariusz<br/><br/> Na specjalnie przygotowanych gałęziach zobaczymy jak znaleźć commita, który 'popsuł' coś w projekcie. Najpierw regresji będziemy szukać za pomocą testów ręcznych. Potem na gałęzi zawierającej tysiąc commitów znajdziemy problematyczną zmianę wpisując w konsoli tylko jedną komendę."
+     },
 	];
 
 }

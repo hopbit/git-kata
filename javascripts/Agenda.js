@@ -31,7 +31,7 @@ function Agenda($scope) {
 		katas : [ 
 		         { id : "22", mentor : "Michał Bareja", title : "git branch & git tag", shortDesc: "branches & tags" , colspan : "1"},
 			{ id : "10", mentor : "Piotr Betkier", title : "git internals", shortDesc: ".git dir & how it works" , colspan : "1" },
-			{ id : "0", mentor : "Grzegorz Kubiak", title : "git bisect", shortDesc: "" , colspan : "1"}, 
+			{ id : "23", mentor : "Grzegorz Kubiak", title : "git bisect", shortDesc: "" , colspan : "1"}, 
 			{ id : "0", mentor : "Adam Pierzchała", title : "git merge vs git rebase", shortDesc: "" , colspan : "1"},
 			{ id : "3", mentor : "Jakub Nabrdalik", title : "Configs, handful aliases, other tips & tricks", shortDesc: "" , colspan : "1"}, 
 			{ id : "15", mentor : "Piotr Jasiun", title : "git rebase --onto", shortDesc: "" , colspan : "1"}, 
@@ -109,7 +109,7 @@ function Agenda($scope) {
 			{ id : "7", mentor : "Łukasz Szczęsny", title : "gitolite", shortDesc: "" , colspan : "1" },
 			{ id : "0", mentor : "Janek Kowalski", title : "legit", shortDesc: "" , colspan : "1"}, 
 			{ id : "0", mentor : "Mariusz Smykuła", title : "tig", shortDesc: "interaktywny git" , colspan : "1"}, 
-			{ id : "0", mentor : "Grzegorz Kubiak", title : "git bisect", shortDesc: "" , colspan : "1"},
+			{ id : "23", mentor : "Grzegorz Kubiak", title : "git bisect", shortDesc: "" , colspan : "1"},
 			{ id : "3", mentor : "Jakub Nabrdalik", title : "Configs, handful aliases, other tips & tricks", shortDesc: "" , colspan : "1"}, 
 			{ id : "15", mentor : "Piotr Jasiun", title : "git rebase --onto", shortDesc: "" , colspan : "1"}, 
 			{ id : "2", mentor : "Paweł Sanjuan Szklarz", title : "subtree", shortDesc: "" , colspan : "1"} 
