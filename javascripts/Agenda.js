@@ -132,7 +132,7 @@ function Agenda($scope) {
 		katas : [ 
 		         { id : "28", mentor : "Adam Pierzchała", title : "git rerere", shortDesc: "" , colspan : "1"}, 
 		         { id : "0", mentor : "Mateusz Harasymczuk", title : "release management with git", shortDesc: "---" , colspan : "1"},
-		         { id : "0", mentor : "Janek Kowalski", title : "github", shortDesc: "git cola" , colspan : "1"}, 
+		         { id : "31", mentor : "Janek Kowalski", title : "github", shortDesc: "git cola" , colspan : "1"}, 
 		         { id : "24", mentor : "Grzegorz Kubiak", title : "git filter-branch", shortDesc: "" , colspan : "1" },
 		         { id : "17", mentor : "Tomasz Ducin", title : "git scrum", shortDesc: "using git on scrum projects" , colspan : "1"},
 		         { id : "2", mentor : "Paweł Sanjuan Szklarz", title : "subtree", shortDesc: "" , colspan : "1"}, 

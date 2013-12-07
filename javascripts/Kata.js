@@ -154,6 +154,11 @@ function Kata($scope) {
     	 title: "legit",
     	 description: "LEGIT is a tiny wrapper for git cmd interface. It gives you an alternative for standard commands, I would say more intuitive ones. I will show how it makes git workflow easier."
      },
+     {
+    	 id: "31",
+    	 title: "github",
+    	 description: "GITHUB - Everyone knows what this is. I will just summarize how to do pull requests, where are the issues discussed and how to keep you fork synchronized."
+     },
 	];
 
 }
