@@ -137,7 +137,7 @@ function Kata($scope) {
      {
     	 id: "27",
     	 title: "tig - tekstowy interfejs do gita",
-    	 description: "Tematem tej katy będzie Tig - interaktywna tekstowa nakładka na gita która znacznie ułatwia pracę w konsoli.<br/><br/> Podczas tej katy spóbujemy korzystając z Tiga wykonać podstawowe czynności - przejrzeć historię rewizji, zmienić gałąź (branch), zatwierdzić zmiany wprowadzone na wielu plikach i kilka innych. Wszystko z poziomu tekstowego interfejsu, bez konieczność wpisywania i zapamiętywania długich komend.  <br/><br/> Na koniec pokażę jak można dopasować Tiga do własnych potrzeb, zmienić klawisze na bardziej intuicyjne oraz poprawić wprowadzone zmiany (amend).<br/><br/>"
+    	 description: "Tematem tej katy będzie Tig - interaktywna tekstowa nakładka na gita która znacznie ułatwia pracę w konsoli.<br/><br/> Podczas tej katy spóbujemy korzystając z Tiga wykonać podstawowe czynności - przejrzeć historię rewizji, zmienić gałąź (branch), zatwierdzić zmiany wprowadzone na wielu plikach i kilka innych. Wszystko z poziomu tekstowego interfejsu, bez konieczność wpisywania i zapamiętywania długich komend.  <br/><br/> Na koniec pokażę jak można dopasować Tiga do własnych potrzeb, zmienić klawisze na bardziej intuicyjne oraz poprawić wprowadzone zmiany (amend).<br/><br/>Na katę należy zabrać ze sobą komputer z zainstalowanym Gitem i TIgiem oraz dowolne repozytorium Git.<br/><br/><a href'http://jonas.nitro.dk/tig/'>http://jonas.nitro.dk/tig/</a>"
      },
 	];
 
