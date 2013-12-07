@@ -119,6 +119,11 @@ function Kata($scope) {
     	 title: "git bisect",
     	 description: "Motywacja<br/><br/> Uwaga: pełne uczestnictwo w tej kacie wymaga zainstalowanego mavena lub gradle<br/><br/> Czasami, nawet pomimo używania continous integration i testów automatycznych, pojawia się w projekcie tajemnicza regresja. Co gorsza, nikt z zespołu nie ma pomysłu, co ją mogło spowodować. Wtedy z pomocą przychodzi nam komenda git bisect.<br/><br/> Scenariusz<br/><br/> Na specjalnie przygotowanych gałęziach zobaczymy jak znaleźć commita, który 'popsuł' coś w projekcie. Najpierw regresji będziemy szukać za pomocą testów ręcznych. Potem na gałęzi zawierającej tysiąc commitów znajdziemy problematyczną zmianę wpisując w konsoli tylko jedną komendę."
      },
+     {
+    	 id: "24",
+    	 title: "git filter-branch",
+    	 description: "Motywacja<br/><br/> Chcesz upublicznić swój projekt z całą historią commitów? Niestety zawiera ona dane, których nie możesz udostępnić, takie jak adresy e-mail albo nieopatrznie zamieszczone hasła. Co wtedy? Wtedy możesz zmienić swoją historię za pomocą git filter-branch.<br/><br/> Scenariusz<br/><br/> Na przykładach zobaczymy w działaniu filtry dostępne w komendzie filter-branch. Za ich pomocą 'masowo' przepiszemy historie specjalnie przygotowanych gałęzi."
+     },
 	];
 
 }
