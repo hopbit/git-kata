@@ -144,6 +144,11 @@ function Kata($scope) {
     	 title: "git rerere",
     	 description: "Czy kiedykolwiek miałeś do zrobienia merge lub rebase brancha z wieloma commitami, których implementacja trwała tak długo, że modliłeś się, żeby konfliktów było 'tylko' kilkanaście? Na tym warsztacie dowiesz się jak uniknąć takiej sytuacji. Nauczymy gita, jak ma rozwiązywać konflikty, a gdy przyjdzie czas na merga - wszystko zrobi się samo."
      },
+     {
+    	 id: "29",
+    	 title: "git merge vs git rebase",
+    	 description: "Na tym warsztacie dowiesz się jaka jest różnica między merge a rebase. Powiem o zaletach i wadach każdego z tych podejść, do czego się nadaje każde z nich, a kiedy nie można go używać. Będzie też mowa o dobrych praktykach przy mergowaniu i rebasowaniu."
+     },
 	];
 
 }

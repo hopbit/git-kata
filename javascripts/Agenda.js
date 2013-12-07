@@ -69,7 +69,7 @@ function Agenda($scope) {
 		time : "13:30/13:50",
 		duration: "20 min",
 		katas : [ 
-		         { id : "28", mentor : "Adam Pierzchała", title : "git rerere", shortDesc: "" , colspan : "1"}, 
+		         { id : "29", mentor : "Adam Pierzchała", title : "git merge vs git rebase", shortDesc: "" , colspan : "1"}, 
 		         { id : "10", mentor : "Piotr Betkier", title : "git internals", shortDesc: ".git dir & how it works" , colspan : "1" },
 		         { id : "27", mentor : "Mariusz Smykuła", title : "tig", shortDesc: "interaktywny git" , colspan : "1"}, 
 		         { id : "24", mentor : "Grzegorz Kubiak", title : "git filter-branch", shortDesc: "" , colspan : "1" },
