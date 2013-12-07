@@ -134,6 +134,11 @@ function Kata($scope) {
     	 title: "pull requests",
     	 description: "Motywacja<br/><br/> Czym różni się merge od rebase? Dlaczego jeden z nich jest lepszy, jak to się ma do historii repozytorium i commitów?<br/><br/> Scenariusz<br/><br/> Dowiemy się jak wygląda repozytorium przed i po mergach, rebaseach. Reprezentację obiektów GITowych oraz wpływ na nasz kod i pojawianie się konfliktów."
      },
+     {
+    	 id: "27",
+    	 title: "tig - tekstowy interfejs do gita",
+    	 description: "Tematem tej katy będzie Tig - interaktywna tekstowa nakładka na gita która znacznie ułatwia pracę w konsoli.<br/><br/> Podczas tej katy spóbujemy korzystając z Tiga wykonać podstawowe czynności - przejrzeć historię rewizji, zmienić gałąź (branch), zatwierdzić zmiany wprowadzone na wielu plikach i kilka innych. Wszystko z poziomu tekstowego interfejsu, bez konieczność wpisywania i zapamiętywania długich komend.  <br/><br/> Na koniec pokażę jak można dopasować Tiga do własnych potrzeb, zmienić klawisze na bardziej intuicyjne oraz poprawić wprowadzone zmiany (amend).<br/><br/>"
+     },
 	];
 
 }
