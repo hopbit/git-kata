@@ -107,7 +107,7 @@ function Agenda($scope) {
 		time : "15:40/16:00",
 		katas : [ 
 			{ id : "7", mentor : "Łukasz Szczęsny", title : "gitolite", shortDesc: "" , colspan : "1" },
-			{ id : "0", mentor : "Janek Kowalski", title : "legit", shortDesc: "" , colspan : "1"}, 
+			{ id : "30", mentor : "Janek Kowalski", title : "legit", shortDesc: "" , colspan : "1"}, 
 			{ id : "27", mentor : "Mariusz Smykuła", title : "tig", shortDesc: "interaktywny git" , colspan : "1"}, 
 			{ id : "23", mentor : "Grzegorz Kubiak", title : "git bisect", shortDesc: "" , colspan : "1"},
 			{ id : "3", mentor : "Jakub Nabrdalik", title : "Configs, handful aliases, other tips & tricks", shortDesc: "" , colspan : "1"}, 
@@ -120,7 +120,7 @@ function Agenda($scope) {
 		katas : [ 
          { id : "22", mentor : "Michał Bareja", title : "git branch & git tag", shortDesc: "branches & tags" , colspan : "1"},
          { id : "26", mentor : "Mateusz Harasymczuk", title : "pull requests", shortDesc: "git cola" , colspan : "1"}, 
-         { id : "0", mentor : "Janek Kowalski", title : "legit", shortDesc: "" , colspan : "1"}, 
+         { id : "30", mentor : "Janek Kowalski", title : "legit", shortDesc: "" , colspan : "1"}, 
          { id : "28", mentor : "Adam Pierzchała", title : "git rerere", shortDesc: "" , colspan : "1"}, 
          { id : "17", mentor : "Tomasz Ducin", title : "git / scrum", shortDesc: "using git on scrum projects" , colspan : "1"},
          { id : "16", mentor : "Piotr Jasiun", title : "git config", shortDesc: "configs, handful aliases, other tips & tricks" , colspan : "1" },

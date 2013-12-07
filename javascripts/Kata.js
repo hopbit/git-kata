@@ -149,6 +149,11 @@ function Kata($scope) {
     	 title: "git merge vs git rebase",
     	 description: "Na tym warsztacie dowiesz się jaka jest różnica między merge a rebase. Powiem o zaletach i wadach każdego z tych podejść, do czego się nadaje każde z nich, a kiedy nie można go używać. Będzie też mowa o dobrych praktykach przy mergowaniu i rebasowaniu."
      },
+     {
+    	 id: "30",
+    	 title: "legit",
+    	 description: "LEGIT is a tiny wrapper for git cmd interface. It gives you an alternative for standard commands, I would say more intuitive ones. I will show how it makes git workflow easier."
+     },
 	];
 
 }
