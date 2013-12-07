@@ -159,6 +159,11 @@ function Kata($scope) {
     	 title: "github",
     	 description: "GITHUB - Everyone knows what this is. I will just summarize how to do pull requests, where are the issues discussed and how to keep you fork synchronized."
      },
+     {
+    	 id: "32",
+    	 title: "github rebase -i",
+    	 description: "<u>Motivation</u><br/><br/>Git rebase --interactive is a great tool that let you rewrite your git history removing unneded commits, changing their order, editing commit messages, combining multiple commits into one or splitting one big commit into smaller ones. If you know how to use it, you can change your git workflow considerably - you can commit often, without thinking what are you commiting. You will be able to fix all this before you push it to the upstream.<br/><br/><u>Scenario</u><br/><br/>We will start with some theoretical information on what rebasing in git is, how it works, when we should and when we shouldn't use it. We we'll take a look on feature branch that is about to be pushed to upstream for merging. We'll rewrite the history of our commits using interactive rebasing so that they are easier to read, more consistent and, well, prettier."
+     },
 	];
 
 }
