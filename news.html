@@ -62,7 +62,7 @@
 	<hr/>
 
 	<div class="row">
-		<div class="col-lg-2" id="{{ item.date }}" data-ng-repeat="item in news | filter:searchBox | orderBy:'date':true">
+		<div class="col-lg-6" id="{{ item.date }}" data-ng-repeat="item in news | filter:searchBox | orderBy:'date':true">
 	         <h4><u>{{ item.date }}</u><br/>{{ item.header }}</h4>
 	        <p data-ng-bind-html-unsafe="item.content"></p>
 	        <br/>
