@@ -30,7 +30,7 @@ function Kata($scope) {
      {
     	 id : "6",
     	 title : "continous integration with git",
-    	 description : "In the beginning we'll say a few sentences about CI - if there'd be anyone who doesn't know what it is or what are the benefits. Kata will be divided into 2 parts: <a href='http://travis-ci.org/' target='_blank'>travis</a> and <a href='http://jenkins-ci.org/' target='_blank'>jenkins</a>. Both are free & popular CI platforms, designed for different types of projects. We'll take a very quick tour over functionalities of each tool and try to use them with our repos afterwards. I'd expect you to have a registered github account (this is required for travis integration) as well as jenkins deployed locally on your computers.<br/><br/><a href='https://github.com/join'>registering github account</a><br/><a href='https://wiki.jenkins-ci.org/display/JENKINS/Installing+Jenkins'>installing jenkins</a>"
+    	 description : "In the beginning we'll say a few sentences about CI - if there'd be anyone who doesn't know what it is or what are the benefits. Kata will be divided into 2 parts: <a href='http://travis-ci.org/' target='_blank'>travis</a> and <a href='http://jenkins-ci.org/' target='_blank'>jenkins</a>. Both are free & popular CI platforms, designed for different types of projects. We'll take a very quick tour over functionalities of each tool and try to use them with our repos afterwards. I'd expect you to have a registered github account (this is required for travis integration) as well as jenkins deployed locally on your computers. We'll run some tests in python, so please do have python installed with nosetests (test runner).<ul><li><a href='https://github.com/join'>registering github account</a></li><li><a href='https://wiki.jenkins-ci.org/display/JENKINS/Installing+Jenkins'>installing jenkins</li><li><a href='http://nose.readthedocs.org/en/latest/'>installing nosetests</a></li></ul>"
      },
      {     
     	 id : "7",
@@ -162,12 +162,17 @@ function Kata($scope) {
      {
     	 id: "32",
     	 title: "git rebase -i",
-    	 description: " Interaktywny rebase jest bardzo przydatnym narzędziem w sytuacji, gdy chcemy posprzątać historię swoich commitów. Tyczy się to przede wszystkim osób, które w 'programming mode' nie chcą sobie zawracać głowy tym, w jaki sposób będzie to utrwalone w repo. Po zakończeniu prac nad danym ficzerem przychodzi jednak refleksja, że nie powinno się tego bałaganu oddawać do review, czy też wypychać do repozytorium. Moim celem jest, aby każdy uczestnik warsztatów potrafił efektywnie korzystać z tej komendy i się jej nie bał :)"
+    	 description: "Interaktywny rebase jest bardzo przydatnym narzędziem w sytuacji, gdy chcemy posprzątać historię swoich commitów. Tyczy się to przede wszystkim osób, które w 'programming mode' nie chcą sobie zawracać głowy tym, w jaki sposób będzie to utrwalone w repo. Po zakończeniu prac nad danym ficzerem przychodzi jednak refleksja, że nie powinno się tego bałaganu oddawać do review, czy też wypychać do repozytorium. Moim celem jest, aby każdy uczestnik warsztatów potrafił efektywnie korzystać z tej komendy i się jej nie bał :)"
      },
      {
     	 id: "33",
     	 title: "git everyday",
-    	 description: " Kata ta jest skierowana do osób, które na co dzień pracują z Git-em. Przedstawię moje kilkuletnie doświadczenia w pracy z tym narzędziem. Opowiem o błędach, które popełniłem i zasugeruję jak możecie ich uniknąć. W oparciu o przykłady z codziennych bojów z Git-em przedstawię mój pomysł na efektywne zorganizowanie sobie współpracy z Git-em."
+    	 description: "Kata ta jest skierowana do osób, które na co dzień pracują z Git-em. Przedstawię moje kilkuletnie doświadczenia w pracy z tym narzędziem. Opowiem o błędach, które popełniłem i zasugeruję jak możecie ich uniknąć. W oparciu o przykłady z codziennych bojów z Git-em przedstawię mój pomysł na efektywne zorganizowanie sobie współpracy z Git-em."
+     },
+     {
+    	 id: "34",
+    	 title: "github rebase -i",
+    	 description: "<u>Motivation</u><br/><br/>Git rebase --interactive is a great tool that let you rewrite your git history removing unneded commits, changing their order, editing commit messages, combining multiple commits into one or splitting one big commit into smaller ones. If you know how to use it, you can change your git workflow considerably - you can commit often, without thinking what are you commiting. You will be able to fix all this before you push it to the upstream.<br/><br/><u>Scenario</u><br/><br/>We will start with some theoretical information on what rebasing in git is, how it works, when we should and when we shouldn't use it. We we'll take a look on feature branch that is about to be pushed to upstream for merging. We'll rewrite the history of our commits using interactive rebasing so that they are easier to read, more consistent and, well, prettier."
      },
 	];
 
