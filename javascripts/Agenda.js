@@ -47,7 +47,7 @@ function Agenda($scope) {
      	{ id : "12", mentor : "Radoslaw Scheibinger", title : "gerrit",
             shortDesc: "Gerrit is an advanced opensource for collaborative code reviews. In the git gerrit kata you will learn the basics of how to use it" ,
             colspan : "1"},
-     	{ id : "0", mentor : "Mateusz Kaczmarek", title : "git everyday", shortDesc: "working with git on daily basis, needs basic git knowdlege, rebase -i" , colspan : "1"}, 
+     	{ id : "33", mentor : "Mateusz Kaczmarek", title : "git everyday", shortDesc: "working with git on daily basis, needs basic git knowdlege, rebase -i" , colspan : "1"}, 
      	{ id : "6", mentor : "Tomasz Ducin", title : "continous integration with git", shortDesc: "interating git wih jenkins/travis" , colspan : "1"}, 
      	{ id : "0", mentor : "Krzysztof Adamski", title : "git rebase -i", shortDesc: "interactive rebase & squashing" , colspan : "1"}, 
      	{ id : "19", mentor : "Michał Lewandowski", title : "git refresh", shortDesc: "refresh your git knowdlege/quick introduction to git" , colspan : "1" }
@@ -84,7 +84,7 @@ function Agenda($scope) {
 		katas : [ 
 		         { id : "21", mentor : "Michał Bareja", title : "git undo", shortDesc: "undoing changes: revert, reset, reflog, cherry-pick, amend" , colspan : "1"},
 		         { id : "25", mentor : "Mateusz Harasymczuk", title : "branching model", shortDesc: "" , colspan : "1"},
-			{ id : "0", mentor : "Mateusz Kaczmarek", title : "git rebase -i", shortDesc: "interactive rebase & squashing)" , colspan : "1"}, 
+			{ id : "32", mentor : "Mateusz Kaczmarek", title : "git rebase -i", shortDesc: "interactive rebase & squashing)" , colspan : "1"}, 
 			{ id : "13", mentor : "Maciej Opała", title : "gitflow", shortDesc: "" , colspan : "1"}, 
 			{ id : "4", mentor : "Jakub Nabrdalik", title : "Git rebase -i", shortDesc: "interactive rebase & squashing)" , colspan : "1"}, 
 			{ id : "11", mentor : "Krzysztof Adamski", title : "gitlab", shortDesc: "" , colspan : "1"},

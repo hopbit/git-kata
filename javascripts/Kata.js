@@ -159,6 +159,16 @@ function Kata($scope) {
     	 title: "github",
     	 description: "GITHUB - Everyone knows what this is. I will just summarize how to do pull requests, where are the issues discussed and how to keep you fork synchronized."
      },
+     {
+    	 id: "32",
+    	 title: "git rebase -i",
+    	 description: " Interaktywny rebase jest bardzo przydatnym narzędziem w sytuacji, gdy chcemy posprzątać historię swoich commitów. Tyczy się to przede wszystkim osób, które w 'programming mode' nie chcą sobie zawracać głowy tym, w jaki sposób będzie to utrwalone w repo. Po zakończeniu prac nad danym ficzerem przychodzi jednak refleksja, że nie powinno się tego bałaganu oddawać do review, czy też wypychać do repozytorium. Moim celem jest, aby każdy uczestnik warsztatów potrafił efektywnie korzystać z tej komendy i się jej nie bał :)"
+     },
+     {
+    	 id: "33",
+    	 title: "git everyday",
+    	 description: " Kata ta jest skierowana do osób, które na co dzień pracują z Git-em. Przedstawię moje kilkuletnie doświadczenia w pracy z tym narzędziem. Opowiem o błędach, które popełniłem i zasugeruję jak możecie ich uniknąć. W oparciu o przykłady z codziennych bojów z Git-em przedstawię mój pomysł na efektywne zorganizowanie sobie współpracy z Git-em."
+     },
 	];
 
 }
