@@ -15,17 +15,17 @@ function Kata($scope) {
      {
     	 id : "3",
     	 title : "Configs, handful aliases, other tips & tricks",
-    	 description : "<b>Motywacja</b><br/><br/>Siadasz obok człowieka, żeby zrobić jakiś pair-programming albo generalnie pomóć mu w gicie, i patrzysz jak się męczy. Albo jak twierdzi że git to tylko z IDE. Zwykle znaczy to, że nie skonfigurował sobie środowiska. Git jest naprawdę dobrze zbudowany, ale człowiek który napisał te całe 'UI' miszczem usability nie był (to nie Torvalds, Torvalds zrobił bebechy). W związku z tym, trzeba czasem sobie trochę pomóć i o tym będzie ta kata.<br/><br/><b>Scenariusz</b><br/><br/>Zaczniemy od zawartości .git/config, ustwienia kim jestem per projekt, kolorków, i domyślnego edytora, a potem pojedziemy z aliasami, różnymi fajnymi i nie tylko."
+    	 description : "<b>Motywacja</b><br/><br/>Siadasz obok człowieka, żeby zrobić jakiś pair-programming albo generalnie pomóć mu w gicie, i patrzysz jak się męczy. Albo jak twierdzi że git to tylko z IDE. Zwykle znaczy to, że nie skonfigurował sobie środowiska. Git jest naprawdę dobrze zbudowany, ale człowiek który napisał te całe 'UI' miszczem usability nie był (to nie Torvalds, Torvalds zrobił bebechy). W związku z tym, trzeba czasem sobie trochę pomóć i o tym będzie ta kata.<br/><br/><b>Scenariusz</b><br/><br/>Zaczniemy od zawartości .git/config, ustwienia kim jestem per projekt, kolorków, i domyślnego edytora, a potem pojedziemy z aliasami, różnymi fajnymi i nie tylko.<br/><br/><a href='https://github.com/jakubnabrdalik/gitkurwa'>Materiały 1</a><br/> <a href='http://git-scm.com/book'>Materiały 2</a>"
      },
      {
     	 id : "4",
     	 title : "Git rebase -i",
-    	 description : "<b>Motywacja</b><br/><br/>Interaktywny rebase w Gicie pozwala na bardzo zwinne operowanie strukturą historii w poukładany i prosty sposób. Kata ma za zadanie pokazać jak posługiwać się instrukcją, jakie mamy możliwości i na co uważać.<br/><br/><b>Scenariusz</b><br/><br/>Zaczynamy od przełożenia jednego commita na inny branch. Następnie przekładamy zakres commitów. Później przekładamy brancha. Kolejny etap to zmiana kolejności commitów, usuniecie jednego z nich. Na koniec dowiemy się kiedy i jak robić zamieszanie w historii, a kiedy nie wolno."
+    	 description : "<b>Motywacja</b><br/><br/>Interaktywny rebase w Gicie pozwala na bardzo zwinne operowanie strukturą historii w poukładany i prosty sposób. Kata ma za zadanie pokazać jak posługiwać się instrukcją, jakie mamy możliwości i na co uważać.<br/><br/><b>Scenariusz</b><br/><br/>Zaczynamy od przełożenia jednego commita na inny branch. Następnie przekładamy zakres commitów. Później przekładamy brancha. Kolejny etap to zmiana kolejności commitów, usuniecie jednego z nich. Na koniec dowiemy się kiedy i jak robić zamieszanie w historii, a kiedy nie wolno.<br/><br/><a href='https://github.com/jakubnabrdalik/gitkurwa'>Materiały 1</a><br/> <a href='http://git-scm.com/book'>Materiały 2</a>"
      },
      {
     	 id : "5",
     	 title : "Git internals: .git dir & how it works",
-    	 description : "<b>Motywacja</b><br/><br/>Początkujący gitowcy często narzekają, że polecenia nie mają sensu, a sam git jest zakręcony jak słoik. Tymczasem bebechy gita są banalnie proste i super skuteczne. To tylko API jest delikatnie mówiąc przekombinowane. Jeśli poznać zawartość katalogu .git i co się w nim dzieje, można dużo lepiej zrozumieć gita i jego API. W sytuacji awaryjnej, pomoże nam to odzyskać dane i lub zrobic to co chcemy, gdy w innej sytuacji musielibyśmy najpierw nauczyć się nowej komendy (potencjalnie niebezpiecznej).<br/><br/><b>Scenariusz</b><br/>Przejdziemy przez zawartość katalogu .git i zobaczymy co gdzie leży, jak się uzupełnia, jak modyfikować gita bez używania poleceń (edytorem tekstu) i co z tego wszystkiego wynika (np. jak się przestać bać, robić prosty backup, albo zrozumieć git reset). Ponadto przedstawione zostaną obiekty w gicie dzięki poznaniu których zrozumiemy dlaczego jest jednym z najlepszych systemów kontroli wersji."
+    	 description : "<b>Motywacja</b><br/><br/>Początkujący gitowcy często narzekają, że polecenia nie mają sensu, a sam git jest zakręcony jak słoik. Tymczasem bebechy gita są banalnie proste i super skuteczne. To tylko API jest delikatnie mówiąc przekombinowane. Jeśli poznać zawartość katalogu .git i co się w nim dzieje, można dużo lepiej zrozumieć gita i jego API. W sytuacji awaryjnej, pomoże nam to odzyskać dane i lub zrobic to co chcemy, gdy w innej sytuacji musielibyśmy najpierw nauczyć się nowej komendy (potencjalnie niebezpiecznej).<br/><br/><b>Scenariusz</b><br/>Przejdziemy przez zawartość katalogu .git i zobaczymy co gdzie leży, jak się uzupełnia, jak modyfikować gita bez używania poleceń (edytorem tekstu) i co z tego wszystkiego wynika (np. jak się przestać bać, robić prosty backup, albo zrozumieć git reset). Ponadto przedstawione zostaną obiekty w gicie dzięki poznaniu których zrozumiemy dlaczego jest jednym z najlepszych systemów kontroli wersji.<br/><br/><a href='https://github.com/jakubnabrdalik/gitkurwa'>Materiały 1</a><br/> <a href='http://git-scm.com/book'>Materiały 2</a>"
      },
      {
     	 id : "6",
@@ -35,7 +35,7 @@ function Kata($scope) {
      {     
     	 id : "7",
     	 title : "gitolite",
-    	 description : "We will setup fully-featured Git hosting with very fine-grained access control on our computers in 20 minutes! Then we will try to create some repositories and configure server-side hooks for them.<br/><br/>You need to have both <a href='http://www.vagrantup.com/'>Vagrant</a> and <a href='https://www.virtualbox.org/'>VirtualBox</a> installed on your computer."
+    	 description : "We will setup fully-featured Git hosting with very fine-grained access control on our computers in 20 minutes! Then we will try to create some repositories and configure server-side hooks for them.<br/><br/>You need to have both <a href='http://www.vagrantup.com/'>Vagrant</a> and <a href='https://www.virtualbox.org/'>VirtualBox</a> installed on your computer.<br/><br/><a href='https://github.com/wybczu/gitkata2-gitolite'>Kata Materials</a>"
      },
      {     
     	 id : "8",
@@ -50,7 +50,7 @@ function Kata($scope) {
      {     
     	 id : "10",
     	 title : "git internals",
-    	 description : "Git is not a version control system. Git is actually an interesting filesystem with a VCS-like interface. It's fascinating. And it's pretty simple.<br/><br/> I will present git from the internals point of view. We will dive into .git directory and see what happens under the hood during our everyday work. Ever tried making a commit without calling git commit command? After this kata git will no longer be a magic black box for you. You will be able to solve various problems with git more easily.<br/><br/>If you haven't thought about git being a NoSQL key-value store yet, then this kata is for you."
+    	 description : "Git is not a version control system. Git is actually an interesting filesystem with a VCS-like interface. It's fascinating. And it's pretty simple.<br/><br/> I will present git from the internals point of view. We will dive into .git directory and see what happens under the hood during our everyday work. Ever tried making a commit without calling git commit command? After this kata git will no longer be a magic black box for you. You will be able to solve various problems with git more easily.<br/><br/>If you haven't thought about git being a NoSQL key-value store yet, then this kata is for you.<br/><br/><a href='https://docs.google.com/presentation/d/1AAM1Dv6-AIO3LJgubW0xwbU03-HwlYMnOP9HsnIMdpY/edit?usp=drive_web'>Presentation</a>"
      },
      {     
     	 id : "11",
@@ -60,12 +60,12 @@ function Kata($scope) {
      {
     	 id: "12",
     	 title: "gerrit",
-    	 description: "Gerrit is an advanced opensource web application for the collaborative code reviews. </br></br>In this kata you will learn how gerrit can help with improving quality of the codebase in your repository. I will explain how gerrit workflow looks like, what is great and what are the main pitfalls of this tool"
+    	 description: "Gerrit is an advanced opensource web application for the collaborative code reviews. </br></br>In this kata you will learn how gerrit can help with improving quality of the codebase in your repository. I will explain how gerrit workflow looks like, what is great and what are the main pitfalls of this tool<br/><br/><a href='https://github.com/scheibinger/gerrit-kata'>Training Materials</a>"
      },
      {
     	 id: "13",
     	 title: "git flow",
-    	 description: "Często w trakcie pracy z systemem kontroli wersji dochodzisz do wniosku: 'To powinno być w branchu', 'Releasy powinny wychodzić z innego brancha', 'Gdzieś musimy przechowywać stabilne wersje'. Git to nie SVN! Praca z tym narzędziem jest o wiele prostsza, a łatwość tworzenia gałęzi powinna zachęcać do ich wykorzystywania. Właśnie tą cechę gita bardzo mocno wykorzystuje git flow - wzorzec pracy z gitem - stanowiący odpowiedź na nurtujące Cię pytania.<br/><br/> W trakcie warsztatu szczegółowo zapoznamy się z modelem git flow, jego wadami i zaletami, a także nauczymy się z niego korzystać.<br/><br/>Do aktywnego uczestnictwa w warsztatach potrzebna będzie zainstalowana wtyczka <a href='https://github.com/nvie/gitflow/wiki/Installation'>git-flow</a>"
+    	 description: "Często w trakcie pracy z systemem kontroli wersji dochodzisz do wniosku: 'To powinno być w branchu', 'Releasy powinny wychodzić z innego brancha', 'Gdzieś musimy przechowywać stabilne wersje'. Git to nie SVN! Praca z tym narzędziem jest o wiele prostsza, a łatwość tworzenia gałęzi powinna zachęcać do ich wykorzystywania. Właśnie tą cechę gita bardzo mocno wykorzystuje git flow - wzorzec pracy z gitem - stanowiący odpowiedź na nurtujące Cię pytania.<br/><br/> W trakcie warsztatu szczegółowo zapoznamy się z modelem git flow, jego wadami i zaletami, a także nauczymy się z niego korzystać.<br/><br/>Do aktywnego uczestnictwa w warsztatach potrzebna będzie zainstalowana wtyczka <a href='https://github.com/nvie/gitflow/wiki/Installation'>git-flow</a><br/><br/><a href='https://github.com/Opalo/gitkata'>Materiały</a>"
      },
      {
     	 id: "14",
@@ -75,12 +75,12 @@ function Kata($scope) {
      {
     	 id: "15",
     	 title: "git rebase --onto",
-    	 description: "Git rebase is pretty powerfull tool, but sometimes you can get confused and feel that it works magically. If you feel that 'git rebase master' and 'git rebase --onto commit-b commit-a' are two totally different commands come and see they are not. You will learn what the hell will happen after 'git rebase --onto branch-a branch-b branch-c'."
+    	 description: "Git rebase is pretty powerfull tool, but sometimes you can get confused and feel that it works magically. If you feel that 'git rebase master' and 'git rebase --onto commit-b commit-a' are two totally different commands come and see they are not. You will learn what the hell will happen after 'git rebase --onto branch-a branch-b branch-c'.<br/><br/><a href='https://github.com/pjasiun/git-kata-presentations'>Presentations</a>"
      },
      {
     	 id: "16",
     	 title: "git config",
-    	 description: "On this kata we will talk about git config file. Starting from the basic configuration, going through basic and advanced aliases I will present how to work with git more efficient. You will learn how to fetch, reset two branches and do rebase using one command. All of aliases I will present, I use in everyday work."
+    	 description: "On this kata we will talk about git config file. Starting from the basic configuration, going through basic and advanced aliases I will present how to work with git more efficient. You will learn how to fetch, reset two branches and do rebase using one command. All of aliases I will present, I use in everyday work.<br/><br/><a href='https://github.com/pjasiun/git-kata-presentations'>Presentations</a>"
      },
      {
     	 id: "17",
@@ -102,17 +102,17 @@ function Kata($scope) {
          title: "git flow",
          description: "Wszyscy wiemy jak zrobić commit na branchu i wypushować go remote repo. Ale jak poradzić sobie z kilkoma branchami? Co gdy do jednego repo commituje wielu developerów którzy pracują nad różnymi nowymi funkcjonalnościami? Do tego mamy jeszcze brancha który odzwierciedla stan aktualnej produkcji i chcemy zrobić w nim poprawkę ale tak żeby nie zgubiła się w wersji developerskiej. Gitflow odpowiada na te wszystkie problemy poprzez narzucanie sensownego modelu branchowania i dodanie kilku komend które znacznie ułatwiają połapanie się w tym całym chaosie." +
              "<br/><br/>" +
-             "Nauczymy się tworzyć feature branche przy pomocy gitflowa oraz jak sprawnie się między niemi przełączać i dzielić z innymi developerami. Kolejny krok to release. Sprawdzimy jak gitflow może pomóc nam w tej sytuacji. Gdzie powinny trafić commity robione podczas release'u, Kiedy powinniśmy otagować repozytorium oraz jak cofnąć nieudany release. Na koniec poznamy zestaw komend \"gitflow hotfix ...\". Dowiemy się jak zarządzać poprawkami do wersji produkcyjnej i dlaczego używać do tego gitflowa zamiast samemu wykonywać merge'e i cherry-pick'i."
+             "Nauczymy się tworzyć feature branche przy pomocy gitflowa oraz jak sprawnie się między niemi przełączać i dzielić z innymi developerami. Kolejny krok to release. Sprawdzimy jak gitflow może pomóc nam w tej sytuacji. Gdzie powinny trafić commity robione podczas release'u, Kiedy powinniśmy otagować repozytorium oraz jak cofnąć nieudany release. Na koniec poznamy zestaw komend \"gitflow hotfix ...\". Dowiemy się jak zarządzać poprawkami do wersji produkcyjnej i dlaczego używać do tego gitflowa zamiast samemu wykonywać merge'e i cherry-pick'i.<br/><br/><a href='https://github.com/nvie/gitflow'>Meterialy</a>"
      },
      {
          id: "21",
          title: "git undo",
-         description: "\"Oops, ten commit nie miał tak wyglądać\", \"Zapomniałem o jednym pliku\", \"Źle rozwiązałem ten konflikt\". Jak zmienić message, jak odwrócić commit, jak zmienić historię? Ta kata nauczy Cię jak wyjśc obronną ręką z sytuacji, w których coś poszło nie tak."
+         description: "\"Oops, ten commit nie miał tak wyglądać\", \"Zapomniałem o jednym pliku\", \"Źle rozwiązałem ten konflikt\". Jak zmienić message, jak odwrócić commit, jak zmienić historię? Ta kata nauczy Cię jak wyjśc obronną ręką z sytuacji, w których coś poszło nie tak.<br/><br/><a href='https://docs.google.com/presentation/d/1LTQKScn03P-XxwzIgCg_CosmW_4FiEmzV7cYispwmP8/edit#slide=id.p'>Prezentacja</a>"
      },
      {
          id: "22",
          title: "git branch & git tag",
-         description: "Czym jest branch? Czym jest tag? Jak sie ich używa? Te podstawowe pojęcia warto znać zanim zaczniemy bawić sie bardziej skomplikowanymi komendami. Ta kata dedykowana jest początkującym gitowcom, którzy dopiero zaczynają swoją przygodę z gitem."
+         description: "Czym jest branch? Czym jest tag? Jak sie ich używa? Te podstawowe pojęcia warto znać zanim zaczniemy bawić sie bardziej skomplikowanymi komendami. Ta kata dedykowana jest początkującym gitowcom, którzy dopiero zaczynają swoją przygodę z gitem.<br/><br/><a href='https://docs.google.com/presentation/d/1lqAZVc-YiH4pxF9I2qSuhr7XfgS44Frk7_UvfOfMWqY/edit#slide=id.p'>Prezentacja</a>"
      },
      {
     	 id: "23",
@@ -137,7 +137,7 @@ function Kata($scope) {
      {
     	 id: "27",
     	 title: "tig - tekstowy interfejs do gita",
-    	 description: "Tematem tej katy będzie Tig - interaktywna tekstowa nakładka na gita która znacznie ułatwia pracę w konsoli.<br/><br/> Podczas tej katy spóbujemy korzystając z Tiga wykonać podstawowe czynności - przejrzeć historię rewizji, zmienić gałąź (branch), zatwierdzić zmiany wprowadzone na wielu plikach i kilka innych. Wszystko z poziomu tekstowego interfejsu, bez konieczność wpisywania i zapamiętywania długich komend.  <br/><br/> Na koniec pokażę jak można dopasować Tiga do własnych potrzeb, zmienić klawisze na bardziej intuicyjne oraz poprawić wprowadzone zmiany (amend).<br/><br/>Na katę należy zabrać ze sobą komputer z zainstalowanym Gitem i TIgiem oraz dowolne repozytorium Git.<br/><br/><a href'http://jonas.nitro.dk/tig/'>http://jonas.nitro.dk/tig/</a>"
+    	 description: "Tematem tej katy będzie Tig - interaktywna tekstowa nakładka na gita która znacznie ułatwia pracę w konsoli.<br/><br/> Podczas tej katy spóbujemy korzystając z Tiga wykonać podstawowe czynności - przejrzeć historię rewizji, zmienić gałąź (branch), zatwierdzić zmiany wprowadzone na wielu plikach i kilka innych. Wszystko z poziomu tekstowego interfejsu, bez konieczność wpisywania i zapamiętywania długich komend.  <br/><br/> Na koniec pokażę jak można dopasować Tiga do własnych potrzeb, zmienić klawisze na bardziej intuicyjne oraz poprawić wprowadzone zmiany (amend).<br/><br/>Na katę należy zabrać ze sobą komputer z zainstalowanym Gitem i TIgiem oraz dowolne repozytorium Git.<br/><br/><a href='http://jonas.nitro.dk/tig/'>http://jonas.nitro.dk/tig/</a><br/><br/><a href='http://slid.es/mariuszs/gitkata-tig'>Prezentacja</a>"
      },
      {
     	 id: "28",
